@@ -75,7 +75,7 @@ const Navbar = () => {
                                 </Link>
                             </li>
                             <li className="nav-item ">
-                                <Link className="nav-link  text-white me-3" href="/newsletters/JunkItems.pdf" download id="" role="button" >
+                                <Link className="nav-link  text-white me-3" href="/newsletters/JunkItems.pdf" target="_blank" id="" role="button" >
                                     Procurement
                                 </Link>
                             </li>
