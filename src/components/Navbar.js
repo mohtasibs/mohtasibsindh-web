@@ -48,7 +48,7 @@ const Navbar = () => {
                                 </Link>
                                 <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
                                     <li><Link className="dropdown-item" href="/MakeAComplaint/MakingAComplaint">How To Lodge A Complaint</Link></li>
-                                    <li><Link className="dropdown-item" href="/MakeAComplaint/ComplaintFAQs">Complaint FAQs</Link></li>
+                                    <li><Link className="dropdown-item" href="/MakeAComplaint/ComplaintFAQs">FAQs</Link></li>
                                     <li><Link className="dropdown-item" href="/MakeAComplaint/DownloadForm">Download Form</Link></li>
                                     <li><Link className="dropdown-item" href="/MakeAComplaint/MakeAComplaintOnline">Online Complaint Registration</Link></li>
                                     <li><Link className="dropdown-item" href="/MakeAComplaint/ComplainAboutUs">Complain About Us</Link></li>
@@ -75,10 +75,11 @@ const Navbar = () => {
                                 </Link>
                             </li>
                             <li className="nav-item ">
-                                <Link className="nav-link  text-white me-3" href="/Tenders" id="" role="button" >
+                                <Link className="nav-link  text-white me-3" href="/newsletters/JunkItems.pdf" download id="" role="button" >
                                     Procurement
                                 </Link>
                             </li>
+
                             <li className="nav-item ">
                                 <Link className="nav-link  text-white me-3" href="/contact" id="" role="button" >
                                     Contact Us

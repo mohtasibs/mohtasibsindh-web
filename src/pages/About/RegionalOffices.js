@@ -225,7 +225,7 @@ const RegionalOffices = () => {
                                     Provincial Ombudsman Sindh, Thatta
                                 </p>
                                 <p className="values-system-para mt-2">
-                                    B/162, Unit No.2, Makli Cooperative Housing Society
+                                    Banglow No. C/143-H Unit -2 Makli cooperative Housing Society Makli Thatta
                                 </p>
 
                                 <p className="values-system-para mt-2">

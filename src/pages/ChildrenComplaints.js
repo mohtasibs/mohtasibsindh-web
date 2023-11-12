@@ -20,16 +20,17 @@ const ChildrenComplaint = () => {
                         <p className="values-system-para mt-2">
                             The main objectives for setting up the CCO are:
                         </p>
-                        <li className="values-system-para mt-2">
-                            To establish a dedicated redress and response system for complaints related to and by Children, against maladministration by any Provincial Agency, institution or public body;
-                        </li>
-                        <li className="values-system-para mt-2">
-                            To provide a platform for addressing Child related issues through research, advocacy and engagement with Children and other stakeholders on Children’s Rights;
-                        </li>
-                        <li className="values-system-para mt-2">
-                            To enable the Provincial Ombudsman Sindh to advise the Provincial Government on systemic issues which impact the Rights of Children and compliance with the CRC (Convention on the Rights of the Child).
-                        </li>
-
+                        <ul>  
+                            <p className="values-system-para2 mt-2">
+                                To establish a dedicated redress and response system for complaints related to and by Children, against maladministration by any Provincial Agency, institution or public body;
+                            </p>
+                            <p className="values-system-para2 mt-2">
+                                To provide a platform for addressing Child related issues through research, advocacy and engagement with Children and other stakeholders on Children’s Rights;
+                            </p>
+                            <p className="values-system-para2 mt-2">
+                                To enable the Provincial Ombudsman Sindh to advise the Provincial Government on systemic issues which impact the Rights of Children and compliance with the CRC (Convention on the Rights of the Child).
+                            </p>
+                        </ul>
                     </div>
                 </div>
             </div>

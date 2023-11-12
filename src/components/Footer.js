@@ -45,7 +45,7 @@ const Footer = () => {
                                         <h4>Links</h4>
                                     </div>
                                     <ul>
-                                        <li> <Link href="/Tenders" className="">Procurement</Link></li>
+                                        <li> <Link href="/newsletters/JunkItems.pdf" download className="">Procurement</Link></li>
                                         <li> <Link href="/ChildrenComplaints" className="">Children Complaint Office</Link></li>
                                         <li> <Link href="/Affiliations" className="">Affiliations</Link></li>
                                     </ul>

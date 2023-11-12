@@ -82,10 +82,12 @@ const ComplaintFAQs = () => {
                         <div className="mt-4">
                             <p className="values-system-para"> <b>What happens next? </b> </p>
                             <div className="container">
-                                <li className="values-system-para">If the Provincial Ombudsman (Mohtasib) Sindh admits your complaint, an investigation is initiated. You and the Agency complained against will both be given equal opportunities to present your side of the story.</li>
-                                <li className="values-system-para">After this investigation is completed, the Provincial Ombudsman (Mohtasib) Sindh gives his decision on the complaint. If he finds the Agency has treated you fairly and in accordance with law, he will deny your request.</li>
-                                <li className="values-system-para">In case he finds the Agency guilty of maladministration, he will send his recommendations to the Agency, specifying action to be taken within a defined time period.</li>
-                                <li className="values-system-para">The Provincial Ombudsman (Mohtasib) Sindh then follows up with the Agency on implementation of the recommendations. If the Mohtasib Sindh concludes that the Agency is acting in defiance of the recommendations and willfully not implementing them he will file a formal reference to the Governor Sindh, who may at his discretion, give further directions to the Agency directly.</li>
+                                <ul>
+                                    <p className="values-system-para2">If the Provincial Ombudsman (Mohtasib) Sindh admits your complaint, an investigation is initiated. You and the Agency complained against will both be given equal opportunities to present your side of the story.</p>
+                                    <p className="values-system-para2">After this investigation is completed, the Provincial Ombudsman (Mohtasib) Sindh gives his decision on the complaint. If he finds the Agency has treated you fairly and in accordance with law, he will deny your request.</p>
+                                    <p className="values-system-para2">In case he finds the Agency guilty of maladministration, he will send his recommendations to the Agency, specifying action to be taken within a defined time period.</p>
+                                    <p className="values-system-para2">The Provincial Ombudsman (Mohtasib) Sindh then follows up with the Agency on implementation of the recommendations. If the Mohtasib Sindh concludes that the Agency is acting in defiance of the recommendations and willfully not implementing them he will file a formal reference to the Governor Sindh, who may at his discretion, give further directions to the Agency directly.</p>
+                                </ul>   
                             </div>
                         </div>
                         <div className="mt-4">

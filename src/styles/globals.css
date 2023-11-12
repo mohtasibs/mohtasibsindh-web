@@ -89,6 +89,22 @@ body {
   border-bottom: 1px solid var(--color-border);
 }
 
+.values-system-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.values-system-item {
+  margin: 0.5em 0;
+  position: relative;
+  padding-left: 30px; /* Adjust the indentation as needed */
+}
+.values-system-item::before {
+  content: '\2022'; /* Unicode character for a bullet point */
+  position: absolute;
+  left: 0;
+  color: white; /* White color for the bullet */
+}
 .sidebar__logo {
   width: 7.5rem;
   height: 7.5rem;
@@ -905,7 +921,33 @@ body {
 
 .values-system-para {
   font-size: 1.4rem;
+  margin: 0.5em 0;
+  position: relative;
+  padding-left: 30px;
 }
+
+.values-system-para::before {
+  content: '\2022';
+  position: absolute;
+  left: 0;
+  color: white;
+}
+
+.values-system-para2 {
+  font-size: 1.4rem;
+  margin: 0.5em 0;
+  position: relative;
+  padding-left: 30px;
+}
+
+.values-system-para2::before {
+  content: '\2022';
+  position: absolute;
+  left: 0;
+  color: black;
+  font-size: 30px;
+}
+
 
 /* ***************International Ombudsman*************** */
 

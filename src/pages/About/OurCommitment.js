@@ -25,16 +25,18 @@ const OurServiceCharter = () => {
                 <div className="">
                     <div className="col-md-12">
                         <h2 className="values-system-heading d-flex"> Timeline For  Registration Of The Complaints<GiArchiveRegister class="ms-3" />   </h2>
-
-                        <p className="values-system-para mt-2">
-                            A decision to either admit or reject a complaint shall be made within 15 days of its receipt
-                        </p>
-                        <p className="values-system-para mt-2">
-                            A complaint that has been admitted shall be forwarded to the concerned Investigating Officer within 15 days of its admission.
-                        </p>
-                        <p className="values-system-para mt-2">
-                            Acknowledgement or a letter of regret to the complainant shall be sent within 15 days of the decision to admit or reject the complaint.
-                        </p>
+                        <ul>
+                            <p className="values-system-para2 mt-2">
+                                A decision to either admit or reject a complaint shall be made within 15 days of its receipt
+                            </p>
+                            <p className="values-system-para2 mt-2">
+                                A complaint that has been admitted shall be forwarded to the concerned Investigating Officer within 15 days of its admission.
+                            </p>
+                            <p className="values-system-para2 mt-2">
+                                Acknowledgement or a letter of regret to the complainant shall be sent within 15 days of the decision to admit or reject the complaint.
+                            </p>
+                        </ul>
+                        
                     </div>
                 </div>
             </div>
