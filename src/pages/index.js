@@ -52,6 +52,8 @@ import banner14 from "../../public/banner-14.jpg";
 import banner16 from "../../public/banner-16.jpg";
 import banner17 from "../../public/banner-17.jpg";
 import banner18 from "../../public/banner-18.jpg";
+import banner19 from "../../public/w-6.jpg";
+import banner20 from "../../public/w-7.jpg";
 import ombuds from "../../public/ombuds.png";
 import supreme from "../../public/supreme.png";
 import bottom1 from "../../public/bottom-pic-1.jpg";
@@ -111,6 +113,20 @@ const Home = () => {
 
   const cards = [
     {
+      image: "w-6.jpg",
+      title: "CALL ON MEETING",
+      subtitle:
+        "Call on meeting with Honorable Governor Sindh and Dinner by Governor in honor of Chief Ombudsman Thailand Mr.Somsak Suwansujarit and his spouse Mrs.Nipa Suwansujarit on 30th November 2023",
+      new: "Whats New",
+    },
+    {
+      image: "w-7.jpg",
+      title: "VISIT",
+      subtitle:
+        "Visit of Hon. Chief Ombudsman Thailand Mr.Somsak Suwansujarit with his spouse Mrs.Nipa to Ombudsman Sindh Office.",
+      new: "Whats New",
+    },
+    {
       image: "w-1.jpeg",
       title: "NUMBER PLATES",
       subtitle:
@@ -144,6 +160,7 @@ const Home = () => {
         "Ombudsman Sindh formed committees for prison inspections across the province.",
       new: "Whats New",
     },
+   
   ];
 
   const Article = ({ data }) => (
@@ -210,6 +227,29 @@ const Home = () => {
                 <p>Provincial Ombudsman</p>
               </div>
             </div>
+
+         
+            <div className="carousel-item " data-bs-interval="3000">
+              <Image
+                className="dashboard-slider-image"
+                src={banner19}
+                alt="slider1img"
+              />
+              <div className="carousel-caption  d-none d-md-block">
+              </div>
+            </div>
+            <div className="carousel-item " data-bs-interval="3000">
+              <Image
+                className="dashboard-slider-image"
+                src={banner20}
+                alt="slider1img"
+              />
+              <div className="carousel-caption  d-none d-md-block">
+       
+              </div>
+            </div> 
+            
+     
             <div className="carousel-item " data-bs-interval="3000">
               <Image
                 className="dashboard-slider-image"
@@ -538,7 +578,7 @@ const Home = () => {
                   {" "}
                   <h2 className="card-title mb-2">OUR VISION</h2>
                 </strong>
-                <p className="">
+                <p className="text_justified">
                   To promote high standards of governance, and efficiency
                   through administrative justice services.
                 </p>
@@ -563,7 +603,7 @@ const Home = () => {
                   {" "}
                   <h2 className="card-title mb-2">OUR MISSION</h2>
                 </strong>
-                <p className="">
+                <p className="text_justified">
                   To effectively and comprehensively address public grievances
                   in a fair, prompt, transparent, equitable, and efficient
                   manner.

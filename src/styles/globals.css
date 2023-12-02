@@ -939,7 +939,9 @@ body {
   position: relative;
   padding-left: 30px;
 }
-
+.text_justified{
+  text-align: justify;
+}
 .values-system-para2::before {
   content: '\2022';
   position: absolute;
