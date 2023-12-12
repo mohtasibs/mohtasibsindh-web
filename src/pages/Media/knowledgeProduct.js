@@ -66,7 +66,7 @@ const KnowledgeProduct = () => {
                             </li>
                             <li className="values-system-para mt-3">
                                 <a className="underline text-success"
-                                    href="/knowledge/Annualreport6.pdf"
+                                    href="/knowledge/AnnualReport6.pdf"
                                     download  // Add the download attribute
                                 >
                                     Ombudsman Sindh, Annual Report 2022

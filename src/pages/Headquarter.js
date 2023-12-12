@@ -85,7 +85,7 @@ const HeadQuarter = () => {
                             <td className="col-xs-3">204</td>
                         </tr>
                         <tr>
-                            <td className="col-xs-6">MR. AKHTAR HUSSAIN BUGTI</td>
+                            <td className="col-xs-6"></td>
                             <td className="col-xs-3">DIRECTOR GENERAL- I</td>
                             <td className="col-xs-3">99211020</td>
                             <td className="col-xs-3">0300-2503032</td>
@@ -101,7 +101,7 @@ const HeadQuarter = () => {
                             <td className="col-xs-3">0333-7809788</td>
                             <td className="col-xs-3">212</td>
                         </tr>
-                        {/* <tr>
+                        <tr>
                             <td className="col-xs-6">MS.PASHMINA HASSAN
                             </td>
                             <td className="col-xs-3">FELLOW (ACCOUNTS)</td>
@@ -109,7 +109,7 @@ const HeadQuarter = () => {
                             <td className="col-xs-3">-</td>
                             <td className="col-xs-3">0301-3560508</td>
                             <td className="col-xs-3">209</td>
-                        </tr> */}
+                        </tr>
                         <tr>
                             <td className="col-xs-6">MR. MUHAMMAD NASEER JAMALI</td>
                             <td className="col-xs-3">ADVISOR - N</td>
@@ -146,7 +146,7 @@ const HeadQuarter = () => {
                         <tr>
                             <td className="col-xs-6">MR. FASIHUDDIN KHAN 	</td>
                             <td className="col-xs-3">ADVISOR-Z </td>
-                            <td className="col-xs-3">99211207</td>
+                            <td className="col-xs-3">-</td>
                             <td className="col-xs-3">-</td>
                             <td className="col-xs-3">0333-2301479</td>
                             <td className="col-xs-3">263</td>
@@ -170,7 +170,7 @@ const HeadQuarter = () => {
                         <tr>
                             <td className="col-xs-6">MR. MUHAMMAD AKMAL NASEEM</td>
                             <td className="col-xs-3">CONSULTANT (IT/MEDIA)	</td>
-                            <td className="col-xs-3">-</td>
+                            <td className="col-xs-3"></td>
                             <td className="col-xs-3">-</td>
                             <td className="col-xs-3">0300-9214391</td>
                             <td className="col-xs-3">-</td>
@@ -283,11 +283,11 @@ const HeadQuarter = () => {
 
 
                         <tr>
-                            <td className="col-xs-6">MR. FARHAT MEHMOOD </td>
-                            <td className="col-xs-3">ASSISTANT REGISTRAR</td>
+                            <td className="col-xs-6">MISS. AMNA MAQSOOD	</td>
+                            <td className="col-xs-3">ASSISTANT REGISTRAR			</td>
                             <td className="col-xs-3">-</td>
+                            <td className="col-xs-3"> 34636968</td>
                             <td className="col-xs-3">-</td>
-                            <td className="col-xs-3">0300-2851046</td>
                             <td className="col-xs-3">227</td>
                         </tr>
 
@@ -300,14 +300,6 @@ const HeadQuarter = () => {
                             <td className="col-xs-3">228</td>
                         </tr>
                         <tr>
-                            <td className="col-xs-6">MS. PASHMINA HASSAN</td>
-                            <td className="col-xs-3">FELLOW (ACCOUNTS)</td>
-                            <td className="col-xs-3">99217535</td>
-                            <td className="col-xs-3">-</td>
-                            <td className="col-xs-3">0301-3560508</td>
-                            <td className="col-xs-3">209</td>
-                        </tr>
-                        <tr>
                             <td className="col-xs-6">MR.WASEEM RAZA	</td>
                             <td className="col-xs-3">SUPERINTENDENT		</td>
                             <td className="col-xs-3">99211700</td>
@@ -315,21 +307,22 @@ const HeadQuarter = () => {
                             <td className="col-xs-3">0334-3348966</td>
                             <td className="col-xs-3">216</td>
                         </tr>
+
                         <tr>
                             <td className="col-xs-6">CTC SECTION</td>
                             <td className="col-xs-3">	-</td>
                             <td className="col-xs-3">99211022</td>
                             <td className="col-xs-3">-</td>
-                            <td className="col-xs-3">-</td>
+                            <td className="col-xs-3"></td>
                             <td className="col-xs-3">254</td>
                         </tr>
 
                         <tr>
-                            <td className="col-xs-6">LIBRARY</td>
-                            <td className="col-xs-3">-</td>
+                            <td className="col-xs-6"></td>
+                            <td className="col-xs-3">LIBRARY	</td>
                             <td className="col-xs-3">99211022</td>
                             <td className="col-xs-3">-</td>
-                            <td className="col-xs-3">-</td>
+                            <td className="col-xs-3"></td>
                             <td className="col-xs-3">223</td>
                         </tr>
 
@@ -339,7 +332,7 @@ const HeadQuarter = () => {
                             <td className="col-xs-3">	-</td>
                             <td className="col-xs-3">99211086</td>
                             <td className="col-xs-3">-</td>
-                            <td className="col-xs-3">-</td>
+                            <td className="col-xs-3"></td>
                             <td className="col-xs-3">227</td>
                         </tr>
 
@@ -351,18 +344,10 @@ const HeadQuarter = () => {
                             <td className="col-xs-3"></td>
                             <td className="col-xs-3">222</td>
                         </tr>
-                        <tr>
-                            <td className="col-xs-6">ACCOUNTS SECTION </td>
-                            <td className="col-xs-3">-</td>
-                            <td className="col-xs-3">99211713</td>
-                            <td className="col-xs-3">-</td>
-                            <td className="col-xs-3">-</td>
-                            <td className="col-xs-3">238</td>
-                        </tr>
 
                         <tr>
                             <td className="col-xs-6">STORE SECTION</td>
-                            <td className="col-xs-3">-</td>
+                            <td className="col-xs-3">	-</td>
                             <td className="col-xs-3">-</td>
                             <td className="col-xs-3">-</td>
                             <td className="col-xs-3"></td>
@@ -383,7 +368,7 @@ const HeadQuarter = () => {
                             <td className="col-xs-3">	-</td>
                             <td className="col-xs-3">-</td>
                             <td className="col-xs-3">-</td>
-                            <td className="col-xs-3">-</td>
+                            <td className="col-xs-3"></td>
                             <td className="col-xs-3">231</td>
                         </tr>
 
@@ -392,7 +377,7 @@ const HeadQuarter = () => {
                             <td className="col-xs-3">-	</td>
                             <td className="col-xs-3">-</td>
                             <td className="col-xs-3">-</td>
-                            <td className="col-xs-3">-</td>
+                            <td className="col-xs-3"></td>
                             <td className="col-xs-3">232</td>
                         </tr>
 
@@ -410,7 +395,7 @@ const HeadQuarter = () => {
                             <td className="col-xs-3">	-</td>
                             <td className="col-xs-3">-</td>
                             <td className="col-xs-3">-</td>
-                            <td className="col-xs-3">-</td>
+                            <td className="col-xs-3"></td>
                             <td className="col-xs-3">234</td>
                         </tr>
 
@@ -419,7 +404,7 @@ const HeadQuarter = () => {
                             <td className="col-xs-3">-</td>
                             <td className="col-xs-3">-</td>
                             <td className="col-xs-3">-</td>
-                            <td className="col-xs-3">-</td>
+                            <td className="col-xs-3"></td>
                             <td className="col-xs-3">235</td>
                         </tr>
                         <tr>
@@ -427,7 +412,7 @@ const HeadQuarter = () => {
                             <td className="col-xs-3">-</td>
                             <td className="col-xs-3">-</td>
                             <td className="col-xs-3">-</td>
-                            <td className="col-xs-3">-</td>
+                            <td className="col-xs-3"></td>
                             <td className="col-xs-3">218</td>
                         </tr>
 
@@ -436,7 +421,7 @@ const HeadQuarter = () => {
                             <td className="col-xs-3">-</td>
                             <td className="col-xs-3">-</td>
                             <td className="col-xs-3">-</td>
-                            <td className="col-xs-3">-</td>
+                            <td className="col-xs-3"></td>
                             <td className="col-xs-3">236</td>
                         </tr>
                         <tr>
@@ -444,7 +429,7 @@ const HeadQuarter = () => {
                             <td className="col-xs-3">-</td>
                             <td className="col-xs-3">-</td>
                             <td className="col-xs-3">-</td>
-                            <td className="col-xs-3">-</td>
+                            <td className="col-xs-3"></td>
                             <td className="col-xs-3">239</td>
                         </tr>
 
@@ -453,7 +438,7 @@ const HeadQuarter = () => {
                             <td className="col-xs-3">	-</td>
                             <td className="col-xs-3">-</td>
                             <td className="col-xs-3">-</td>
-                            <td className="col-xs-3">-</td>
+                            <td className="col-xs-3"></td>
                             <td className="col-xs-3">240</td>
                         </tr>
 
@@ -462,7 +447,7 @@ const HeadQuarter = () => {
                             <td className="col-xs-3">-</td>
                             <td className="col-xs-3">-</td>
                             <td className="col-xs-3">-</td>
-                            <td className="col-xs-3">-</td>
+                            <td className="col-xs-3"></td>
                             <td className="col-xs-3">241</td>
                         </tr>
 
@@ -471,7 +456,7 @@ const HeadQuarter = () => {
                             <td className="col-xs-3">-</td>
                             <td className="col-xs-3">-</td>
                             <td className="col-xs-3">-</td>
-                            <td className="col-xs-3">-</td>
+                            <td className="col-xs-3"></td>
                             <td className="col-xs-3">247</td>
                         </tr>
 
@@ -480,7 +465,7 @@ const HeadQuarter = () => {
                             <td className="col-xs-3">-</td>
                             <td className="col-xs-3">-</td>
                             <td className="col-xs-3">-</td>
-                            <td className="col-xs-3">-</td>
+                            <td className="col-xs-3"></td>
                             <td className="col-xs-3">258/248</td>
                         </tr>
 
@@ -489,7 +474,7 @@ const HeadQuarter = () => {
                             <td className="col-xs-3">-</td>
                             <td className="col-xs-3">-</td>
                             <td className="col-xs-3">-</td>
-                            <td className="col-xs-3">-</td>
+                            <td className="col-xs-3"></td>
                             <td className="col-xs-3">242</td>
                         </tr>
                         
@@ -498,7 +483,7 @@ const HeadQuarter = () => {
                             <td className="col-xs-3">-</td>
                             <td className="col-xs-3">-</td>
                             <td className="col-xs-3">-</td>
-                            <td className="col-xs-3">-</td>
+                            <td className="col-xs-3"></td>
                             <td className="col-xs-3">258</td>
                         </tr>
                         <tr>
@@ -515,7 +500,7 @@ const HeadQuarter = () => {
                             <td className="col-xs-3">-</td>
                             <td className="col-xs-3">-</td>
                             <td className="col-xs-3">-</td>
-                            <td className="col-xs-3">-</td>
+                            <td className="col-xs-3"></td>
                             <td className="col-xs-3">244</td>
                         </tr>
                         <tr>
@@ -523,7 +508,7 @@ const HeadQuarter = () => {
                             <td className="col-xs-3">-</td>
                             <td className="col-xs-3">-</td>
                             <td className="col-xs-3">-</td>
-                            <td className="col-xs-3">-</td>
+                            <td className="col-xs-3"></td>
                             <td className="col-xs-3">245</td>
                         </tr>
                         <tr>
@@ -531,7 +516,7 @@ const HeadQuarter = () => {
                             <td className="col-xs-3">-</td>
                             <td className="col-xs-3">-</td>
                             <td className="col-xs-3">-</td>
-                            <td className="col-xs-3">-</td>
+                            <td className="col-xs-3"></td>
                             <td className="col-xs-3">246</td>
                         </tr>
                         <tr>
@@ -539,7 +524,7 @@ const HeadQuarter = () => {
                             <td className="col-xs-3">-</td>
                             <td className="col-xs-3">-</td>
                             <td className="col-xs-3">-</td>
-                            <td className="col-xs-3">-</td>
+                            <td className="col-xs-3"></td>
                             <td className="col-xs-3">253/264</td>
                         </tr>
     
@@ -548,7 +533,7 @@ const HeadQuarter = () => {
                             <td className="col-xs-3">	-</td>
                             <td className="col-xs-3">-</td>
                             <td className="col-xs-3">-</td>
-                            <td className="col-xs-3">-</td>
+                            <td className="col-xs-3"></td>
                             <td className="col-xs-3">260</td>
                         </tr>
                     </tbody>
