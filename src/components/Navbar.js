@@ -32,6 +32,11 @@ const Navbar = () => {
                                     <li><Link className="dropdown-item" href="/About/OurCommitment">Our Commitment</Link></li>
                                     <li><Link className="dropdown-item" href="/About/TheSecratariat">The Secretariat</Link></li>
                                     <li><Link className="dropdown-item" href="/About/RegionalOffices">Regional offices</Link></li>
+                                    <li className="dropdown-item ">
+                                        <Link className="" href="/pdfs/Organo-gram.pdf"  id="" role="button" >
+                                            Organo Gram
+                                        </Link>
+                                    </li>
                                 </ul>
                             </li>
 
@@ -75,7 +80,7 @@ const Navbar = () => {
                                 </Link>
                             </li>
                             <li className="nav-item ">
-                                <Link className="nav-link  text-white me-3" href="/newsletters/JunkItems.pdf" download  id="" role="button" >
+                                <Link className="nav-link  text-white me-3" href=""  id="" role="button" >
                                     Procurement
                                 </Link>
                             </li>

@@ -80,6 +80,14 @@ const NewsLetter = () => {
                                     Newsletter (Vol-IX)
                                 </a>
                             </li>
+                            <li className="values-system-para mt-3">
+                                <a className="underline text-success"
+                                    href="/newsletters/v10.pdf"
+                                    download  // Add the download attribute
+                                >
+                                    Newsletter (Vol-X)
+                                </a>
+                            </li>
                         </ul>
                     </div>
                 </div>

@@ -444,6 +444,34 @@ const RegionalOffices = () => {
                         </div>
                     </div>
                 </div>
+                <div className="row justify-content-around">
+                    <div className="our-value-system mt-2 col-md-5">
+                        <div className="row">
+                            <div className=" ">
+                                <h2 className="values-system-heading d-flex">Regional Office <ImOffice className=" ms-3" /></h2>              <p className="values-system-para mt-2">
+                                    Provincial Ombudsman Sindh , Sanghar
+                                </p>
+                                <p className="values-system-para mt-2">
+                                    House No.B-139, Ward-A, Royal City, Sanghar
+                                </p>
+
+                                <p className="values-system-para mt-2">
+                                    Contact : 235-542564
+                                </p>
+                                <p className="values-system-para mt-2">
+                                    Email : rdmohtmth@gmail.com
+                                </p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div className=" mt-2 col-md-5">
+
+                        
+                    </div>
+                    
+                </div>
+                
 
             </div>
         </div>

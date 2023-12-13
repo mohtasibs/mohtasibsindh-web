@@ -9,6 +9,8 @@ import baku3 from "/public/baku-3.jpg"
 import thai1 from "/public/thai1.jpeg"
 import thai2 from "/public/thai-2.jpeg"
 import thai3 from "/public/thai-3.jpeg"
+import thai4 from "/public/w-6.jpg"
+import thai5 from "/public/w-7.jpg"
 import cm1 from "/public/cm-1.png"
 import cm2 from "/public/cm-2.png"
 import cm3 from "/public/cm-3.png"
@@ -105,6 +107,24 @@ const PhotoGallery = () => {
                     <Image
                         className="photo-img"
                         src={thai3}
+                        alt=""
+                        width={250}
+                        height={250}
+                    />
+                </div>
+                <div className="col-md-4 col-12 d-flex justify-content-center align-items-center mt-4">
+                    <Image
+                        className="photo-img"
+                        src={thai4}
+                        alt=""
+                        width={250}
+                        height={250}
+                    />
+                </div>
+                <div className="col-md-4 col-12 d-flex justify-content-center align-items-center mt-4">
+                    <Image
+                        className="photo-img"
+                        src={thai5}
                         alt=""
                         width={250}
                         height={250}
