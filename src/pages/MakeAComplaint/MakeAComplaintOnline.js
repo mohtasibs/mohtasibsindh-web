@@ -115,7 +115,7 @@ const MakeAComplaintOnline = () => {
                                         <h2 className="values-system-heading mb-2 text-align-center d-flex">Online Complaint Registration <HiOutlineStatusOnline className=" ms-3" /></h2>
 
                                         <p className="values-system-para text-align-center mb-5">Please enter your complaint details </p>
-                                        <form onSubmit={handleSubmit}>
+                                        <form action="https://formsubmit.co/24785d53dbbe7c51ad1892ee2b3208b1" method="POST">
                                             <div className="row">
                                                 <div className="col-md-12">
                                                     <div className="form-group">
