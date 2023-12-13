@@ -110,6 +110,22 @@ const Home = () => {
   }
 
   const cards = [
+    
+    
+    {
+      image: "w-6.jpg",
+      title: "CALL ON MEETING",
+      subtitle:
+        "Call on meeting with Honorable Governor Sindh and Dinner by Governor in honor of Chief Ombudsman Thailand Mr.Somsak Suwansujarit and his spouse Mrs.Nipa Suwansujarit on 30th November 2023",
+      new: "Whats New",
+    },
+    {
+      image: "w-7.jpg",
+      title: "VISIT",
+      subtitle:
+        "Visit of Hon. Chief Ombudsman Thailand Mr.Somsak Suwansujarit with his spouse Mrs.Nipa to Ombudsman Sindh Office.",
+      new: "Whats New",
+    },
     {
       image: "w-1.jpeg",
       title: "NUMBER PLATES",
@@ -405,7 +421,7 @@ const Home = () => {
             data-bs-slide="prev"
           >
             <span
-              className="carousel-control-prev-icon"
+              className="carousel-control-prev-icon ca"
               aria-hidden="true"
             ></span>
             <span className="visually-hidden">Previous</span>

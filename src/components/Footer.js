@@ -71,9 +71,7 @@ const Footer = () => {
                                                 <i className="fas fa-envelope"></i>
                                             </div>
                                             <div className="info">
-                                                <p><a href="mailto:mohtasibhd@yahoo.com">info@OmbudsmanSindh.com</a></p>
-
-
+                                                <p><a href="mailto:mohtasibhd@yahoo.com">info@mohtasibsindh.com</a></p>
                                             </div>
                                         </div>
                                         <div className="single_info">
@@ -95,7 +93,7 @@ const Footer = () => {
                         <div className="row">
                             <div className="col-lg-12">
                                 <div className="copyright_text">
-                                    <p className="text-white">Copyright &copy; 2009 Provincial Mohtasib (Ombudsman)s Secretariat All rights reserved.</p>
+                                    <p className="text-white">Copyright &copy; 2009 Secretariat Provincial Ombudsman (Mohtasib), Sindh – All rights reserved.</p>
                                 </div>
                             </div>
                         </div>
