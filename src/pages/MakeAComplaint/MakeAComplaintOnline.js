@@ -24,6 +24,8 @@ const MakeAComplaintOnline = () => {
         complaint: ''
     });
 
+    const [file, setFile] = useState(null);
+
     const handleChangeUser = (e) => {
         const { name, value } = e.target;
         let formattedValue = value;
@@ -56,38 +58,39 @@ const MakeAComplaintOnline = () => {
         console.log(complaint)
     };
 
-    const handleSubmit = async (e) => {
-        e.preventDefault();
+    // const handleSubmit = async (e) => {
+    //     e.preventDefault();
 
-        try {
-            let data = user;
+    //     try {
+    //         let data = user;
 
-            if (data.phone == '') {
-                const { phone, ...newData } = data
-                data = newData;
-            }
+    //         if (data.phone == '') {
+    //             const { phone, ...newData } = data
+    //             data = newData;
+    //         }
 
-            if (data.email == '') {
-                const { email, ...newData } = data
-                data = newData;
-            }
+    //         if (data.email == '') {
+    //             const { email, ...newData } = data
+    //             data = newData;
+    //         }
 
-            try {
-                const userRes = await axios.post(`http://localhost:3001/users`, data);
+    //         try {
+    //             const userRes = await axios.post(`http://localhost:3001/users`, data);
 
-                console.log(userRes.data)
-            } catch (error) {
-                console.log(error)
-            }
+    //             console.log(userRes.data)
+    //         } catch (error) {
+    //             console.log(error)
+    //         }
 
-            const complaintRes = await axios.post(`http://localhost:3001/complaints/${user.cnic}`, complaint);
+    //         const complaintRes = await axios.post(`http://localhost:3001/complaints/${user.cnic}`, complaint);
 
-            console.log(complaintRes.data)
-        }
-        catch (error) {
-            console.log(error.response)
-        }
-    };
+    //         console.log(complaintRes.data)
+    //     }
+    //     catch (error) {
+    //         console.log(error.response)
+    //     }
+    // };
+
 
     return <BaseLayout>
         <div className="container">
@@ -115,7 +118,7 @@ const MakeAComplaintOnline = () => {
                                         <h2 className="values-system-heading mb-2 text-align-center d-flex">Online Complaint Registration <HiOutlineStatusOnline className=" ms-3" /></h2>
 
                                         <p className="values-system-para text-align-center mb-5">Please enter your complaint details </p>
-                                        <form action="https://formsubmit.co/24785d53dbbe7c51ad1892ee2b3208b1" method="POST">
+                                        <form action="https://formsubmit.co/24785d53dbbe7c51ad1892ee2b3208b1" method="POST" enctype="multipart/form-data">
                                             <div className="row">
                                                 <div className="col-md-12">
                                                     <div className="form-group">
@@ -252,7 +255,7 @@ const MakeAComplaintOnline = () => {
                                                 </div>
 
 
-                                                {/* <div className="col-md-12">
+                                                <div className="col-md-12">
                                                     <div className="form-group form-control">
                                                         <label htmlFor="file" className="me-3">Upload File</label>
                                                         <input
@@ -262,7 +265,8 @@ const MakeAComplaintOnline = () => {
                                                             id="file"
                                                         />
                                                     </div>
-                                                </div> */}
+                                                </div>
+
                                                 <h2>Select the Sindh Govt. Office against which the complaint is being made</h2>
                                                 <div className="form-group">
                                                     <div className="form-control">
