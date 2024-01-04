@@ -40,13 +40,13 @@ export default function App({ Component, pageProps }) {
 
       </Head>
    
-      <Script async src="https://www.googletagmanager.com/gtag/js?id=G-QRN71PSEQ4"></Script>
+      <Script async src="https://www.googletagmanager.com/gtag/js?id=G-5SJX9E9P78"></Script>
         <Script id="google-analytics" dangerouslySetInnerHTML={{
           __html: `
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-            gtag('config', 'G-QRN71PSEQ4');
+            gtag('config', 'G-5SJX9E9P78');
           `,
         }}></Script>
 
