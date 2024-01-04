@@ -4,6 +4,7 @@ import "@/styles/globals.css";
 import { useEffect } from "react";
 import Link from "next/link";
 import Head from 'next/head';
+import Script from 'next/script'
 
 export default function App({ Component, pageProps }) {
   useEffect(() => {
@@ -14,17 +15,7 @@ export default function App({ Component, pageProps }) {
       <Head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-5SJX9E9P78"></script>
-        <script dangerouslySetInnerHTML={{
-          __html: `
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'G-5SJX9E9P78');
-          `,
-        }}></script>
-
+      
         <link
           rel="stylesheet"
           href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
@@ -48,6 +39,17 @@ export default function App({ Component, pageProps }) {
         />
 
       </Head>
+   
+      <Script async src="https://www.googletagmanager.com/gtag/js?id=G-5SJX9E9P78"></Script>
+        <Script id="google-analytics" dangerouslySetInnerHTML={{
+          __html: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-5SJX9E9P78');
+          `,
+        }}></Script>
+
       <Component {...pageProps} />
     </SidebarProvider>
   );
