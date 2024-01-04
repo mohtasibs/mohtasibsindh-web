@@ -14,6 +14,17 @@ export default function App({ Component, pageProps }) {
       <Head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-297729796-1"></script>
+        <script dangerouslySetInnerHTML={{
+          __html: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'UA-297729796-1');
+          `,
+        }}></script>
+
         <link
           rel="stylesheet"
           href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
@@ -35,6 +46,7 @@ export default function App({ Component, pageProps }) {
           type="text/css"
           href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css"
         />
+
       </Head>
       <Component {...pageProps} />
     </SidebarProvider>
