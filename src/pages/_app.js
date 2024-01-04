@@ -5,6 +5,7 @@ import { useEffect } from "react";
 import Link from "next/link";
 import Head from 'next/head';
 import Script from 'next/script'
+import GoolgeAnalytics from "@bradgarropy/next-google-analytics"
 
 export default function App({ Component, pageProps }) {
   useEffect(() => {
@@ -40,7 +41,7 @@ export default function App({ Component, pageProps }) {
 
       </Head>
    
-      <Script async src="https://www.googletagmanager.com/gtag/js?id=G-5SJX9E9P78"></Script>
+      {/* <Script async src="https://www.googletagmanager.com/gtag/js?id=G-5SJX9E9P78"></Script>
         <Script id="google-analytics" dangerouslySetInnerHTML={{
           __html: `
             window.dataLayer = window.dataLayer || [];
@@ -48,7 +49,9 @@ export default function App({ Component, pageProps }) {
             gtag('js', new Date());
             gtag('config', 'G-5SJX9E9P78');
           `,
-        }}></Script>
+        }}></Script> */}
+
+      <GoolgeAnalytics measurementId="G-5SJX9E9P78" />
 
       <Component {...pageProps} />
     </SidebarProvider>

@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@bradgarropy/next-google-analytics": "^1.0.2",
     "@next/font": "13.1.4",
     "autoprefixer": "^10.4.15",
     "axios": "^1.5.1",
