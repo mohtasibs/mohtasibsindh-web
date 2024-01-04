@@ -15,13 +15,13 @@ export default function App({ Component, pageProps }) {
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-297729796-1"></script>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-5SJX9E9P78"></script>
         <script dangerouslySetInnerHTML={{
           __html: `
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-            gtag('config', 'UA-297729796-1');
+            gtag('config', 'G-5SJX9E9P78');
           `,
         }}></script>
 
