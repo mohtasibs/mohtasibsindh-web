@@ -112,6 +112,15 @@ const Home = () => {
   const cards = [
     
     
+    
+    {
+      image: "w-10.jpg",
+      title: "CALL ON MEETING",
+      subtitle:
+        "Call-on meeting with Hon'ble Chief Minister Sindh and MoU signing ceremony at C.M. House on 30-11-2023.",
+      new: "Whats New",
+    },
+
     {
       image: "w-6.jpg",
       title: "CALL ON MEETING",
@@ -226,7 +235,7 @@ const Home = () => {
                 <p>Provincial Ombudsman</p>
               </div>
             </div>
-            <div className="carousel-item " data-bs-interval="3000">
+                        <div className="carousel-item " data-bs-interval="3000">
               <Image
                 className="dashboard-slider-image"
                 src={banner1}
