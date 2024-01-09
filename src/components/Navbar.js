@@ -90,6 +90,11 @@ const Navbar = () => {
                                     Contact Us
                                 </Link>
                             </li>
+                            <li className="nav-item ">
+                                <Link className="nav-link  text-white me-3" href="https://forms.gle/JeWer4PgWsLYDEZC7" id="" role="button" >
+                                    Feedback
+                                </Link>
+                            </li>
                         </ul>
                     </div>
                 </div>
