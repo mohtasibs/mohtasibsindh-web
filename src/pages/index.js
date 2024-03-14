@@ -52,7 +52,9 @@ import banner14 from "../../public/banner-14.jpg";
 import banner16 from "../../public/banner-16.jpg";
 import banner17 from "../../public/banner-17.jpg";
 import banner18 from "../../public/banner-18.jpg";
-import ombuds from "../../public/ombuds.png";
+import banner19 from "../../public/banner-19.jpg";
+
+import ombuds from "../../public/ombuds.jpg";
 import supreme from "../../public/supreme.png";
 import bottom1 from "../../public/bottom-pic-1.jpg";
 import bottom2 from "../../public/bottom-pic-2.png";
@@ -111,8 +113,13 @@ const Home = () => {
 
   const cards = [
     
-    
-    
+    {
+      image: "w-11.jpg",
+      title: "OATH TAKING",
+      subtitle:
+        "Hon'ble Governor Sindh administered the oath of Mr. Muhammad Sohail Rajput as Ombudsman for the Province of Sindh.",
+      new: "Whats New",
+    },
     {
       image: "w-10.jpg",
       title: "CALL ON MEETING",
@@ -235,7 +242,7 @@ const Home = () => {
                 <p>Provincial Ombudsman</p>
               </div>
             </div>
-                        <div className="carousel-item " data-bs-interval="3000">
+            <div className="carousel-item " data-bs-interval="3000">
               <Image
                 className="dashboard-slider-image"
                 src={banner1}
@@ -422,6 +429,17 @@ const Home = () => {
                 <p>Mohenjo Daro</p>
               </div>
             </div>
+            <div className="carousel-item " data-bs-interval="3000">
+              <Image
+                className="dashboard-slider-image"
+                src={banner19}
+                alt="slider1img"
+              />
+              <div className="carousel-caption  d-none d-md-block">
+                <h5>Ombudsman Sindh</h5>
+                <p>Mr. Muhammad Sohail Rajput</p>
+              </div>
+            </div>
           </div>
           <button
             className="carousel-control-prev"
@@ -518,8 +536,8 @@ const Home = () => {
               className="img-fluid  mx-auto  mt-3 "
               src={ombuds}
               alt="ombudsmanimg"
-              width={400}
-              height={750}
+              width={300}
+              height={450}
             />
           </div>
           <div className="col-md-8">
@@ -530,21 +548,21 @@ const Home = () => {
               </h2>{" "}
             </strong>
             <p className="ombudsman-message-text mt-2 " align="justify">
-              I am delighted to extend a warm
-              welcome to you on the website of the office of the Ombudsman
-              Sindh. This platform has been created with the aim of offering
-              direct accessibility to everyone, especially to citizens aggrieved
-              by the act of maladministration of any Department/Agency of
-              Government of Sindh. Our commitment is to address public
-              complaints with effectiveness, efficiency and transparency. Our
-              aim is to improve public administration through independent
-              objective and impartial investigation and would treasure your
-              valuable input to keep improving our quality of service.
+              I am delighted to extend a warm welcome to you on the website of
+              the office of the Ombudsman Sindh. This platform has been created
+              with the aim of offering direct accessibility to everyone,
+              especially to citizens aggrieved by the act of maladministration
+              of any Department/Agency of Government of Sindh. Our commitment is
+              to address public complaints with effectiveness, efficiency and
+              transparency. Our aim is to improve public administration through
+              independent objective and impartial investigation and would
+              treasure your valuable input to keep improving our quality of
+              service.
             </p>
-            <p className="ombudsman-message-text mt-2 "> Mr.Ajaz Ali Khan</p>
-            <div className="ms-5">
+            <p className="ombudsman-message-text mt-2 ">Mr. Muhammad Sohail Rajput </p>
+            {/* <div className="ms-5">
               <p className="ombudsman-message-text ms-5"> P.A.S</p>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>
@@ -911,43 +929,42 @@ const Home = () => {
             >
               <div className="accordion-body bg-dark text-white">
                 <ul>
-                <p className="values-system-para mt-2 pe-3">
-                  We are an independent statuary body that promotes good
-                  governance and protect human rights;
-                </p>
-          
-                <p className="values-system-para mt-2 pe-3">
-                  We aim to redress public grievances as fairly and as quickly
-                  as we can, after examining all facts. If we think the Agency
-                  you are complaining about has treated you fairly, we will tell
-                  you.
-                </p>
+                  <p className="values-system-para mt-2 pe-3">
+                    We are an independent statuary body that promotes good
+                    governance and protect human rights;
+                  </p>
 
-                
-                <p className="values-system-para mt-2 pe-3">
-                  If we determine that the Agency has acted wrongly, we will
-                  recommend the Agency to put things right for you. This can
-                  include recommending that the Agency provide you relief sought
-                  and to treat you fairly and in accordance with law.
-                </p>
-                <p className="values-system-para mt-2 pe-3">
-                  To deliver free of cost and administrative justice by
-                  performing the role of bridge between the public and
-                  Government Departments/agencies.
-                </p>
-                <p className="values-system-para mt-2 pe-3">
-                  Ombudsman Sindh accords high priority to hardship cases
-                  relating to marginalized section of society specially widows,
-                  children, pensioners, differently abled persons and those
-                  below the poverty line;
-                </p>
-                <p className="values-system-para mt-2 pe-3">
-                  Informal resolution of disputes;
-                </p>
-                <p className="values-system-para mt-2 pe-3">
-                  Own Motion (Suo-Moto Power) is the unique feature of this
-                  institute.
-                </p>
+                  <p className="values-system-para mt-2 pe-3">
+                    We aim to redress public grievances as fairly and as quickly
+                    as we can, after examining all facts. If we think the Agency
+                    you are complaining about has treated you fairly, we will
+                    tell you.
+                  </p>
+
+                  <p className="values-system-para mt-2 pe-3">
+                    If we determine that the Agency has acted wrongly, we will
+                    recommend the Agency to put things right for you. This can
+                    include recommending that the Agency provide you relief
+                    sought and to treat you fairly and in accordance with law.
+                  </p>
+                  <p className="values-system-para mt-2 pe-3">
+                    To deliver free of cost and administrative justice by
+                    performing the role of bridge between the public and
+                    Government Departments/agencies.
+                  </p>
+                  <p className="values-system-para mt-2 pe-3">
+                    Ombudsman Sindh accords high priority to hardship cases
+                    relating to marginalized section of society specially
+                    widows, children, pensioners, differently abled persons and
+                    those below the poverty line;
+                  </p>
+                  <p className="values-system-para mt-2 pe-3">
+                    Informal resolution of disputes;
+                  </p>
+                  <p className="values-system-para mt-2 pe-3">
+                    Own Motion (Suo-Moto Power) is the unique feature of this
+                    institute.
+                  </p>
                 </ul>
               </div>
             </div>
