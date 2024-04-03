@@ -71,7 +71,7 @@ const HeadQuarter = () => {
                         <tr>
                             <td className="col-xs-6"></td>
                             <td className="col-xs-3">DIRECTOR GENERAL- II</td>
-                            <td className="col-xs-3">99211054</td>
+                            <td className="col-xs-3">-</td>
                          
                         </tr>
                         <tr>
@@ -82,7 +82,7 @@ const HeadQuarter = () => {
                         </tr>
                         
                         <tr>
-                            <td className="col-xs-6">MR. MUHAMMAD ZAKIR		</td>
+                            <td className="col-xs-6">MR. MUHAMMAD MISBAH TUINO		</td>
                             <td className="col-xs-3">ADVISOR - J</td>
                             <td className="col-xs-3">99211033	</td>
                            
@@ -108,7 +108,18 @@ const HeadQuarter = () => {
                             <td className="col-xs-3">99211032</td>
                
                         </tr>
-                    
+                        <tr>
+                            <td className="col-xs-6">CAPT.(R) SYED HASHIM RAZA ZAIDI</td>
+                            <td className="col-xs-3">	ADVISOR - S</td>
+                            <td className="col-xs-3">99211035</td>
+               
+                        </tr>
+                        <tr>
+                            <td className="col-xs-6">MR. MIR HUSSAIN ALI</td>
+                            <td className="col-xs-3">	ADVISOR - M</td>
+                            <td className="col-xs-3">99211054</td>
+               
+                        </tr>
                         <tr>
                             <td className="col-xs-6">MR. MANZOOR ALI AWAN	</td>
                             <td className="col-xs-3">CONSULTANT - F	</td>
@@ -208,7 +219,7 @@ const HeadQuarter = () => {
                         <tr>
                             <td className="col-xs-6">SYED IFTIKHAR HUSSAIN</td>
                             <td className="col-xs-3">STAFF OFFICER		</td>
-                            <td className="col-xs-3">99211026	</td>
+                            <td className="col-xs-3">-	</td>
                   
                         </tr>
                         <tr>
@@ -244,7 +255,7 @@ const HeadQuarter = () => {
                         <tr>
                             <td className="col-xs-6">MS. PASHMINA HASSAN</td>
                             <td className="col-xs-3">FELLOW (ACCOUNTS)</td>
-                            <td className="col-xs-3">99217535</td>
+                            <td className="col-xs-3">-</td>
                         
                         </tr>
                         <tr>
@@ -263,7 +274,7 @@ const HeadQuarter = () => {
                         <tr>
                             <td className="col-xs-6">LIBRARY</td>
                             <td className="col-xs-3">-</td>
-                            <td className="col-xs-3">99211022</td>
+                            <td className="col-xs-3">-</td>
                        
                         </tr>
 

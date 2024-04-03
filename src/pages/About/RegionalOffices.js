@@ -89,7 +89,7 @@ const RegionalOffices = () => {
                                     Elementary (Male) Building , Near Govt APWA Women
                                 </p>
                                 <p className="values-system-para mt-2">
-                                    Contact : 021-9924600
+                                    Contact : 021-99246400
                                 </p>
 
                                 <p className="values-system-para mt-2">
@@ -135,6 +135,9 @@ const RegionalOffices = () => {
                                 </p>
 
 
+                                <p className="values-system-para mt-2">
+                                    Contact : 021-35110503 , 021-35110600
+                                </p>
 
                                 <p className="values-system-para mt-2">
                                     Email:rdmohtkhikor@gmail.com
@@ -251,7 +254,7 @@ const RegionalOffices = () => {
                                     One unit Building , Khairpur mir
                                 </p>
                                 <p className="values-system-para mt-2">
-                                    Contact : 0243-9280357
+                                    Contact : 0243-920357 , 0243-920358
                                 </p>
                                 <p className="values-system-para mt-2">
                                     Email : rdmohtkpur@gmail.com
@@ -322,7 +325,7 @@ const RegionalOffices = () => {
                                 </p>
 
                                 <p className="values-system-para mt-2">
-                                    Contact : 074-941022
+                                    Contact : 074-9410222
                                 </p>
 
                                 <p className="values-system-para mt-2">
@@ -456,7 +459,7 @@ const RegionalOffices = () => {
                                 </p>
 
                                 <p className="values-system-para mt-2">
-                                    Contact : 235-542564
+                                    Contact : 0235-541564
                                 </p>
                                 <p className="values-system-para mt-2">
                                     Email : rdmohtmth@gmail.com
