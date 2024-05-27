@@ -63,7 +63,7 @@ const sidebarItems = [
     icon: AiOutlineProject,
   },
   {
-    name: "Links",
+    name: "Links",  
     href: "/Links",
     icon: BsLink45Deg,
   },
