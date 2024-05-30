@@ -114,6 +114,13 @@ const Home = () => {
   const cards = [
     
     {
+      image: "w-15.jpg",
+      title: "ANNUAL REPORT",
+      subtitle:
+        "Provincial Ombudsman sindh Mr Muhammad Sohail Rajput presented annual report of year 2023 to Honourable governor Sindh on 28th May 2024.",
+      new: "Whats New",
+    },
+    {
       image: "w-14.jpg",
       title: "MEETING",
       subtitle:
