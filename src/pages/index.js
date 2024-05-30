@@ -114,6 +114,27 @@ const Home = () => {
   const cards = [
     
     {
+      image: "w-14.jpg",
+      title: "MEETING",
+      subtitle:
+        "Participants assured cooperation with the Ombudsman and implementation of recommended measures and proposals.",
+      new: "Whats New",
+    },
+    {
+      image: "w-13.jpg",
+      title: "UNIVERSITY VISIT",
+      subtitle:
+        "Many initiatives have also been taken for Government College University. The Ombudsman distributed certificates for the internship program.",
+      new: "Whats New",
+    },
+    {
+      image: "w-12.jpg",
+      title: "PRESS CLUB HYDERABAD",
+      subtitle:
+        "The Ombudsman addressed all questions from journalists and the public about institutional shortcomings and reforms.",
+      new: "Whats New",
+    },
+    {
       image: "w-11.jpg",
       title: "OATH TAKING",
       subtitle:
