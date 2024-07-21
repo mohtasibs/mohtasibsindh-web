@@ -16,13 +16,13 @@ const WhatsNew = () => {
 
                             <div className="event-info">
                                 <h2 className="event-title">Success Story</h2>
-                                <h3 className="event-spots">lady complainant</h3>
+                                {/* <h3 className="event-spots">lady complainant</h3>
 
                                 <p className="event-description">
                                     Cheque of Rs. 130,000/- presented by DMC South Karachi
                                     towards 2nd installment of out standing dues on account of
                                     medical reimbursement handed over to lady.
-                                </p>
+                                </p> */}
 
                             </div>
                         </article>
@@ -33,14 +33,14 @@ const WhatsNew = () => {
                             <div className="event-info">
                                 <h2 className="event-title">Success Story</h2>
 
-                                <h3 className="event-spots">Service Dues</h3>
+                                {/* <h3 className="event-spots">Service Dues</h3>
                                 <p className="event-description">
                                     Prof. (Rtd) Liaquat Ali Khawaja & two Other
                                     professors received their service dues of Rs.
                                     25,000,000/-(Rupees Twenty Five Million)
 
 
-                                </p>
+                                </p> */}
 
                             </div>
                         </article>
@@ -50,12 +50,12 @@ const WhatsNew = () => {
                             <div className="event-thumbnail3"></div>
                             <div className="event-info">
                                 <h2 className="event-title">Success Story</h2>
-                                <h3 className="event-spots">Widow Complainant</h3>
+                                {/* <h3 className="event-spots">Widow Complainant</h3>
                                 <p className="event-description">
                                     Mr. Nazir Ahmed Qidwai, Regional Director,
                                     Karachi Central handed over a cheque of
                                     service dues to a widow complainant.
-                                </p>
+                                </p> */}
 
                             </div>
                         </article>
@@ -65,12 +65,12 @@ const WhatsNew = () => {
                             <div className="event-thumbnail4"></div>
                             <div className="event-info">
                                 <h2 className="event-title">Success Story</h2>
-                                <h3 className="event-spots">Water And Sewerage</h3>
+                                {/* <h3 className="event-spots">Water And Sewerage</h3>
                                 <p className="event-description">
                                     Mr. Hussain Muhammad filed a complaint against Karachi Water & Sewerage Board regarding delay in payment of
                                     gratuity / commutation. The complaint was admitted and
                                     notice was issued.
-                                </p>
+                                </p> */}
 
                             </div>
                         </article>
@@ -80,17 +80,17 @@ const WhatsNew = () => {
                             <div className="event-thumbnail5"></div>
                             <div className="event-info">
                                 <h2 className="event-title">Success Story</h2>
-                                <h3 className="event-spots">Controller Of Examination</h3>
-                                <p className="event-description">
+                                {/* <h3 className="event-spots">Controller Of Examination</h3> */}
+                                {/* <p className="event-description">
                                     Miss. Samina Anwar filed a complaint against Controller of
                                     Examination, University of Sindh for issuance of Pass Certificate and Marks sheet of
                                     B.Sc as she had appeared in the examination.
-                                </p>
+                                </p> */}
 
                             </div>
                         </article>
                     </div>
-                    <div className="col-md-4 p-2">
+                    {/* <div className="col-md-4 p-2">
                         <article className="event-container">
                             <div className="event-thumbnail6"></div>
                             <div className="event-info">
@@ -102,8 +102,8 @@ const WhatsNew = () => {
 
                             </div>
                         </article>
-                    </div>
-                    <div className="col-md-4 p-2">
+                    </div> */}
+                    {/* <div className="col-md-4 p-2">
                         <article className="event-container">
                             <div className="event-thumbnail10"></div>
                             <div className="event-info">
@@ -145,7 +145,7 @@ const WhatsNew = () => {
 
                             </div>
                         </article>
-                    </div>
+                    </div> */}
 
                 </div>
             </section>

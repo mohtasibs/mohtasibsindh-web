@@ -114,6 +114,28 @@ const Home = () => {
   const cards = [
     
     {
+      image: "w-1.jpg",
+      title: "1st Ambassador Program",
+      subtitle:
+        "1st Ambassador Program was held at Hamdard University on 29th of May 2024 at Hamdard University, Karachi.",
+      new: "Whats New",
+    },
+    // {
+    //   image: "w-3.mp4",
+    //   title: "1st Batch Session",
+    //   subtitle:
+    //     "1st Batch of Sindh Ombudsman Ambassador from Sindh Madressatul Islam University visited Ombudsman Office for follow up Session",
+    //   new: "Whats New",
+    // },
+    {
+      image: "w-2.jpg",
+      title: "CALL ON MEETING",
+      subtitle:
+        "Today, meeting was held at  Sindh Ombudsman office which was chaired by Honorable Ombudsman Sindh with DEPARTMENT OF EMPOERMENT OF PERSONS WITH DISABILITIES to address the crucial issues facing Persons with Disabilities.",
+      new: "Whats New",
+    },
+
+    {
       image: "w-15.jpg",
       title: "ANNUAL REPORT",
       subtitle:
@@ -121,87 +143,19 @@ const Home = () => {
       new: "Whats New",
     },
     {
-      image: "w-14.jpg",
+      image: "W-14.jpg",
       title: "MEETING",
       subtitle:
         "Participants assured cooperation with the Ombudsman and implementation of recommended measures and proposals.",
       new: "Whats New",
     },
-    {
-      image: "w-13.jpg",
-      title: "UNIVERSITY VISIT",
-      subtitle:
-        "Many initiatives have also been taken for Government College University. The Ombudsman distributed certificates for the internship program.",
-      new: "Whats New",
-    },
-    {
-      image: "w-12.jpg",
-      title: "PRESS CLUB HYDERABAD",
-      subtitle:
-        "The Ombudsman addressed all questions from journalists and the public about institutional shortcomings and reforms.",
-      new: "Whats New",
-    },
+
+ 
     {
       image: "w-11.jpg",
       title: "OATH TAKING",
       subtitle:
         "Hon'ble Governor Sindh administered the oath of Mr. Muhammad Sohail Rajput as Ombudsman for the Province of Sindh.",
-      new: "Whats New",
-    },
-    {
-      image: "w-10.jpg",
-      title: "CALL ON MEETING",
-      subtitle:
-        "Call-on meeting with Hon'ble Chief Minister Sindh and MoU signing ceremony at C.M. House on 30-11-2023.",
-      new: "Whats New",
-    },
-
-    {
-      image: "w-6.jpg",
-      title: "CALL ON MEETING",
-      subtitle:
-        "Call on meeting with Honorable Governor Sindh and Dinner by Governor in honor of Chief Ombudsman Thailand Mr.Somsak Suwansujarit and his spouse Mrs.Nipa Suwansujarit on 30th November 2023",
-      new: "Whats New",
-    },
-    {
-      image: "w-7.jpg",
-      title: "VISIT",
-      subtitle:
-        "Visit of Hon. Chief Ombudsman Thailand Mr.Somsak Suwansujarit with his spouse Mrs.Nipa to Ombudsman Sindh Office.",
-      new: "Whats New",
-    },
-    {
-      image: "w-1.jpeg",
-      title: "NUMBER PLATES",
-      subtitle:
-        "Provincial Ombudsman Sindh directs clearance of backlog and issuance of 300,000 number plates due to owner requests",
-      new: "Whats New",
-    },
-    {
-      image: "w-2.PNG",
-      title: "MALNUTRITION",
-      subtitle:
-        "Honorable Ombudsman Sindh led meetings on implementing study recommendations for malnutrition in Tharparkar.",
-      new: "Whats New",
-    },
-    {
-      image: "w-3.PNG",
-      title: "HELP DESK",
-      subtitle: "Establishment of help desks for differently abled persons",
-      new: "Whats New",
-    },
-    {
-      image: "w-4.PNG",
-      title: "GIRLS EDUCATION",
-      subtitle:
-        "Meeting regarding implementation of recommendations of the study issues of girls education in Sindh.",
-      new: "Whats New",
-    },
-    {
-      image: "w-5.jpg",
-      title: "PRISON INSPECTION",
-      subtitle:
-        "Ombudsman Sindh formed committees for prison inspections across the province.",
       new: "Whats New",
     },
   ];
@@ -1007,12 +961,12 @@ const Home = () => {
               <div class="event-thumbnail4"></div>
               <div class="event-info">
                 <h2 class="event-title">Success Story</h2>
-                <h3 class="event-spots">Water And Sewerage</h3>
+                {/* <h3 class="event-spots">Water And Sewerage</h3>
                 <p class="event-description">
                   Mr. Hussain Muhammad filed a complaint against Karachi Water &
                   Sewerage Board regarding delay in payment of gratuity /
                   commutation. The complaint was admitted and notice was issued.
-                </p>
+                </p> */}
               </div>
             </article>
           </div>
@@ -1021,13 +975,13 @@ const Home = () => {
               <div class="event-thumbnail5"></div>
               <div class="event-info">
                 <h2 class="event-title">Success Story</h2>
-                <h3 class="event-spots">Controller Of Examination</h3>
+                {/* <h3 class="event-spots">Controller Of Examination</h3>
                 <p class="event-description">
                   Miss. Samina Anwar filed a complaint against Controller of
                   Examination, University of Sindh for issuance of Pass
                   Certificate and Marks sheet of B.Sc as she had appeared in the
                   examination.
-                </p>
+                </p> */}
               </div>
             </article>
           </div>
@@ -1036,12 +990,12 @@ const Home = () => {
               <div class="event-thumbnail6"></div>
               <div class="event-info">
                 <h2 class="event-title">Success Story</h2>
-                <h3 class="event-spots">Plot Allotment</h3>
+                {/* <h3 class="event-spots">Plot Allotment</h3>
                 <p class="event-description">
                   Mr. Khadim Hussain Mirani filed a complaint against the Market
                   Committee, Karachi. The issue is shop plot allotment and
                   possession despite full payment in 2008.
-                </p>
+                </p> */}
               </div>
             </article>
           </div>
