@@ -1,156 +1,167 @@
 import BaseLayout from "@/components/BaseLayout";
-import { RiLightbulbFlashLine } from "react-icons/ri";
-
+import React, { useState } from "react";
 
 const WhatsNew = () => {
-    return <BaseLayout>
-        <div className="container">
+  const [expandedStories, setExpandedStories] = useState({});
 
-            <section className="container mb-5 d-flex justify-content-center align-items-center events-wrapper">
+  const toggleText = (storyId) => {
+    setExpandedStories((prevState) => ({
+      ...prevState,
+      [storyId]: !prevState[storyId],
+    }));
+  };
 
-                <div className="row us-card">
-                    <h2 className="h2 mt-5 text-center">Success Stories</h2>
-                    <div className="col-md-4 p-2">
-                        <article className="event-container">
-                            <div className="event-thumbnail1"></div>
-
-                            <div className="event-info">
-                                <h2 className="event-title">Success Story</h2>
-                                {/* <h3 className="event-spots">lady complainant</h3>
-
-                                <p className="event-description">
-                                    Cheque of Rs. 130,000/- presented by DMC South Karachi
-                                    towards 2nd installment of out standing dues on account of
-                                    medical reimbursement handed over to lady.
-                                </p> */}
-
-                            </div>
-                        </article>
-                    </div>
-                    <div className="col-md-4 p-2">
-                        <article className="event-container">
-                            <div className="event-thumbnail2"></div>
-                            <div className="event-info">
-                                <h2 className="event-title">Success Story</h2>
-
-                                {/* <h3 className="event-spots">Service Dues</h3>
-                                <p className="event-description">
-                                    Prof. (Rtd) Liaquat Ali Khawaja & two Other
-                                    professors received their service dues of Rs.
-                                    25,000,000/-(Rupees Twenty Five Million)
-
-
-                                </p> */}
-
-                            </div>
-                        </article>
-                    </div>
-                    <div className="col-md-4 p-2">
-                        <article className="event-container">
-                            <div className="event-thumbnail3"></div>
-                            <div className="event-info">
-                                <h2 className="event-title">Success Story</h2>
-                                {/* <h3 className="event-spots">Widow Complainant</h3>
-                                <p className="event-description">
-                                    Mr. Nazir Ahmed Qidwai, Regional Director,
-                                    Karachi Central handed over a cheque of
-                                    service dues to a widow complainant.
-                                </p> */}
-
-                            </div>
-                        </article>
-                    </div>
-                    <div className="col-md-4 p-2">
-                        <article className="event-container">
-                            <div className="event-thumbnail4"></div>
-                            <div className="event-info">
-                                <h2 className="event-title">Success Story</h2>
-                                {/* <h3 className="event-spots">Water And Sewerage</h3>
-                                <p className="event-description">
-                                    Mr. Hussain Muhammad filed a complaint against Karachi Water & Sewerage Board regarding delay in payment of
-                                    gratuity / commutation. The complaint was admitted and
-                                    notice was issued.
-                                </p> */}
-
-                            </div>
-                        </article>
-                    </div>
-                    <div className="col-md-4 p-2">
-                        <article className="event-container">
-                            <div className="event-thumbnail5"></div>
-                            <div className="event-info">
-                                <h2 className="event-title">Success Story</h2>
-                                {/* <h3 className="event-spots">Controller Of Examination</h3> */}
-                                {/* <p className="event-description">
-                                    Miss. Samina Anwar filed a complaint against Controller of
-                                    Examination, University of Sindh for issuance of Pass Certificate and Marks sheet of
-                                    B.Sc as she had appeared in the examination.
-                                </p> */}
-
-                            </div>
-                        </article>
-                    </div>
-                    {/* <div className="col-md-4 p-2">
-                        <article className="event-container">
-                            <div className="event-thumbnail6"></div>
-                            <div className="event-info">
-                                <h2 className="event-title">Success Story</h2>
-                                <h3 className="event-spots">Plot Allotment</h3>
-                                <p className="event-description">
-                                    Mr. Khadim Hussain Mirani filed a complaint  against the Market Committee, Karachi. The issue is shop plot allotment and possession despite full payment in 2008.
-                                </p>
-
-                            </div>
-                        </article>
-                    </div> */}
-                    {/* <div className="col-md-4 p-2">
-                        <article className="event-container">
-                            <div className="event-thumbnail10"></div>
-                            <div className="event-info">
-                                <h2 className="event-title">Success Story</h2>
-                                <h3 className="event-spots">Delay In Payment</h3>
-                                <p className="event-description">
-                                    Ms. Safia Bano wd/o Muhammad Javed Siyal filed a complaint regarding
-                                    delay in payment of service of her deceased husband. The
-                                    complaint was admitted and notice was issued to Agency concerned.
-                                </p>
-
-                            </div>
-                        </article>
-                    </div>
-                    <div className="col-md-4 p-2">
-                        <article className="event-container">
-                            <div className="event-thumbnail11"></div>
-                            <div className="event-info">
-                                <h2 className="event-title">Success Story</h2>
-                                <h3 className="event-spots">Plot Allotment</h3>
-                                <p className="event-description">
-                                    Mr. Haji Baloch filed a complaint against Administrator, M.C.
-                                    Mirpurkhas alleging inordinate delay in issuance of Allotment Order.
-                                    Notice was issued to the agency concerned.
-                                </p>
-
-                            </div>
-                        </article>
-                    </div>
-                    <div className="col-md-4 p-2">
-                        <article className="event-container">
-                            <div className="event-thumbnail12"></div>
-                            <div className="event-info">
-                                <h2 className="event-title">Success Story</h2>
-                                <h3 className="event-spots">Illegal Business</h3>
-                                <p className="event-description">
-                                    Dr. Muhammad Zahoor Qureshi filed a complaint
-                                    against illegal business of acid and nickel polish by some private persons notice was issued to the agency concerned.                                </p>
-
-                            </div>
-                        </article>
-                    </div> */}
-
+  return (
+    <BaseLayout>
+      <div className="container">
+        <section className="container mb-5 d-flex justify-content-center align-items-center stories-wrapper">
+          <div className="row stories-card">
+            <h2 className="h2 mt-5 text-center">Success Stories</h2>
+            <div className="col-md-6 p-2 d-flex justify-content-center">
+              <article className="story-container">
+                <div className="story-thumbnail">
+                  <video controls className="story-video">
+                    <source src="/suvideo1.mp4" type="video/mp4" />
+                    Your browser does not support the video tag.
+                  </video>
                 </div>
-            </section>
-        </div>
-    </BaseLayout>;
+                <div className="story-info">
+                  <h2 className="story-title">Success Story 1</h2>
+                  <p
+                    className={`story-description ${
+                      expandedStories[1] ? "expanded" : "collapsed"
+                    }`}
+                  >
+                    Mr. Khalique Zaman Soomro filed complaint No. POS/3844/2023
+                    with the Honorable Ombudsman Sindh regarding the posting of
+                    Male and Female Medical Officers at BHU Village Yousif
+                    Soomro and the restoration of the solar system. Following
+                    the intervention of this institution, the issue has been
+                    resolved. Male and Female Medical Officers have been
+                    assigned to BHU Village Yousif Soomro, and the solar system
+                    has been restored. The complainant is satisfied and has
+                    expressed profound gratitude to the Honorable Ombudsman
+                    Sindh and the Regional Director of Badin for addressing and
+                    resolving the problem.
+                  </p>
+                  <button
+                    className="btn btn-link p-0"
+                    onClick={() => toggleText(1)}
+                  >
+                    {expandedStories[1] ? "Show less" : "Show more"}
+                  </button>
+                </div>
+              </article>
+            </div>
+            <div className="col-md-6 p-2 d-flex justify-content-center">
+              <article className="story-container">
+                <div className="story-thumbnail">
+                  <video controls className="story-video">
+                    <source src="/suvideo2.mp4" type="video/mp4" />
+                    Your browser does not support the video tag.
+                  </video>
+                </div>
+                <div className="story-info">
+                  <h2 className="story-title">Success Story 2</h2>
+                  <p
+                    className={`story-description ${
+                      expandedStories[2] ? "expanded" : "collapsed"
+                    }`}
+                  >
+                    Miss Dua Solangi, a resident of First Family Lane,
+                    Jacobabad, filed a complaint against the XEN Public Health
+                    Jacobabad and the Assistant Manager of State Life Insurance
+                    regarding the payment of the Group Insurance (GI) for her
+                    late father. Following the intervention of this institute,
+                    she received an amount of 350,000. Miss Solangi has
+                    expressed her deep gratitude to the Ombudsman Sindh for
+                    their assistance in resolving this matter.
+                  </p>
+                  <button
+                    className="btn btn-link p-0"
+                    onClick={() => toggleText(2)}
+                  >
+                    {expandedStories[2] ? "Show less" : "Show more"}
+                  </button>
+                </div>
+              </article>
+            </div>
+          </div>
+        </section>
+      </div>
+      <style jsx>{`
+        .stories-wrapper {
+          margin-top: 20px;
+        }
+        .stories-card {
+          display: flex;
+          flex-wrap: wrap;
+        }
+        .story-container {
+          border: 1px solid #ddd;
+          border-radius: 8px;
+          box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+          overflow: hidden;
+          transition: transform 0.2s;
+          display: flex;
+          flex-direction: column;
+          max-width: 300px;
+          margin: 10px;
+        }
+        .story-thumbnail {
+          position: relative;
+          overflow: hidden;
+          display: flex;
+          justify-content: center;
+        }
+        .story-video {
+          width: 100%;
+          height: 300px;
+        }
+        .story-info {
+          padding: 10px;
+          text-align: center;
+          flex: 1;
+        }
+        .story-title {
+          font-size: 16px;
+          font-weight: bold;
+          margin: 5px 0;
+        }
+        .story-description {
+          font-size: 12px;
+          margin: 5px 0;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          display: -webkit-box;
+          -webkit-line-clamp: 3;
+          -webkit-box-orient: vertical;
+        }
+        .expanded {
+          overflow: visible;
+          display: block;
+          -webkit-line-clamp: unset;
+        }
+        .collapsed {
+          overflow: hidden;
+          text-overflow: ellipsis;
+          display: -webkit-box;
+          -webkit-line-clamp: 3;
+          -webkit-box-orient: vertical;
+        }
+        .story-container button {
+          background: none;
+          border: none;
+          color: #007bff;
+          cursor: pointer;
+          text-decoration: underline;
+        }
+        .story-container button:hover {
+          text-decoration: none;
+        }
+      `}</style>
+    </BaseLayout>
+  );
 };
 
 export default WhatsNew;

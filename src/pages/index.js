@@ -7,6 +7,10 @@ import "slick-carousel/slick/slick-theme.css";
 import { Swiper, SwiperSlide } from "swiper/react";
 import SwiperCore, { Navigation, Pagination, Scrollbar, A11y } from "swiper";
 import "swiper/swiper-bundle.css";
+import React, { useState, useEffect } from "react";
+import { useInView } from "react-intersection-observer";
+import CountUp from "react-countup";
+
 
 // Install Swiper modules
 SwiperCore.use([Navigation, Pagination, Scrollbar, A11y]);
@@ -67,16 +71,22 @@ import p from "../../public/p.png";
 import q from "../../public/q.png";
 import r from "../../public/r.png";
 import s from "../../public/s.png";
-import React, { useState, useEffect } from "react";
-import { useInView } from "react-intersection-observer";
 
-import CountUp from "react-countup";
+
 const Home = () => {
   const [activeData, setActiveData] = useState(1);
+  const [expandedStories, setExpandedStories] = useState({});
 
   // Function to set the active data when an image is clicked
   const showData = (imageNumber) => {
     setActiveData(imageNumber);
+  };
+
+  const toggleText = (storyId) => {
+    setExpandedStories((prevState) => ({
+      ...prevState,
+      [storyId]: !prevState[storyId],
+    }));
   };
 
   function Counter({ number, title }) {
@@ -113,6 +123,27 @@ const Home = () => {
 
   const cards = [
     
+    {
+      image: "w-6.jpg",
+      title: "VISIT",
+      subtitle:
+        "Mr Sohail Rajput visiting office of Ombudsman for the women protection",
+      new: "Whats New",
+    },
+    {
+      image: "w-5.jpg",
+      title: " CALL ON MEETING",
+      subtitle:
+        "OMBUDSMAN SINDH HOLDS THE FOLLOWUP SESSION  WITH 10  SELECTED STUDENTS OF HAMDARD UNIVERSITY AS AMBASSADORS FOR HIS INSTITUTE",
+      new: "Whats New",
+    },
+    {
+      image: "w-4.jpg",
+      title: " CALL ON MEETING",
+      subtitle:
+        "Hon'ble ombudsman Sindh chaired the meeting with ACS L. G. Deptt, Secretary PHED, DG. HDa,/SDA, MC, HMC, Secretary, Sindh Local Govt. Fund Board and   officers of Water and Sewerage corporation Hyd, to discuss progress of cases pending investigation at R O. Hyd.",
+      new: "Whats New",
+    },
     {
       image: "w-1.jpg",
       title: "1st Ambassador Program",
@@ -954,59 +985,57 @@ const Home = () => {
         </div>
       </section>
 
-      <section className="container mb-5 d-flex justify-content-center align-items-center events-wrapper">
-        <div className="row us-card">
-          <div className="col-md-4 p-2">
-            <article className="event-container">
-              <div class="event-thumbnail4"></div>
-              <div class="event-info">
-                <h2 class="event-title">Success Story</h2>
-                {/* <h3 class="event-spots">Water And Sewerage</h3>
-                <p class="event-description">
-                  Mr. Hussain Muhammad filed a complaint against Karachi Water &
-                  Sewerage Board regarding delay in payment of gratuity /
-                  commutation. The complaint was admitted and notice was issued.
-                </p> */}
+  
+      <section className="container mb-5 d-flex justify-content-center align-items-center stories-wrapper">
+        <div className="row stories-card">
+          <h2 className="h2 mt-5 text-center">Success Stories</h2>
+          <div className="col-md-6 p-2 d-flex justify-content-center">
+            <article className="story-container">
+              <div className="story-thumbnail">
+                <video controls className="story-video">
+                  <source src="/suvideo1.mp4" type="video/mp4" />
+                  Your browser does not support the video tag.
+                </video>
+              </div>
+              <div className="story-info">
+                <h2 className="story-title">Success Story 1</h2>
+                <p className={`story-description ${expandedStories[1] ? "expanded" : "collapsed"}`}>
+                  Mr. Khalique Zaman Soomro filed complaint No. POS/3844/2023 with the Honorable Ombudsman Sindh regarding the posting of Male and Female Medical Officers at BHU Village Yousif Soomro and the restoration of the solar system. Following the intervention of this institution, the issue has been resolved. Male and Female Medical Officers have been assigned to BHU Village Yousif Soomro, and the solar system has been restored. The complainant is satisfied and has expressed profound gratitude to the Honorable Ombudsman Sindh and the Regional Director of Badin for addressing and resolving the problem.
+                </p>
+                <button className="btn btn-link p-0" onClick={() => toggleText(1)}>
+                  {expandedStories[1] ? "Show less" : "Show more"}
+                </button>
               </div>
             </article>
           </div>
-          <div className="col-md-4 p-2">
-            <article className="event-container">
-              <div class="event-thumbnail5"></div>
-              <div class="event-info">
-                <h2 class="event-title">Success Story</h2>
-                {/* <h3 class="event-spots">Controller Of Examination</h3>
-                <p class="event-description">
-                  Miss. Samina Anwar filed a complaint against Controller of
-                  Examination, University of Sindh for issuance of Pass
-                  Certificate and Marks sheet of B.Sc as she had appeared in the
-                  examination.
-                </p> */}
+          <div className="col-md-6 p-2 d-flex justify-content-center">
+            <article className="story-container">
+              <div className="story-thumbnail">
+                <video controls className="story-video">
+                  <source src="/suvideo2.mp4" type="video/mp4" />
+                  Your browser does not support the video tag.
+                </video>
               </div>
-            </article>
-          </div>
-          <div className="col-md-4 p-2">
-            <article className="event-container">
-              <div class="event-thumbnail6"></div>
-              <div class="event-info">
-                <h2 class="event-title">Success Story</h2>
-                {/* <h3 class="event-spots">Plot Allotment</h3>
-                <p class="event-description">
-                  Mr. Khadim Hussain Mirani filed a complaint against the Market
-                  Committee, Karachi. The issue is shop plot allotment and
-                  possession despite full payment in 2008.
-                </p> */}
+              <div className="story-info">
+                <h2 className="story-title">Success Story 2</h2>
+                <p className={`story-description ${expandedStories[2] ? "expanded" : "collapsed"}`}>
+                  Miss Dua Solangi, a resident of First Family Lane, Jacobabad, filed a complaint against the XEN Public Health Jacobabad and the Assistant Manager of State Life Insurance regarding the payment of the Group Insurance (GI) for her late father. Following the intervention of this institute, she received an amount of 350,000. Miss Solangi has expressed her deep gratitude to the Ombudsman Sindh for their assistance in resolving this matter.
+                </p>
+                <button className="btn btn-link p-0" onClick={() => toggleText(2)}>
+                  {expandedStories[2] ? "Show less" : "Show more"}
+                </button>
               </div>
             </article>
           </div>
           <Link
-            className="learn-more mt-3 ms-3 values-system-para  text-success"
+            className="learn-more mt-3 ms-3 values-system-para text-success"
             href="/WhatsNew"
           >
-            load more
+            Load more
           </Link>
         </div>
       </section>
+
 
       {/* bottomcards */}
       <section className="wrapper-justice mb-5">
@@ -1090,6 +1119,78 @@ const Home = () => {
           <img src="/back-to-top.png" alt="" className="upKey" />
         </a>
       </section>
+
+      <style jsx>{`
+        .stories-wrapper {
+          margin-top: 20px;
+        }
+        .stories-card {
+          display: flex;
+          flex-wrap: wrap;
+        }
+        .story-container {
+          border: 1px solid #ddd;
+          border-radius: 8px;
+          box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+          overflow: hidden;
+          transition: transform 0.2s;
+          display: flex;
+          flex-direction: column;
+          max-width: 300px;
+          margin: 10px;
+        }
+        .story-thumbnail {
+          position: relative;
+          overflow: hidden;
+          display: flex;
+          justify-content: center;
+        }
+        .story-video {
+          width: 100%;
+          height: 300px;
+        }
+        .story-info {
+          padding: 10px;
+          text-align: center;
+          flex: 1;
+        }
+        .story-title {
+          font-size: 16px;
+          font-weight: bold;
+          margin: 5px 0;
+        }
+        .story-description {
+          font-size: 12px;
+          margin: 5px 0;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          display: -webkit-box;
+          -webkit-line-clamp: 3;
+          -webkit-box-orient: vertical;
+        }
+        .expanded {
+          overflow: visible;
+          display: block;
+          -webkit-line-clamp: unset;
+        }
+        .collapsed {
+          overflow: hidden;
+          text-overflow: ellipsis;
+          display: -webkit-box;
+          -webkit-line-clamp: 3;
+          -webkit-box-orient: vertical;
+        }
+        .story-container button {
+          background: none;
+          border: none;
+          color: #007bff;
+          cursor: pointer;
+          text-decoration: underline;
+        }
+        .story-container button:hover {
+          text-decoration: none;
+        }
+      `}</style>
     </BaseLayout>
   );
 };
