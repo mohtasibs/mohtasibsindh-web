@@ -127,7 +127,7 @@ const Home = () => {
       image: "w-6.jpg",
       title: "VISIT",
       subtitle:
-        "Mr Sohail Rajput visiting office of Ombudsman for the women protection",
+        "Honorable ombudsman Mr. Muhammad Sohail Rajput visiting office of Ombudsman for the women protection",
       new: "Whats New",
     },
     {
@@ -162,7 +162,7 @@ const Home = () => {
       image: "w-2.jpg",
       title: "CALL ON MEETING",
       subtitle:
-        "Today, meeting was held at  Sindh Ombudsman office which was chaired by Honorable Ombudsman Sindh with DEPARTMENT OF EMPOERMENT OF PERSONS WITH DISABILITIES to address the crucial issues facing Persons with Disabilities.",
+        "Meeting was held at  Sindh Ombudsman office which was chaired by Honorable Ombudsman Sindh with DEPARTMENT OF EMPOERMENT OF PERSONS WITH DISABILITIES to address the crucial issues facing Persons with Disabilities.",
       new: "Whats New",
     },
 
@@ -173,15 +173,7 @@ const Home = () => {
         "Provincial Ombudsman sindh Mr Muhammad Sohail Rajput presented annual report of year 2023 to Honourable governor Sindh on 28th May 2024.",
       new: "Whats New",
     },
-    {
-      image: "W-14.jpg",
-      title: "MEETING",
-      subtitle:
-        "Participants assured cooperation with the Ombudsman and implementation of recommended measures and proposals.",
-      new: "Whats New",
-    },
-
- 
+  
     {
       image: "w-11.jpg",
       title: "OATH TAKING",
