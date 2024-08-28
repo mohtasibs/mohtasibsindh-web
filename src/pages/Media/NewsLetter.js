@@ -99,7 +99,7 @@ const NewsLetter = () => {
                             <li className="values-system-para mt-3">
                                 <a className="underline text-success"
                                     href="/newsletters/v12.pdf"
-                                    download  // Add the download attribute
+                                    download 
                                 >
                                     Newsletter (Vol-XII)
                                 </a>
