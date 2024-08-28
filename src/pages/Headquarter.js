@@ -153,7 +153,7 @@ const HeadQuarter = () => {
                         <tr>
                             <td className="col-xs-6">MR. MUHAMMAD AKMAL NASEEM</td>
                             <td className="col-xs-3">CONSULTANT (IT/MEDIA)	</td>
-                            <td className="col-xs-3">-</td>
+                            <td className="col-xs-3">99217790</td>
                     
                         </tr>
                         <tr>
