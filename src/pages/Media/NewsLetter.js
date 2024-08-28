@@ -88,6 +88,30 @@ const NewsLetter = () => {
                                     Newsletter (Vol-X)
                                 </a>
                             </li>
+                            <li className="values-system-para mt-3">
+                                <a className="underline text-success"
+                                    href="/newsletters/v11.pdf"
+                                    download  // Add the download attribute
+                                >
+                                    Newsletter (Vol-XI)
+                                </a>
+                            </li>
+                            <li className="values-system-para mt-3">
+                                <a className="underline text-success"
+                                    href="/newsletters/v12.pdf"
+                                    download  // Add the download attribute
+                                >
+                                    Newsletter (Vol-XII)
+                                </a>
+                            </li>
+                            <li className="values-system-para mt-3">
+                                <a className="underline text-success"
+                                    href="/newsletters/v13.pdf"
+                                    download  // Add the download attribute
+                                >
+                                    Newsletter (Vol-XIII)
+                                </a>
+                            </li>
                         </ul>
                     </div>
                 </div>

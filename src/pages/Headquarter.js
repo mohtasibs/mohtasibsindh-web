@@ -121,8 +121,8 @@ const HeadQuarter = () => {
                
                         </tr>
                         <tr>
-                            <td className="col-xs-6">MR. MANZOOR ALI AWAN	</td>
-                            <td className="col-xs-3">CONSULTANT - F	</td>
+                            <td className="col-xs-6">SYED ALI MUMTAZ ZAIDI	</td>
+                            <td className="col-xs-3">ADVISOR - F	</td>
                             <td className="col-xs-3">99211057	</td>
                     
                         </tr>
@@ -185,21 +185,21 @@ const HeadQuarter = () => {
                         </tr>
                         <tr>
                             <td className="col-xs-6">MR. MOHAMMAD ABDULLAH SIDDIQUI</td>
-                            <td className="col-xs-3">P.S TO OMBUDSMAN		</td>
+                            <td className="col-xs-3">SR. P.S TO OMBUDSMAN		</td>
                             <td className="col-xs-3">99211026</td>
                 
                         </tr>
 
                         <tr>
                             <td className="col-xs-6">MR. MOHAMMAD MUNAWAR SHAH	</td>
-                            <td className="col-xs-3">A.R/D.D.O		</td>
+                            <td className="col-xs-3">DEPUTY REGISTRAR / D.D.O		</td>
                             <td className="col-xs-3">99211211	</td>
                   
                         </tr>
                        
                         <tr>
                             <td className="col-xs-6">MR. OZAIR AHMED SIDDIQUI	</td>
-                            <td className="col-xs-3">DEPUTY DIRECTOR(ADMN)	</td>
+                            <td className="col-xs-3">DIRECTOR(ADMN)	</td>
                             <td className="col-xs-3">99211714	</td>
                         
                         </tr>
@@ -218,13 +218,13 @@ const HeadQuarter = () => {
 
                         <tr>
                             <td className="col-xs-6">SYED IFTIKHAR HUSSAIN</td>
-                            <td className="col-xs-3">STAFF OFFICER		</td>
+                            <td className="col-xs-3"> DEPUTY REGISTRAR</td>
                             <td className="col-xs-3">-	</td>
                   
                         </tr>
                         <tr>
                             <td className="col-xs-6">MR. ASAD ABBAS	</td>
-                            <td className="col-xs-3">SUPERINTENDENT (Store)</td>
+                            <td className="col-xs-3"> ASSISTANT DIRECTOR (ADMIN)</td>
                             <td className="col-xs-3"> 99217385</td>
               
                         </tr>
@@ -248,9 +248,15 @@ const HeadQuarter = () => {
 
                         <tr>
                             <td className="col-xs-6">MR. ABDUL WAHID KHAN</td>
-                            <td className="col-xs-3">ASSISTANT DIRECTOR/SUPERINTENDENT (ADMN)</td>
+                            <td className="col-xs-3">ASSISTANT DIRECTOR (P.R)</td>
                             <td className="col-xs-3">99211220</td>
                       
+                        </tr>
+                        <tr>
+                            <td className="col-xs-6"></td>
+                            <td className="col-xs-3"></td>
+                            <td className="col-xs-3">99211700</td>
+                     
                         </tr>
                         <tr>
                             <td className="col-xs-6">MS. PASHMINA HASSAN</td>
@@ -258,12 +264,7 @@ const HeadQuarter = () => {
                             <td className="col-xs-3">-</td>
                         
                         </tr>
-                        <tr>
-                            <td className="col-xs-6">MR.WASEEM RAZA	</td>
-                            <td className="col-xs-3">SUPERINTENDENT		</td>
-                            <td className="col-xs-3">99211700</td>
-                     
-                        </tr>
+                       
                         <tr>
                             <td className="col-xs-6">CTC SECTION</td>
                             <td className="col-xs-3">	-</td>

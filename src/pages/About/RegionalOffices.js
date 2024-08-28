@@ -35,6 +35,7 @@ const RegionalOffices = () => {
                                 <p className="values-system-para mt-2">
                                     Shahrah-e-Faisal , Karachi
                                 </p>
+                               
                                 <p className="values-system-para mt-2">
                                     Contact : 021-99245217 , 99245216
                                 </p>
@@ -54,14 +55,14 @@ const RegionalOffices = () => {
                                 <p className="values-system-para mt-2">
                                     1st Floor , State Life Building No. 3,
                                 </p>
-                                <p className="values-system-para mt-2">
-                                    Dr. Ziauddin Ahmed Road , opp. CM House
-                                </p>
+                               
                                 <p className="values-system-para mt-2">
                                     Contact : 021-99203244
                                 </p>
 
-
+                                <p className="values-system-para mt-2">
+                                    Fax No. 021-99204017
+                                </p>
                                 <p className="values-system-para mt-2">
                                     Email:rdmohtkhisou@gmail.com
                                 </p>
@@ -88,8 +89,12 @@ const RegionalOffices = () => {
                                 <p className="values-system-para mt-2">
                                     Elementary (Male) Building , Near Govt APWA Women
                                 </p>
+                              
                                 <p className="values-system-para mt-2">
                                     Contact : 021-99246400
+                                </p>
+                                <p className="values-system-para mt-2">
+                                    Fax No. 021- 99246413
                                 </p>
 
                                 <p className="values-system-para mt-2">
@@ -111,8 +116,9 @@ const RegionalOffices = () => {
                                     S.I.T.E area, Karachi
                                 </p>
                                 <p className="values-system-para mt-2">
-                                    Contact : 021-99334179
+                                    Contact : 021-99334179, 021-99334178
                                 </p>
+                              
                                 <p className="values-system-para mt-2">
                                     Email : fahad.mohtasib@gmail.com
                                 </p>
@@ -165,6 +171,9 @@ const RegionalOffices = () => {
                                     Contact : 0297-920101
                                 </p>
                                 <p className="values-system-para mt-2">
+                                    Fax No. 0297-920102
+                                </p>
+                                <p className="values-system-para mt-2">
                                     Email: rdmohtbad@gmail.com
                                 </p>
 
@@ -185,7 +194,7 @@ const RegionalOffices = () => {
                                     Kazi Ahmed Road , Near Bahria Foundation School
                                 </p>
                                 <p className="values-system-para mt-2">
-                                    Contact : 0244-930440
+                                    Contact : 0244-930440, 0244-930474
                                 </p>
                                 <p className="values-system-para mt-2">
                                     Email:rdmohtnshah@gmail.com
@@ -233,6 +242,9 @@ const RegionalOffices = () => {
 
                                 <p className="values-system-para mt-2">
                                     Contact : 0298-920187
+                                </p>
+                                <p className="values-system-para mt-2">
+                                    Fax No. 0298-920197
                                 </p>
 
                                 <p className="values-system-para mt-2">
@@ -283,6 +295,9 @@ const RegionalOffices = () => {
                                 <p className="values-system-para mt-2">
                                     Contact : 022-9200467
                                 </p>
+                                <p className="values-system-para mt-2">
+                                    Fax No. 022-9201312
+                                </p>
 
                                 <p className="values-system-para mt-2">
                                     Email:rdmohthyd@gmail.com
@@ -303,7 +318,10 @@ const RegionalOffices = () => {
                                     Society , Yousif Masjid , Shikarpur Road Sukkkur
                                 </p>
                                 <p className="values-system-para mt-2">
-                                    Contact : 071-9310013, o71-5807100
+                                    Contact : 071-9310013
+                                </p>
+                                <p className="values-system-para mt-2">
+                                    Fax No. 071-9310695
                                 </p>
                                 <p className="values-system-para mt-2">
                                     Email : rdmohtksuk@gmail.com
@@ -345,7 +363,10 @@ const RegionalOffices = () => {
                                 </p>
 
                                 <p className="values-system-para mt-2">
-                                    Contact:0233-9290424
+                                    Contact: 0233-9290266
+                                </p>
+                                <p className="values-system-para mt-2">
+                                    Fax No. 0233-9290424
                                 </p>
                                 <p className="values-system-para mt-2">
                                     Email : rdmohtkhas@gmail.com
@@ -369,6 +390,9 @@ const RegionalOffices = () => {
                                 <p className="values-system-para mt-2">
                                     Contact:0722-921222
                                 </p>
+                                <p className="values-system-para mt-2">
+                                    Fax No. 0722-921222
+                                </p>
 
                                 <p className="values-system-para mt-2">
                                     Email:rdmohtjbad@gmail.com
@@ -390,6 +414,9 @@ const RegionalOffices = () => {
                                     Contact:0723-681933
                                 </p>
                                 <p className="values-system-para mt-2">
+                                    Fax No. 0723-681933
+                                </p>
+                                <p className="values-system-para mt-2">
                                     Email : rdmohtgho@gmail.com
                                 </p>
 
@@ -409,7 +436,10 @@ const RegionalOffices = () => {
                                 </p>
 
                                 <p className="values-system-para mt-2">
-                                    Contact : 0232-920164
+                                    Contact : 0232-920165
+                                </p>
+                                <p className="values-system-para mt-2">
+                                    Fax No. 0232-920164
                                 </p>
                                 <p className="values-system-para mt-2">
                                     Email : rdmohtmth@gmail.com
@@ -433,6 +463,9 @@ const RegionalOffices = () => {
                                 </p>
                                 <p className="values-system-para mt-2">
                                     Contact : 0242-920010
+                                </p>
+                                <p className="values-system-para mt-2">
+                                    Fax No. 0242-920011
                                 </p>
                                 <p className="values-system-para mt-2">
                                     Email : rdmohtnfz@gmail.com
