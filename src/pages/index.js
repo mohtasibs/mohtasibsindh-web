@@ -129,7 +129,7 @@ const Home = () => {
       image: "w-16.jpg",
       title: "VISIT",
       subtitle:
-        "The Provincial Ombudsman of Sindh, H.E. Sohail Rajput, and the Provincial Ombudsman of Balochistan, H.E. Nazar Baloch attended the International Ombudsman Conference in Italy, emphasizing their role in safeguarding citizens' rights and ensuring government accountability.",
+        "The Provincial Ombudsman of Sindh, H.E. Mr. Sohail Rajput, and the Provincial Ombudsman of Balochistan, H.E. Mr. Nazar Baloch attended the International Ombudsman Conference in Italy, emphasizing their role in safeguarding citizens' rights and ensuring government accountability.",
       new: "Whats New",
     },
     
