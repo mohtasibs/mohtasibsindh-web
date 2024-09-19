@@ -124,7 +124,27 @@ const Home = () => {
   const cards = [
     
     
-        
+    {
+      image: "w-19.jpg",
+      title: "VISIT",
+      subtitle:
+        "The Provincial Ombudsman of Sindh, H.E. Mr. Sohail Rajput attended the International Ombudsman Conference in Italy, emphasizing their role in safeguarding citizens' rights and ensuring government accountability.",
+      new: "Whats New",
+    },
+    {
+      image: "w-18.jpg",
+      title: "VISIT",
+      subtitle:
+        "The Provincial Ombudsman of Sindh, H.E. Mr. Sohail Rajput attended the International Ombudsman Conference in Italy, emphasizing their role in safeguarding citizens' rights and ensuring government accountability.",
+      new: "Whats New",
+    },
+    {
+      image: "w-17.jpg",
+      title: "VISIT",
+      subtitle:
+        "The Provincial Ombudsman of Sindh, H.E. Mr. Sohail Rajput attended the International Ombudsman Conference in Italy, emphasizing their role in safeguarding citizens' rights and ensuring government accountability.",
+      new: "Whats New",
+    },    
     {
       image: "w-16.jpg",
       title: "VISIT",
