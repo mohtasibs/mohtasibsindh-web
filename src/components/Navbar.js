@@ -32,6 +32,7 @@ const Navbar = () => {
                                     <li><Link className="dropdown-item" href="/About/OurCommitment">Our Commitment</Link></li>
                                     <li><Link className="dropdown-item" href="/About/TheSecratariat">The Secretariat</Link></li>
                                     <li><Link className="dropdown-item" href="/About/RegionalOffices">Regional offices</Link></li>
+                                    <li><Link className="dropdown-item" href="/About/Decisions">Decisions</Link></li>
                                     <li className="dropdown-item ">
                                         <Link className="" href="/pdfs/Organo-gram.pdf"  id="" role="button" >
                                             Organo Gram
