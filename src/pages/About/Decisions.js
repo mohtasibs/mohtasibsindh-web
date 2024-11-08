@@ -26,6 +26,12 @@ const Decisions = () => {
             { title: "621.2024.KR-15", file: "/pdfs/621.2024.KR-15.pdf" },
             { title: "2059.2024.RM-66", file: "/pdfs/2059.2024.RM-66.pdf" },
         ],
+        "7 Nov 2024": [
+            { title: "382.ROK-65.(Khp).2022", file: "/pdfs/382.ROK-65.(Khp).2022.pdf" },
+            { title: "3116.2022.NFZ-25", file: "/pdfs/3116.2022.NFZ-25.pdf" },
+            { title: "2893.23.NFZ-31", file: "/pdfs/2893.23.NFZ-31.pdf" },
+            { title: "2161.ROK-35.(Khp).2022", file: "/pdfs/2161.ROK-35.(Khp).2022.pdf" },
+        ],
     };
 
     const [expandedDate, setExpandedDate] = useState(null);
@@ -42,7 +48,7 @@ const Decisions = () => {
                 </h1>
 
                 {Object.keys(decisionsData).map((date) => (
-                    <div key={date} className="mb-4">
+                    <div key={date} className="decision-section">
                         {/* Date Section */}
                         <div className="d-flex align-items-center text-secondary mb-2" style={{ fontSize: "1.25rem" }}>
                             <MdDateRange className="me-2" />
@@ -58,6 +64,8 @@ const Decisions = () => {
                                 backgroundColor: "#f8f9fa",
                                 border: "1px solid #dee2e6",
                                 fontSize: "1.1rem",
+                                marginBottom: "15px",
+                                padding: "15px 20px",
                             }}
                         >
                             <div className="d-flex align-items-center">
@@ -75,7 +83,7 @@ const Decisions = () => {
                                         <a
                                             href={item.file}
                                             download
-                                            className="text-decoration-none fw-medium"
+                                            className="text-decoration-none text-dark fw-medium"
                                             style={{
                                                 fontSize: "1rem",
                                                 color: "#dc3545",
@@ -90,6 +98,12 @@ const Decisions = () => {
                     </div>
                 ))}
             </div>
+
+            <style jsx>{`
+                .decision-section {
+                    padding-top: 15px;
+                }
+            `}</style>
         </BaseLayout>
     );
 };
