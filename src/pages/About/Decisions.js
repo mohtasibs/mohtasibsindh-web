@@ -32,6 +32,13 @@ const Decisions = () => {
             { title: "2893.23.NFZ-31", file: "/pdfs/2893.23.NFZ-31.pdf" },
             { title: "2161.ROK-35.(Khp).2022", file: "/pdfs/2161.ROK-35.(Khp).2022.pdf" },
         ],
+        "8 Nov 2024": [
+            { title: "2378.2022.KC", file: "/pdfs/2378.2022.KC.pdf" },
+            { title: "249.2024.KC", file: "/pdfs/249.2024.KC (2).pdf" },
+            { title: "9924.2023.KC", file: "/pdfs/9924.2023.KC.pdf" },
+            { title: "8816.RL-370(LKA).2023", file: "/pdfs/8816.RL-370(LKA).2023.pdf" },
+            { title: "5268.2022.HYD.345", file: "/pdfs/5268.2022.HYD.345.pdf" },
+        ],
     };
 
     const [expandedDate, setExpandedDate] = useState(null);
