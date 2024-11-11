@@ -86,7 +86,7 @@ const NavbarTwo = () => {
                                 </Link>
                             </li>
                             <li className="nav-item ">
-                                <Link className="nav-link  text-white me-3" href="/newsletters/JunkItems.pdf" download id="" role="button" >
+                                <Link className="nav-link  text-white me-3" href="/Procurement" download id="" role="button" >
                                     Procurement
                                 </Link>
                             </li>
