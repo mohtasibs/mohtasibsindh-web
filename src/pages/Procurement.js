@@ -5,7 +5,6 @@ import { AiOutlineFilePdf } from "react-icons/ai";
 const Procurement = () => {
     // Data for Procurement PDFs
     const procurementData = [
-        { title: "Procurement-plan", file: "/pdfs/procurement-plan.pdf" },
         { title: "Bidding document -Complaint Management System", file: "/pdfs/Bidding document -Complaint Management System.pdf" },
         { title: "Advertisement_CMS", file: "/pdfs/Advertisement_CMS.pdf" },
     ];
