@@ -101,7 +101,7 @@ const NewsLetter = () => {
                                     href="/newsletters/v13.pdf"
                                     download
                                 >
-                                    Newsletter (Vol-XIII)
+                                    Newsletter (Vol-XII)
                                 </a>
                             </li> 
                             <li className="values-system-para mt-3">

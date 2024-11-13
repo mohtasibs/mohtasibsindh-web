@@ -27,7 +27,7 @@ const Decisions = () => {
             { title: "2059.2024.RM-66", file: "/pdfs/2059.2024.RM-66.pdf" },
         ],
         "7 Nov 2024": [
-            { title: "382.ROK-65.(Khp).2022", file: "/pdfs/382.ROK-65.(Khp).2022.pdf" },
+            { title: "3382.ROK-65.(Khp).2022", file: "/pdfs/382.ROK-65.(Khp).2022.pdf" },
             { title: "3116.2022.NFZ-25", file: "/pdfs/3116.2022.NFZ-25.pdf" },
             { title: "2893.23.NFZ-31", file: "/pdfs/2893.23.NFZ-31.pdf" },
             { title: "2161.ROK-35.(Khp).2022", file: "/pdfs/2161.ROK-35.(Khp).2022.pdf" },
@@ -38,6 +38,15 @@ const Decisions = () => {
             { title: "9924.2023.KC", file: "/pdfs/9924.2023.KC.pdf" },
             { title: "8816.RL-370(LKA).2023", file: "/pdfs/8816.RL-370(LKA).2023.pdf" },
             { title: "5268.2022.HYD.345", file: "/pdfs/5268.2022.HYD.345.pdf" },
+        ],
+        "11 Nov 2024": [
+            { title: "POS.849.SKK-08.2022", file: "/pdfs/POS.849.SKK-08.2022.pdf" },
+            { title: "POS.9011.SKK-169.2023", file: "/pdfs/POS.9011.SKK-169.2023.pdf" },
+        ],
+        "12 Nov 2024": [
+            { title: "POS.5348.2023.HYD.324", file: "/pdfs/POS.5348.2023.HYD.324.pdf" },
+            { title: "POS.2042.2023.HYD.173", file: "/pdfs/POS.2042.2023.HYD.173.pdf" },
+            { title: "POS.660.GTK-30.2024", file: "/pdfs/POS.660.GTK-30.2024.pdf" },
         ],
     };
 
