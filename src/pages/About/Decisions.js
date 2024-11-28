@@ -48,6 +48,16 @@ const Decisions = () => {
             { title: "POS.2042.2023.HYD.173", file: "/pdfs/POS.2042.2023.HYD.173.pdf" },
             { title: "POS.660.GTK-30.2024", file: "/pdfs/POS.660.GTK-30.2024.pdf" },
         ],
+        "18 Nov 2024": [
+            { title: "POS.RL-321(LKA)2024", file: "/pdfs/POS.RL-321(LKA)2024.pdf" },
+            { title: "POS.CH.7015.2021", file: "/pdfs/POS.CH.7015.2021.pdf" },
+            { title: "POS.CH.5447.2020.RM-54", file: "/pdfs/POS.CH.5447.2020.RM-54.pdf" },
+            { title: "POS.9088.2023.RM-229", file: "/pdfs/POS.9088.2023.RM-229.pdf" },
+            { title: "POS.7023.RL-287(LKA)2023", file: "/pdfs/POS.7023.RL-287(LKA)2023.pdf" },
+            { title: "POS.4255.KE-312.2023", file: "/pdfs/POS.4255.KE-312.2023.pdf" },
+            { title: "POS.3789.2024.RM-119", file: "/pdfs/POS.3789.2024.RM-119.pdf" },
+            { title: "POS.1899.RL.69.(LKA)2024", file: "/pdfs/POS.1899.RL.69.(LKA)2024.pdf" },
+        ],
         "21 Nov 2024": [
             { title: "POS.3789.2024.RM-119", file: "/pdfs/POS.3789.2024.RM-119.pdf" },
             { title: "POS.3763.KE-292.2024", file: "/pdfs/POS.3763.KE-292.2024.pdf" },
