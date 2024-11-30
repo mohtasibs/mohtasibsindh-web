@@ -88,6 +88,39 @@ const Decisions = () => {
             { title: "POS.5376.GTK-119.2023", file: "/pdfs/POS.5376.GTK-119.2023.pdf" },
             { title: "POS.3920.KE.306.2024", file: "/pdfs/POS.3920.KE.306.2024.pdf" },
         ],
+        "29 Nov 2024": [
+            { title: "POS.06.2015.NFZ-03", file: "/pdfs/POS.06.2015.NFZ-03.pdf" },
+            { title: "POS.48.ROJ-48(JBD).2024", file: "/pdfs/POS.48.ROJ-48(JBD).2024.pdf" },
+            { title: "POS.183.2024.N-01", file: "/pdfs/POS.183.2024.N-01.pdf" },
+            { title: "POS.618.2022.HYD.75", file: "/pdfs/POS.618.2022.HYD.75.pdf" },
+            { title: "POS.750.2022.HYD.85", file: "/pdfs/POS.750.2022.HYD.85.pdf" },
+            { title: "POS.2284.ROG-22.GTK.2022", file: "/pdfs/POS.2284.ROG-22.GTK.2022.pdf" },
+            { title: "POS.2415.2021.HYD.100", file: "/pdfs/POS.2415.2021.HYD.100.pdf" },
+            { title: "POS.2498.ROG.26.GTK.2022", file: "/pdfs/POS.2498.ROG.26.GTK.2022.pdf" },
+            { title: "POS.3034.2024.KM.KW", file: "/pdfs/POS.3034.2024.KM.KW.pdf" },
+            { title: "POS.3062.KR-64.2024", file: "/pdfs/POS.3062.KR-64.2024.pdf" },
+
+            { title: "POS.4168.2022.HYD.281", file: "/pdfs/POS.4168.2022.HYD.281.pdf" },
+            { title: "POS.4550.2022.HYD.287.KR", file: "/pdfs/POS.4550.2022.HYD.287.pdf" },
+            { title: "POS.4551.2022.HYD.299", file: "/pdfs/POS.4551.2022.HYD.299.pdf" },
+            { title: "POS.4593.2021.NWS-68.SGR-07", file: "/pdfs/POS.4593.2021.NWS-68.SGR-07.pdf" },
+            { title: "POS.4768.2023.HYD.296", file: "/pdfs/POS.4768.2023.HYD.296.pdf" },
+
+            { title: "POS.5127.2021.RM-79", file: "/pdfs/POS.5127.2021.RM-79.pdf" },
+            { title: "POS.6447.2022.HYD.398", file: "/pdfs/POS.6447.2022.HYD.398.pdf" },
+            { title: "POS.3105.KE-205.2024", file: "/pdfs/POS.3105.KE-205.2024.pdf" },
+            { title: "POS.3936.KHE-477.16", file: "/pdfs/POS.3936.KHE-477.16.pdf" },
+            { title: "POS.4109.2024.N-24", file: "/pdfs/POS.4109.2024.N-24.pdf" },
+
+            { title: "POS.9235.ROG-177.GTK.2023", file: "/pdfs/POS.9235.ROG-177.GTK.2023.pdf" },
+            { title: "POS.9236.ROG-178-GTK.2023", file: "/pdfs/POS.9236.ROG-178-GTK.2023.pdf" },
+            { title: "POS.9340.KE.571.2023", file: "/pdfs/POS.9340.KE.571.2023.pdf" },
+            { title: "POS.CH.3931.KE.310.2024", file: "/pdfs/POS.CH.3931.KE.310.2024.pdf" },
+            { title: "POS.GTK-51.2024", file: "/pdfs/POS.GTK-51.2024.pdf" },
+            { title: "POS.ROM.130.2024.RM-113", file: "/pdfs/POS.ROM.130.2024.RM-113.pdf" },
+            { title: "POS.ROM.160.2024.RM-140", file: "/pdfs/POS.ROM.160.2024.RM-140.pdf" },
+            { title: "POS.8203.KE.464.2022", file: "/pdfs/POS.8203.KE.464.2022.pdf" },
+        ],
         
     };
 
