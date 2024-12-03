@@ -837,7 +837,7 @@ const Home = () => {
                     <Counter number={4152} />
                   </div>
                   <div className="values-system-para">
-                  Complaints Admitted
+                    Complaints Admitted
                   </div>
                 </div>
               </div>
