@@ -7,6 +7,7 @@ const Procurement = () => {
     const procurementData = [
         { title: "Bidding document -Complaint Management System", file: "/pdfs/Bidding document -Complaint Management System.pdf" },
         { title: "Advertisement_CMS", file: "/pdfs/Advertisement_CMS.pdf" },
+        { title: "CORRIGENDUM", file: "/CORRIGENDUM.jpg" },
     ];
 
     return (
