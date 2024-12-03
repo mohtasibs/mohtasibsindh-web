@@ -10,6 +10,7 @@ import "swiper/swiper-bundle.css";
 import React, { useState, useEffect } from "react";
 import { useInView } from "react-intersection-observer";
 import CountUp from "react-countup";
+import {BsFillCheckCircleFill, BsBarChartFill } from "react-icons/bs";
 
 
 // Install Swiper modules
@@ -120,6 +121,13 @@ const Home = () => {
       </div>
     );
   }
+
+    // Dummy data for stats
+    const data = {
+      complaintsReceived: { number: 7090, text: "Received Complaints" },
+      complaintsCompleted: { number: 7357, text: "Complaints Completed" },
+      performance: { number: 85, text: "Performance" },
+    };
 
   const cards = [
     
@@ -730,7 +738,7 @@ const Home = () => {
               className="vision-missionbg our-value-system downing bg-dark text-white"
               onClick={() => showData(1)}
             >
-              <h1 className="counter-heading">COMPLAINTS PROCESS</h1>
+              <h1 className="counter-heading">COMPLAINTS DATA JANUARY-OCTOBER 2024</h1>
             </div>
           </div>
         </div>
@@ -779,7 +787,7 @@ const Home = () => {
             style={{ display: activeData === 1 ? "block" : "none" }}
           >
             <div className="row justify-content-center">
-              <div className="col-md-3 col-sm-6 col-12 mb-3 text-center">
+              {/* <div className="col-md-3 col-sm-6 col-12 mb-3 text-center">
                 <div className="d-flex flex-column align-items-center">
                   <BsFillPhoneVibrateFill className="counter-icon mt-3" />
                   <div className="big-text">
@@ -789,9 +797,9 @@ const Home = () => {
                     By Electronic Means / Online
                   </div>
                 </div>
-              </div>
+              </div> */}
 
-              <div className="col-md-3 col-sm-6 col-12 mb-3 text-center">
+              {/* <div className="col-md-3 col-sm-6 col-12 mb-3 text-center">
                 <div className="d-flex flex-column align-items-center">
                   <BsFillSignpostFill className="counter-icon mt-3" />
                   <div className="big-text">
@@ -799,8 +807,8 @@ const Home = () => {
                   </div>
                   <div className="values-system-para"> By Post</div>
                 </div>
-              </div>
-              <div className="col-md-3 col-sm-6 col-12 mb-3 text-center">
+              </div> */}
+              {/* <div className="col-md-3 col-sm-6 col-12 mb-3 text-center">
                 <div className="d-flex flex-column align-items-center">
                   <BsFillPeopleFill className="counter-icon mt-3" />
                   <div className="big-text">
@@ -808,20 +816,47 @@ const Home = () => {
                   </div>
                   <div className="values-system-para">In Person</div>
                 </div>
+              </div> */}
+              
+              
+              <div className="col-md-3 col-sm-6 col-12 mb-3 text-center">
+                <div className="d-flex flex-column align-items-center">
+                  <GiNotebook className="counter-icon mt-3" />
+                  <div className="big-text">
+                    <Counter number={7090} />
+                  </div>
+                  <div className="values-system-para">
+                    Complaints Received
+                  </div>
+                </div>
               </div>
               <div className="col-md-3 col-sm-6 col-12 mb-3 text-center">
                 <div className="d-flex flex-column align-items-center">
                   <GiNotebook className="counter-icon mt-3" />
                   <div className="big-text">
-                    <Counter number={1584} />
+                    <Counter number={4152} />
                   </div>
                   <div className="values-system-para">
-                    Complaints Disposed Off
+                  Complaints Admitted
                   </div>
                 </div>
               </div>
+              <div className="col-md-3 col-sm-6 col-12 mb-3 text-center">
+                <div className="d-flex flex-column align-items-center">
+                  <GiNotebook className="counter-icon mt-3" />
+                  <div className="big-text">
+                    <Counter number={3754} />
+                  </div>
+                  <div className="values-system-para">
+                    Complaints Completed
+                  </div>
+                </div>
+              </div>
+              
             </div>
           </div>
+
+          
 
           {/* <div id="data3" className="col-md-12 container p-3" style={{ display: activeData === 3 ? 'block' : 'none' }}>
             <div className="row justify-content-center">
