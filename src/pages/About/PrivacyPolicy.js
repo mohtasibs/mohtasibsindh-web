@@ -112,7 +112,7 @@ const PrivacyPolicy = () => {
                                 </li>
                             </ul>
                             <p className="privacy-values-system-para">
-                                To exercise these rights, contact us at <a href="mailto:info@mohtasibsindh.com">info@mohtasibsindh.com</a>.
+                                To exercise these rights, contact us at <a href="mailto:info@mohtasibsindh.gov.pk">info@mohtasibsindh.gov.pk</a>.
                             </p>
                         </div>
 
@@ -149,7 +149,7 @@ const PrivacyPolicy = () => {
                             <ul className="values-system-list">
                                 <li className="values-system-para2">Phone: +92-21-99211026</li>
                                 <li className="values-system-para2">Phone: +92-21-99211031, 25, 28</li>
-                                <li className="values-system-para2">Email: <a href="mailto:info@mohtasibsindh.com">info@mohtasibsindh.com</a></li>
+                                <li className="values-system-para2">Email: <a href="mailto:info@mohtasibsindh.gov.pk">info@mohtasibsindh.gov.pk</a></li>
                                 <li className="values-system-para2">Location: Karachi, Pakistan</li>
                             </ul>
                         </div>
