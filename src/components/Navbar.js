@@ -38,6 +38,7 @@ const Navbar = () => {
                                             Organo Gram
                                         </Link>
                                     </li>
+                                    <li><Link className="dropdown-item" href="/About/PrivacyPolicy">Privacy Policy</Link></li>
                                 </ul>
                             </li>
 

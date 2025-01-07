@@ -40,6 +40,7 @@ const NavbarTwo = () => {
                                     <li><Link className="dropdown-item" href="/About/TheSecratariat">The Secretariat</Link></li>
                                     <li><Link className="dropdown-item" href="/About/RegionalOffices">Regional offices</Link></li>
                                     <li><Link className="dropdown-item" href="/About/Decisions">Decisions</Link></li>
+                                    <li><Link className="dropdown-item" href="/About/PrivacyPolicy">Privacy Policy</Link></li>
 
                                 </ul>
                             </li>
