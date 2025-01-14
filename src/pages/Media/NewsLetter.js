@@ -98,7 +98,7 @@ const NewsLetter = () => {
                             </li>
                             <li className="values-system-para mt-3">
                                 <a className="underline text-success"
-                                    href="/newsletters/v13.pdf"
+                                    href="/newsletters/v12.pdf"
                                     download
                                 >
                                     Newsletter (Vol-XII)
@@ -110,6 +110,14 @@ const NewsLetter = () => {
                                     download
                                 >
                                     Newsletter (Vol-XIII)
+                                </a>
+                            </li> 
+                            <li className="values-system-para mt-3">
+                                <a className="underline text-success"
+                                    href="/newsletters/v14.pdf"
+                                    download
+                                >
+                                    Newsletter (Vol-XIV)
                                 </a>
                             </li>   
                         </ul>
