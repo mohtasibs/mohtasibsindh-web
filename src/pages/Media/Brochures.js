@@ -26,6 +26,14 @@ const KnowledgeProduct = () => {
                                     FAQ’S Urdu Version
                                 </a>
                             </li>
+                            <li className="values-system-para mt-3">
+                                <a className="underline text-success"
+                                    href="/FolderFlyer.pdf"
+                                    download  // Add the download attribute
+                                >
+                                    Folder Flyer
+                                </a>
+                            </li>
 
 
 
