@@ -9,6 +9,7 @@ const Procurement = () => {
         { title: "Advertisement_CMS", file: "/pdfs/Advertisement_CMS.pdf" },
         { title: "CORRIGENDUM", file: "/CORRIGENDUM.jpg" },
         { title: "Bid Doc_merged", file: "/pdfs/Bid Doc_merged.pdf" },
+        //next
     ];
 
     return (
