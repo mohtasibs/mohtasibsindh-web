@@ -955,6 +955,32 @@ body {
 }
 
 
+/* ***************Contact Us Form CSS*************** */
+
+.custom-submit-button {
+  background-color: #218838 !important;
+  color: white !important; 
+  font-weight: bold;
+  border: 2px solid #dee2e6;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.custom-submit-button:hover {
+  background-color: #218838 !important;
+  color: white !important;
+}
+
+.get-in-touch-heading {
+  font-size: 20px;
+  font-weight: bold;
+  color: #2f6db0 !important;
+  text-transform: uppercase; 
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+}
+
 
 
 /* ***************International Ombudsman*************** */
@@ -987,7 +1013,7 @@ body {
 /* **********contact********** */
 .contact {
   padding: 0;
-  width: 60vw;
+  /* width: 60vw; */
   background-color: var(--bg-light-white);
 }
 .contact-heading {
