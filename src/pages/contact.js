@@ -128,7 +128,7 @@ const Contact = () => {
           </div>
 
           {/* Right Section: Contact Form */}
-          <div className="col-md-6 mb-4">
+          {/* <div className="col-md-6 mb-4">
             <div className="contact-form p-4 border rounded shadow">
               <h3 className="mb-4 get-in-touch-heading">Get in Touch</h3>
               
@@ -192,7 +192,7 @@ const Contact = () => {
                 </button>
               </form>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </BaseLayout>
