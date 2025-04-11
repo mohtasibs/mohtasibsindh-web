@@ -2555,6 +2555,31 @@ const Decisions = () => {
         file: "/pdfs/POS.ROM.181.2024.RM-154.pdf",
       },
       { title: "POS.ROS.SKK-92.2024", file: "/pdfs/POS.ROS.SKK-92.2024.pdf" },
+      { title: "POS.5417.KR-148.2024", file: "/pdfs/POS.5417.KR-148.2024.pdf" },
+      {
+        title: "POS.5521.SKK-103.2023",
+        file: "/pdfs/POS.5521.SKK-103.2023.pdf",
+      },
+      { title: "POS.5924.2023.NFZ-66", file: "/pdfs/POS.5924.2023.NFZ-66.pdf" },
+      { title: "POS.6543.2023", file: "/pdfs/POS.6543.2023.pdf" },
+      { title: "POS.7204.KE-418.2022", file: "/pdfs/POS.7204.KE-418.2022.pdf" },
+      { title: "POS.7472.KE-423.2022", file: "/pdfs/POS.7472.KE-423.2022.pdf" },
+      { title: "POS.8170.2023", file: "/pdfs/POS.8170.2023.pdf" },
+      {
+        title: "POS.8881.ROJ-240 (JBD).2023",
+        file: "/pdfs/POS.8881.ROJ-240 (JBD).2023.pdf",
+      },
+      { title: "POS.9087.2023.RM-228", file: "/pdfs/POS.9087.2023.RM-228.pdf" },
+      { title: "POS.RL-79(LKA).2024", file: "/pdfs/POS.RL-79(LKA).2024.pdf" },
+      {
+        title: "POS.RL-300 (LKA).2024",
+        file: "/pdfs/POS.RL-300 (LKA).2024.pdf",
+      },
+      {
+        title: "POS.ROM.194.2024.RM-169",
+        file: "/pdfs/POS.ROM.194.2024.RM-169.pdf",
+      },
+      { title: "POS.RBH.15.2024", file: "/pdfs/POS.RBH.15.2024.pdf" },
     ],
   };
 
