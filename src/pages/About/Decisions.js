@@ -2854,6 +2854,105 @@ const Decisions = () => {
         file: "/pdfs/POS.RL-356 (LKA).2024.pdf",
       },
     ],
+    "27 Feb 2025": [
+      { title: "POS.30.2024", file: "/pdfs/POS.30.2024.pdf" },
+      { title: "POS.38.2024.SGR-129", file: "/pdfs/POS.38.2024.SGR-129.pdf" },
+      { title: "POS.52.2024", file: "/pdfs/POS.52.2024.pdf" },
+      { title: "POS.54.2024.KM.KW", file: "/pdfs/POS.54.2024.KM.KW.pdf" },
+      { title: "POS.58.2024.SGR-162", file: "/pdfs/POS.58.2024.SGR-162.pdf" },
+      { title: "POS.59.2024.SGR-163", file: "/pdfs/POS.59.2024.SGR-163.pdf" },
+      { title: "POS.60.2024", file: "/pdfs/POS.60.2024.pdf" },
+      { title: "POS.60.2024.SGR-164", file: "/pdfs/POS.60.2024.SGR-164.pdf" },
+      { title: "POS.61.2024.SGR-165", file: "/pdfs/POS.61.2024.SGR-165.pdf" },
+      {
+        title: "POS.83.ROJ-83 (JBD).2024",
+        file: "/pdfs/POS.83.ROJ-83 (JBD).2024.pdf",
+      },
+      {
+        title: "POS.93.2024 (MT)-70.R-THAR.2024",
+        file: "/pdfs/POS.93.2024 (MT)-70.R-THAR.2024.pdf",
+      },
+      { title: "POS.97.2024.KC", file: "/pdfs/POS.97.2024.KC.pdf" },
+      { title: "Book1 (27.02.2025)", file: "/pdfs/Book1 (27.02.2025).pdf" },
+      { title: "POS.13.2024", file: "/pdfs/POS.13.2024.pdf" },
+      { title: "POS.21.2024.KM.KW", file: "/pdfs/POS.21.2024.KM.KW.pdf" },
+      { title: "POS.604.GTK-16.2024", file: "/pdfs/POS.604.GTK-16.2024.pdf" },
+      {
+        title: "POS.650.ROK-14.(ΚΗΡ).2023",
+        file: "/pdfs/POS.650.ROK-14.(ΚΗΡ).2023.pdf",
+      },
+      { title: "POS.957.2023.TTA.05", file: "/pdfs/POS.957.2023.TTA.05.pdf" },
+      {
+        title: "POS.103.ROJ-103 (JBD).2024",
+        file: "/pdfs/POS.103.ROJ-103 (JBD).2024.pdf",
+      },
+      {
+        title: "POS.112.2024.R.THAR.2024",
+        file: "/pdfs/POS.112.2024.R.THAR.2024.pdf",
+      },
+      { title: "POS.175.2024.HYD-53", file: "/pdfs/POS.175.2024.HYD-53.pdf" },
+      { title: "POS.190.2025.RM-16", file: "/pdfs/POS.190.2025.RM-16.pdf" },
+      {
+        title: "POS.224.ROJ-224 (JBD).2024",
+        file: "/pdfs/POS.224.ROJ-224 (JBD).2024.pdf",
+      },
+      { title: "POS.230.HYD.2024", file: "/pdfs/POS.230.HYD.2024.pdf" },
+      {
+        title: "POS.290.ROK-06.(KHP).2023",
+        file: "/pdfs/POS.290.ROK-06.(KHP).2023.pdf",
+      },
+      { title: "POS.308.2023.HYD.46", file: "/pdfs/POS.308.2023.HYD.46.pdf" },
+      {
+        title: "POS.1191.ROK-22.(KHP).2024",
+        file: "/pdfs/POS.1191.ROK-22.(KHP).2024.pdf",
+      },
+      {
+        title: "POS.1225.ROK-43.(KHP).2023",
+        file: "/pdfs/POS.1225.ROK-43.(KHP).2023.pdf",
+      },
+      {
+        title: "POS.1421.2023.HYD.110",
+        file: "/pdfs/POS.1421.2023.HYD.110.pdf",
+      },
+      {
+        title: "POS.1477.ROK-33 (KHP).2024",
+        file: "/pdfs/POS.1477.ROK-33 (KHP).2024.pdf",
+      },
+      { title: "POS.1495.2024.SGR-48", file: "/pdfs/POS.1495.2024.SGR-48.pdf" },
+      {
+        title: "POS.1565.2023.NWS-45.SGR-19",
+        file: "/pdfs/POS.1565.2023.NWS-45.SGR-19.pdf",
+      },
+      { title: "POS.1571.2024.SGR-53", file: "/pdfs/POS.1571.2024.SGR-53.pdf" },
+      { title: "POS.2619.2024.SGR-10", file: "/pdfs/POS.2619.2024.SGR-10.pdf" },
+      { title: "POS.1697.GTK-45.2024", file: "/pdfs/POS.1697.GTK-45.2024.pdf" },
+      {
+        title: "POS.1087.ROK-38.(ΚΗΡ).2023",
+        file: "/pdfs/POS.1087.ROK-38.(ΚΗΡ).2023.pdf",
+      },
+      { title: "POS.2171.2024.SGR-79", file: "/pdfs/POS.2171.2024.SGR-79.pdf" },
+      { title: "POS.3022.2024.K-15", file: "/pdfs/POS.3022.2024.K-15.pdf" },
+      {
+        title: "POS.3036.ROK-94.(ΚΗΡ).2023",
+        file: "/pdfs/POS.3036.ROK-94.(ΚΗΡ).2023.pdf",
+      },
+      {
+        title: "POS.3266.2022.HYD.207",
+        file: "/pdfs/POS.3266.2022.HYD.207.pdf",
+      },
+      { title: "POS.3333.2022.KM.KW", file: "/pdfs/POS.3333.2022.KM.KW.pdf" },
+      {
+        title: "POS.3340.ROJ-82 (JBD).2022",
+        file: "/pdfs/POS.3340.ROJ-82 (JBD).2022.pdf",
+      },
+      { title: "POS.3355.2023", file: "/pdfs/POS.3355.2023.pdf" },
+      { title: "POS.1777.GTK-49.2024", file: "/pdfs/POS.1777.GTK-49.2024.pdf" },
+      {
+        title: "POS.3403.ROK-97.(ΚΗΡ).2023",
+        file: "/pdfs/POS.3403.ROK-97.(ΚΗΡ).2023.pdf",
+      },
+      { title: "POS.4732.2023.TTA-40", file: "/pdfs/POS.4732.2023.TTA-40.pdf" },
+    ],
   };
 
   const [expandedDate, setExpandedDate] = useState(null);
@@ -2939,5 +3038,4 @@ const Decisions = () => {
     </BaseLayout>
   );
 };
-
 export default Decisions;
