@@ -3194,6 +3194,68 @@ const Decisions = () => {
       },
       { title: "POS.ROS.SKK-56.2014", file: "/pdfs/POS.ROS.SKK-56.2014.pdf" },
     ],
+    "04 March 2025": [
+      {
+        title: "POS.839.ROK-29.(ΚΗΡ).2023",
+        file: "/pdfs/POS.839.ROK-29.(ΚΗΡ).2023.pdf",
+      },
+      {
+        title: "POS.1320.RL-47(LKA).2023",
+        file: "/pdfs/POS.1320.RL-47(LKA).2023.pdf",
+      },
+      {
+        title: "POS.3991.ROK-130.(ΚΗΡ).2023",
+        file: "/pdfs/POS.3991.ROK-130.(ΚΗΡ).2023.pdf",
+      },
+      {
+        title: "POS.4038.ROK-111.(ΚΗΡ).2023",
+        file: "/pdfs/POS.4038.ROK-111.(ΚΗΡ).2023.pdf",
+      },
+      {
+        title: "POS.4053.ROK-126.(ΚΗΡ).2023",
+        file: "/pdfs/POS.4053.ROK-126.(ΚΗΡ).2023.pdf",
+      },
+      { title: "POS.4986.GTK-57.2022", file: "/pdfs/POS.4986.GTK-57.2022.pdf" },
+      {
+        title: "POS.5641.2023.HYD.342",
+        file: "/pdfs/POS.5641.2023.HYD.342.pdf",
+      },
+      { title: "Book1 (04.03.2025)", file: "/pdfs/Book1 (04.03.2025).pdf" },
+      {
+        title: "POS.52.2024.HYD-RM-51",
+        file: "/pdfs/POS.52.2024.HYD-RM-51.pdf",
+      },
+      {
+        title: "POS.96.2024.R.THAR.2024",
+        file: "/pdfs/POS.96.2024.R.THAR.2024.pdf",
+      },
+      {
+        title: "POS.374.2024.HYD-RM-52",
+        file: "/pdfs/POS.374.2024.HYD-RM-52.pdf",
+      },
+      { title: "POS.515.2025.RM-98", file: "/pdfs/POS.515.2025.RM-98.pdf" },
+      { title: "POS.ROS.SKK-158.2024", file: "/pdfs/POS.ROS.SKK-158.2024.pdf" },
+      {
+        title: "POS.6093.ROK-173.(ΚΗΡ).2023",
+        file: "/pdfs/POS.6093.ROK-173.(ΚΗΡ).2023.pdf",
+      },
+      {
+        title: "POS.6332.2021.HYD.257",
+        file: "/pdfs/POS.6332.2021.HYD.257.pdf",
+      },
+      {
+        title: "POS.8045.ROK-124.(ΚΗΡ).2022",
+        file: "/pdfs/POS.8045.ROK-124.(ΚΗΡ).2022.pdf",
+      },
+      { title: "POS.9474.2023", file: "/pdfs/POS.9474.2023.pdf" },
+      {
+        title: "POS.CH-8194-2022.GTK-09.2023",
+        file: "/pdfs/POS.CH-8194-2022.GTK-09.2023.pdf",
+      },
+      { title: "POS.RL-355(LKA).2024", file: "/pdfs/POS.RL-355(LKA).2024.pdf" },
+      { title: "POS.ROS.SKK-03.2025", file: "/pdfs/POS.ROS.SKK-03.2025.pdf" },
+      { title: "POS.ROS.SKK-104.2024", file: "/pdfs/POS.ROS.SKK-104.2024.pdf" },
+    ],
   };
 
   const [expandedDate, setExpandedDate] = useState(null);
