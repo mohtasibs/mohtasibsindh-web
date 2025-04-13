@@ -2954,7 +2954,155 @@ const Decisions = () => {
       { title: "POS.4732.2023.TTA-40", file: "/pdfs/POS.4732.2023.TTA-40.pdf" },
     ],
 
-    //27 Feb 2025 Decisions ends
+    "28 Feb 2025": [
+      { title: "POS.4272.2023.KC", file: "/pdfs/POS.4272.2023.KC.pdf" },
+      {
+        title: "POS.4356.ROK-176.(ΚΗΡ).2019",
+        file: "/pdfs/POS.4356.ROK-176.(ΚΗΡ).2019.pdf",
+      },
+      {
+        title: "POS.4516.ROK-137.(ΚΗΡ).2023",
+        file: "/pdfs/POS.4516.ROK-137.(ΚΗΡ).2023.pdf",
+      },
+      { title: "POS.3492.2024.KM.KW", file: "/pdfs/POS.3492.2024.KM.KW.pdf" },
+      {
+        title: "POS.3605.ROK-106.(ΚΗΡ).2023",
+        file: "/pdfs/POS.3605.ROK-106.(ΚΗΡ).2023.pdf",
+      },
+      {
+        title: "POS.3815.ROK-34. (LKA).2021",
+        file: "/pdfs/POS.3815.ROK-34. (LKA).2021.pdf",
+      },
+      { title: "POS.3969.2024.RM-124", file: "/pdfs/POS.3969.2024.RM-124.pdf" },
+      {
+        title: "POS.4037.ROK-110.(ΚΗΡ).2023",
+        file: "/pdfs/POS.4037.ROK-110.(ΚΗΡ).2023.pdf",
+      },
+      {
+        title: "POS.4048.ROK-122.(KHP).2023",
+        file: "/pdfs/POS.4048.ROK-122.(KHP).2023.pdf",
+      },
+      {
+        title: "POS.4131.ROK-39.(ΚΗΡ).2021",
+        file: "/pdfs/POS.4131.ROK-39.(ΚΗΡ).2021.pdf",
+      },
+      { title: "POS.4865.ΚΕ.410.24", file: "/pdfs/POS.4865.ΚΕ.410.24.pdf" },
+      { title: "POS.5105.2022.N", file: "/pdfs/POS.5105.2022.N.pdf" },
+      {
+        title: "POS.5314.2022.HYD.346",
+        file: "/pdfs/POS.5314.2022.HYD.346.pdf",
+      },
+      {
+        title: "POS.4520.RL-190 (LKA).2023",
+        file: "/pdfs/POS.4520.RL-190 (LKA).2023.pdf",
+      },
+      { title: "POS.4522.2022", file: "/pdfs/POS.4522.2022.pdf" },
+      { title: "POS.4598.2024.KM.KW", file: "/pdfs/POS.4598.2024.KM.KW.pdf" },
+      {
+        title: "POS.4772.ROJ-179 (JBD).2023",
+        file: "/pdfs/POS.4772.ROJ-179 (JBD).2023.pdf",
+      },
+      { title: "POS.4794.2024.KC", file: "/pdfs/POS.4794.2024.KC.pdf" },
+      { title: "POS.5342.2024.K-33", file: "/pdfs/POS.5342.2024.K-33.pdf" },
+      {
+        title: "POS.5512.RL-385 (LKA).2024",
+        file: "/pdfs/POS.5512.RL-385 (LKA).2024.pdf",
+      },
+      {
+        title: "POS.5597.ROJ-187 (JBD).2023",
+        file: "/pdfs/POS.5597.ROJ-187 (JBD).2023.pdf",
+      },
+      { title: "POS.5804.2024.KC", file: "/pdfs/POS.5804.2024.KC.pdf" },
+      { title: "POS.6068.2024.KC", file: "/pdfs/POS.6068.2024.KC.pdf" },
+      {
+        title: "POS.6178.ROJ-193 (JBD).2023",
+        file: "/pdfs/POS.6178.ROJ-193 (JBD).2023.pdf",
+      },
+      {
+        title: "POS.6199.ROK-172(ΚΗΡ).2023",
+        file: "/pdfs/POS.6199.ROK-172(ΚΗΡ).2023.pdf",
+      },
+      {
+        title: "POS.6364.2022.HYD.403",
+        file: "/pdfs/POS.6364.2022.HYD.403.pdf",
+      },
+      {
+        title: "POS.6595.ROK-195.(ΚΗΡ).2023",
+        file: "/pdfs/POS.6595.ROK-195.(ΚΗΡ).2023.pdf",
+      },
+      {
+        title: "POS.6662.2022.HYD.422",
+        file: "/pdfs/POS.6662.2022.HYD.422.pdf",
+      },
+      {
+        title: "POS.6784.ROK-20.(ΚΗΡ).2023",
+        file: "/pdfs/POS.6784.ROK-20.(ΚΗΡ).2023.pdf",
+      },
+      {
+        title: "POS.8059.ROK-125.(ΚΗΡ).2022",
+        file: "/pdfs/POS.8059.ROK-125.(ΚΗΡ).2022.pdf",
+      },
+      { title: "POS.6801.2023", file: "/pdfs/POS.6801.2023.pdf" },
+      {
+        title: "POS.7033.ROK-209.(ΚΗΡ).2023",
+        file: "/pdfs/POS.7033.ROK-209.(ΚΗΡ).2023.pdf",
+      },
+      {
+        title: "POS.7062.ROJ-07 (JBD).2022",
+        file: "/pdfs/POS.7062.ROJ-07 (JBD).2022.pdf",
+      },
+      { title: "POS.7307.GTK-80.2022", file: "/pdfs/POS.7307.GTK-80.2022.pdf" },
+      {
+        title: "POS.7674.GTK-148.2023",
+        file: "/pdfs/POS.7674.GTK-148.2023.pdf",
+      },
+      {
+        title: "POS.7675.GTK-149.2023",
+        file: "/pdfs/POS.7675.GTK-149.2023.pdf",
+      },
+      {
+        title: "POS.7823.SKK-143.2023",
+        file: "/pdfs/POS.7823.SKK-143.2023.pdf",
+      },
+      {
+        title: "POS.7867.ROK-222.(ΚΗΡ).2023",
+        file: "/pdfs/POS.7867.ROK-222.(ΚΗΡ).2023.pdf",
+      },
+      {
+        title: "POS.9079.ROJ-247 (JBD).2023",
+        file: "/pdfs/POS.9079.ROJ-247 (JBD).2023.pdf",
+      },
+      {
+        title: "POS.9080.ROK-249.(ΚΗΡ).2023",
+        file: "/pdfs/POS.9080.ROK-249.(ΚΗΡ).2023.pdf",
+      },
+      {
+        title: "POS.9289.ROJ-251 (JBD).2023",
+        file: "/pdfs/POS.9289.ROJ-251 (JBD).2023.pdf",
+      },
+      {
+        title: "POS.9346.ROK-254.(ΚΗΡ).2023",
+        file: "/pdfs/POS.9346.ROK-254.(ΚΗΡ).2023.pdf",
+      },
+      {
+        title: "POS.9347.ROK-253.(ΚΗΡ).2023",
+        file: "/pdfs/POS.9347.ROK-253.(ΚΗΡ).2023.pdf",
+      },
+      {
+        title: "POS.9353.ROK-258.(ΚΗΡ).2023",
+        file: "/pdfs/POS.9353.ROK-258.(ΚΗΡ).2023.pdf",
+      },
+      {
+        title: "POS.8771.2023.HYD.520",
+        file: "/pdfs/POS.8771.2023.HYD.520.pdf",
+      },
+      {
+        title: "POS.8826.2023.HYD.514",
+        file: "/pdfs/POS.8826.2023.HYD.514.pdf",
+      },
+      { title: "POS.8402.2023", file: "/pdfs/POS.8402.2023.pdf" },
+      { title: "POS.8712.2023", file: "/pdfs/POS.8712.2023.pdf" },
+    ],
   };
 
   const [expandedDate, setExpandedDate] = useState(null);
