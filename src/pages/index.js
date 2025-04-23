@@ -10,8 +10,7 @@ import "swiper/swiper-bundle.css";
 import React, { useState, useEffect } from "react";
 import { useInView } from "react-intersection-observer";
 import CountUp from "react-countup";
-import {BsFillCheckCircleFill, BsBarChartFill } from "react-icons/bs";
-
+import { BsFillCheckCircleFill, BsBarChartFill } from "react-icons/bs";
 
 // Install Swiper modules
 SwiperCore.use([Navigation, Pagination, Scrollbar, A11y]);
@@ -74,7 +73,6 @@ import q from "../../public/q.png";
 import r from "../../public/r.png";
 import s from "../../public/s.png";
 
-
 const Home = () => {
   const [activeData, setActiveData] = useState(1);
   const [expandedStories, setExpandedStories] = useState({});
@@ -123,16 +121,21 @@ const Home = () => {
     );
   }
 
-    // Dummy data for stats
-    const data = {
-      complaintsReceived: { number: 7090, text: "Received Complaints" },
-      complaintsCompleted: { number: 7357, text: "Complaints Completed" },
-      performance: { number: 85, text: "Performance" },
-    };
+  // Dummy data for stats
+  const data = {
+    complaintsReceived: { number: 7090, text: "Received Complaints" },
+    complaintsCompleted: { number: 7357, text: "Complaints Completed" },
+    performance: { number: 85, text: "Performance" },
+  };
 
   const cards = [
-    
-    
+    {
+      image: "w-20.jpg",
+      title: "Android App",
+      subtitle:
+        "Mohtasib Sindh Android Application is Launched on Google Play Store. Do click to Download the app for easier complaint registration.",
+      new: "Whats New",
+    },
     {
       image: "w-19.jpg",
       title: "VISIT",
@@ -153,7 +156,7 @@ const Home = () => {
       subtitle:
         "The Provincial Ombudsman of Sindh, H.E. Mr. Sohail Rajput attended the International Ombudsman Conference in Italy, emphasizing their role in safeguarding citizens' rights and ensuring government accountability.",
       new: "Whats New",
-    },    
+    },
     {
       image: "w-16.jpg",
       title: "VISIT",
@@ -161,7 +164,7 @@ const Home = () => {
         "The Provincial Ombudsman of Sindh, H.E. Mr. Sohail Rajput, and the Provincial Ombudsman of Balochistan, H.E. Mr. Nazar Baloch attended the International Ombudsman Conference in Italy, emphasizing their role in safeguarding citizens' rights and ensuring government accountability.",
       new: "Whats New",
     },
-    
+
     {
       image: "w-6.jpg",
       title: "VISIT",
@@ -212,7 +215,7 @@ const Home = () => {
         "Provincial Ombudsman sindh Mr. Muhammad Sohail Rajput presented annual report of year 2023 to Honourable governor Sindh on 28th May 2024.",
       new: "Whats New",
     },
-  
+
     {
       image: "w-11.jpg",
       title: "OATH TAKING",
@@ -603,7 +606,9 @@ const Home = () => {
               treasure your valuable input to keep improving our quality of
               service.
             </p>
-            <p className="ombudsman-message-text mt-2 ">Mr. Muhammad Sohail Rajput </p>
+            <p className="ombudsman-message-text mt-2 ">
+              Mr. Muhammad Sohail Rajput{" "}
+            </p>
             {/* <div className="ms-5">
               <p className="ombudsman-message-text ms-5"> P.A.S</p>
             </div> */}
@@ -739,7 +744,9 @@ const Home = () => {
               className="vision-missionbg our-value-system downing bg-dark text-white"
               onClick={() => showData(1)}
             >
-              <h1 className="counter-heading">COMPLAINTS DATA JANUARY-OCTOBER 2024</h1>
+              <h1 className="counter-heading">
+                COMPLAINTS DATA JANUARY-OCTOBER 2024
+              </h1>
             </div>
           </div>
         </div>
@@ -818,17 +825,14 @@ const Home = () => {
                   <div className="values-system-para">In Person</div>
                 </div>
               </div> */}
-              
-              
+
               <div className="col-md-3 col-sm-6 col-12 mb-3 text-center">
                 <div className="d-flex flex-column align-items-center">
                   <GiNotebook className="counter-icon mt-3" />
                   <div className="big-text">
                     <Counter number={7090} />
                   </div>
-                  <div className="values-system-para">
-                    Complaints Received
-                  </div>
+                  <div className="values-system-para">Complaints Received</div>
                 </div>
               </div>
               <div className="col-md-3 col-sm-6 col-12 mb-3 text-center">
@@ -837,9 +841,7 @@ const Home = () => {
                   <div className="big-text">
                     <Counter number={4152} />
                   </div>
-                  <div className="values-system-para">
-                    Complaints Admitted
-                  </div>
+                  <div className="values-system-para">Complaints Admitted</div>
                 </div>
               </div>
               <div className="col-md-3 col-sm-6 col-12 mb-3 text-center">
@@ -848,16 +850,11 @@ const Home = () => {
                   <div className="big-text">
                     <Counter number={3754} />
                   </div>
-                  <div className="values-system-para">
-                    Complaints Completed
-                  </div>
+                  <div className="values-system-para">Complaints Completed</div>
                 </div>
               </div>
-              
             </div>
           </div>
-
-          
 
           {/* <div id="data3" className="col-md-12 container p-3" style={{ display: activeData === 3 ? 'block' : 'none' }}>
             <div className="row justify-content-center">
@@ -1043,7 +1040,6 @@ const Home = () => {
         </div>
       </section>
 
-  
       <section className="container mb-5 d-flex justify-content-center align-items-center stories-wrapper">
         <div className="row stories-card">
           <h2 className="h2 mt-5 text-center">Success Stories</h2>
@@ -1057,10 +1053,26 @@ const Home = () => {
               </div>
               <div className="story-info">
                 <h2 className="story-title">Success Story 1</h2>
-                <p className={`story-description ${expandedStories[1] ? "expanded" : "collapsed"}`}>
-                  Mr. Khalique Zaman Soomro filed complaint No. POS/3844/2023 with the Honorable Ombudsman Sindh regarding the posting of Male and Female Medical Officers at BHU Village Yousif Soomro and the restoration of the solar system. Following the intervention of this institution, the issue has been resolved. Male and Female Medical Officers have been assigned to BHU Village Yousif Soomro, and the solar system has been restored. The complainant is satisfied and has expressed profound gratitude to the Honorable Ombudsman Sindh and the Regional Director of Badin for addressing and resolving the problem.
+                <p
+                  className={`story-description ${
+                    expandedStories[1] ? "expanded" : "collapsed"
+                  }`}
+                >
+                  Mr. Khalique Zaman Soomro filed complaint No. POS/3844/2023
+                  with the Honorable Ombudsman Sindh regarding the posting of
+                  Male and Female Medical Officers at BHU Village Yousif Soomro
+                  and the restoration of the solar system. Following the
+                  intervention of this institution, the issue has been resolved.
+                  Male and Female Medical Officers have been assigned to BHU
+                  Village Yousif Soomro, and the solar system has been restored.
+                  The complainant is satisfied and has expressed profound
+                  gratitude to the Honorable Ombudsman Sindh and the Regional
+                  Director of Badin for addressing and resolving the problem.
                 </p>
-                <button className="btn btn-link p-0" onClick={() => toggleText(1)}>
+                <button
+                  className="btn btn-link p-0"
+                  onClick={() => toggleText(1)}
+                >
                   {expandedStories[1] ? "Show less" : "Show more"}
                 </button>
               </div>
@@ -1076,10 +1088,24 @@ const Home = () => {
               </div>
               <div className="story-info">
                 <h2 className="story-title">Success Story 2</h2>
-                <p className={`story-description ${expandedStories[2] ? "expanded" : "collapsed"}`}>
-                  Miss Dua Solangi, a resident of First Family Lane, Jacobabad, filed a complaint against the XEN Public Health Jacobabad and the Assistant Manager of State Life Insurance regarding the payment of the Group Insurance (GI) for her late father. Following the intervention of this institute, she received an amount of 350,000. Miss Solangi has expressed her deep gratitude to the Ombudsman Sindh for their assistance in resolving this matter.
+                <p
+                  className={`story-description ${
+                    expandedStories[2] ? "expanded" : "collapsed"
+                  }`}
+                >
+                  Miss Dua Solangi, a resident of First Family Lane, Jacobabad,
+                  filed a complaint against the XEN Public Health Jacobabad and
+                  the Assistant Manager of State Life Insurance regarding the
+                  payment of the Group Insurance (GI) for her late father.
+                  Following the intervention of this institute, she received an
+                  amount of 350,000. Miss Solangi has expressed her deep
+                  gratitude to the Ombudsman Sindh for their assistance in
+                  resolving this matter.
                 </p>
-                <button className="btn btn-link p-0" onClick={() => toggleText(2)}>
+                <button
+                  className="btn btn-link p-0"
+                  onClick={() => toggleText(2)}
+                >
                   {expandedStories[2] ? "Show less" : "Show more"}
                 </button>
               </div>
@@ -1093,7 +1119,6 @@ const Home = () => {
           </Link>
         </div>
       </section>
-
 
       {/* bottomcards */}
       <section className="wrapper-justice mb-5">
