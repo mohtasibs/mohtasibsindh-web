@@ -20,6 +20,12 @@ const Procurement = () => {
       title: "Relocation - Regional Office",
       file: "/pdfs/CamScanner 04-22-2025 12.05.pdf",
     },
+    { title: "HARDWARE", file: "/pdfs/HARDWARE.pdf" },
+    { title: "M&E", file: "/pdfs/M&E.pdf" },
+    { title: "DIESEL GENERATOR", file: "/pdfs/DIESEL GENERATOR.pdf" },
+    { title: "UNIFORM", file: "/pdfs/UNIFORM.pdf" },
+    { title: "FURNITURE", file: "/pdfs/FURNITURE.pdf" },
+    { title: "Final", file: "/pdfs/FURNITURE.pdf" },
   ];
 
   return (
