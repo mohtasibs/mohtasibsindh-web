@@ -77,7 +77,7 @@ const HeadQuarter = () => {
 
               <tr>
                 <td className="col-xs-6">IMDAD HUSSAIN SIDDIQUI </td>
-                <td className="col-xs-3">Director (Coordination) Office</td>
+                <td className="col-xs-3">Director (Coordination)</td>
                 <td className="col-xs-3">99217790</td>
               </tr>
               {/* <tr>

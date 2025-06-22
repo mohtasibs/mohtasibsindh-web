@@ -129,6 +129,14 @@ const NewsLetter = () => {
                                     Newsletter (Vol-XV)
                                 </a>
                             </li> 
+                            <li className="values-system-para mt-3">
+                                <a className="underline text-success"
+                                    href="/newsletters/v16.pdf"
+                                    download
+                                >
+                                    Newsletter (Vol-XVI)
+                                </a>
+                            </li>
                         </ul>
                     </div>
                 </div>
