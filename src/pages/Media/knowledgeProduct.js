@@ -80,6 +80,14 @@ const KnowledgeProduct = () => {
                                     Ombudsman Sindh, Annual Report 2023
                                 </a>
                             </li>
+                            <li className="values-system-para mt-3">
+                                <a className="underline text-success"
+                                    href="/knowledge/Annualreport8.pdf"
+                                    download  // Add the download attribute
+                                >
+                                    Ombudsman Sindh, Annual Report 2024
+                                </a>
+                            </li>
                         </ul>
                     </div>
                 </div>

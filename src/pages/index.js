@@ -130,6 +130,13 @@ const Home = () => {
 
   const cards = [
     {
+      image: "W-22.jpg",
+      title: "ANNUAL REPORT",
+      subtitle:
+        "Provincial Ombudsman of Sindh, Muhammad Sohail Rajput, presents the annual report for 2024 to the Sindh Chief Minister, Syed Murad Ali Shah, at CM House.",
+      new: "Whats New",
+    },
+    {
       image: "w-20.jpg",
       title: "Android App",
       subtitle:
