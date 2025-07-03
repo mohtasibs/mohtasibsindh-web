@@ -4,7 +4,7 @@ import fs from "fs";
 
 export const config = {
   api: {
-    bodyParser: false, // Required for handling file uploads
+    bodyParser: false,
   },
 };
 
@@ -25,21 +25,21 @@ export default async function handler(req, res) {
     await new Promise((resolve, reject) => {
       form.parse(req, async (err, fields, files) => {
         if (err) {
-          console.error("🚨 Form Parsing Error:", err);
-          reject(res.status(500).json({ message: "Error parsing form data" }));
-          return;
+          return reject(
+            res.status(500).json({ message: "Error parsing form data" })
+          );
         }
 
-        console.log("✅ Form Data Parsed Successfully:", fields);
+        let user, complaint;
+        try {
+          user = JSON.parse(fields.user);
+          complaint = JSON.parse(fields.complaint);
+        } catch (parseError) {
+          console.error("Failed to parse JSON fields:", parseError.message);
+          return res.status(400).json({ message: "Invalid form data" });
+        }
 
-        // ✅ Extract user and complaint details
-        const user = JSON.parse(fields.user);
-        const complaint = JSON.parse(fields.complaint);
-
-        console.log("📝 Extracted User:", user);
-        console.log("📝 Extracted Complaint:", complaint);
-
-        let attachments = [];
+        const attachments = [];
         if (files.file) {
           attachments.push({
             filename: files.file.originalFilename,
@@ -48,90 +48,79 @@ export default async function handler(req, res) {
           });
         }
 
-        console.log("📎 Attachments:", attachments);
-        console.log('EMAIL_USER:', process.env.EMAIL_USER);
-        console.log('EMAIL_PASS:', process.env.EMAIL_PASS ? 'Loaded' : 'Missing');
-
-        // ✅ Setup Nodemailer
         const transporter = nodemailer.createTransport({
-            service: 'yahoo',
-            host: "smtp.mail.yahoo.com",
-            auth: {
-                user: process.env.EMAIL_USER,
-                pass: process.env.EMAIL_PASS,
-            },
+          host: "smtp.mail.yahoo.com",
+          port: 465,
+          secure: true,
+          auth: {
+            user: process.env.EMAIL_USER,
+            pass: process.env.EMAIL_PASS,
+          },
         });
 
-        // const transporter = nodemailer.createTransport({
-        //     host: "smtp.mail.yahoo.com",
-        //     port: 465,
-        //     secure: true, // Use SSL
-        //   auth: {
-        //     user: process.env.EMAIL_USER,
-        //     pass: process.env.EMAIL_PASS, // This MUST be your Yahoo App Password
-        //   },
-        // });
-
-        // ✅ Properly formatted HTML email
         const mailOptions = {
           from: `"Complaint Form Submission" <${process.env.EMAIL_USER}>`,
-          to: 'mohtasibhd@yahoo.com',
-          subject: 'New Complaint Submitted',
+          to: "mohtasibhd@yahoo.com",
+          subject: "New Complaint Submitted",
           html: `
-                        <div style="font-family: Arial, sans-serif; line-height: 1.6; color: #333;">
-                            <h2 style="color: #007BFF;">Complaint Form Submission</h2>
-                            <p><strong>Name:</strong> ${user.name}</p>
-                            <p><strong>CNIC:</strong> ${user.cnic}</p>
-                            <p><strong>Address:</strong> ${user.address}</p>
-                            <p><strong>District:</strong> ${user.district}</p>
-                            <p><strong>Phone:</strong> ${user.phone}</p>
-                            <p><strong>Email:</strong> ${user.email}</p>
-                            <hr/>
-                            <p><strong>Complaint Type:</strong> ${
-                              complaint.type ? complaint.type : "Not Provided"
-                            }</p>
-                            <p><strong>Complaint Office:</strong> ${
-                              complaint.complaintOffice
-                            }</p>
-                            <p><strong>Complaint Against:</strong> ${
-                              complaint.complaintAgainst
-                            }</p>
-                            <p><strong>Subject:</strong> ${
-                              complaint.subject
-                            }</p>
-                            <p><strong>Complaint Details:</strong></p>
-                            <p>${complaint.complaint}</p>
-                        </div>
-                    `,
+            <div style="font-family: Arial, sans-serif; line-height: 1.6; color: #333;">
+              <h2 style="color: #007BFF;">Complaint Form Submission</h2>
+              <p><strong>Name:</strong> ${user.name}</p>
+              <p><strong>CNIC:</strong> ${user.cnic}</p>
+              <p><strong>Address:</strong> ${user.address}</p>
+              <p><strong>District:</strong> ${user.district}</p>
+              <p><strong>Phone:</strong> ${user.phone}</p>
+              <p><strong>Email:</strong> ${user.email}</p>
+              <hr/>
+              <p><strong>Complaint Type:</strong> ${
+                complaint.type || "Not Provided"
+              }</p>
+              <p><strong>Complaint Office:</strong> ${
+                complaint.complaintOffice
+              }</p>
+              <p><strong>Complaint Against:</strong> ${
+                complaint.complaintAgainst
+              }</p>
+              <p><strong>Subject:</strong> ${complaint.subject}</p>
+              <p><strong>Complaint Details:</strong></p>
+              <p>${complaint.complaint}</p>
+            </div>
+          `,
           attachments,
         };
 
-        console.log("📩 Sending Email...");
-        transporter.sendMail(mailOptions, (err, info) => {
-          if (err) {
-            console.error("❌ Error sending email:", err);
-            res
-              .status(500)
-              .json({ message: "❌ Failed to send email", error: err.message });
-            return;
-          }
-          console.log("✅ Email Sent Successfully!", info);
+        transporter
+          .sendMail(mailOptions)
+          .then((info) => {
+            if (files.file) {
+              try {
+                fs.unlinkSync(files.file.filepath);
+              } catch (cleanupError) {
+                console.warn("File cleanup failed:", cleanupError.message);
+              }
+            }
 
-          if (files.file) fs.unlinkSync(files.file.filepath);
-
-          res.status(200).json({
-            message: "✅ Complaint submitted successfully via email!",
-            complaintType: complaint.type ? complaint.type : "Not Provided", // ✅ Added complaint type in response
+            console.log("Email sent successfully:", info.response);
+            res.status(200).json({
+              message: "Complaint submitted successfully via email.",
+              complaintType: complaint.type || "Not Provided",
+            });
+            resolve();
+          })
+          .catch((err) => {
+            console.error("Email sending failed:", err.message);
+            res.status(500).json({
+              message: "Failed to send email",
+              error: err.message,
+            });
+            reject();
           });
-
-          resolve();
-        });
       });
     });
   } catch (error) {
-    console.error("❌ Error sending email:", error);
-    res
+    console.error("Unexpected error:", error.message);
+    return res
       .status(500)
-      .json({ message: "❌ Failed to send email", error: error.message });
+      .json({ message: "Unexpected error", error: error.message });
   }
 }
