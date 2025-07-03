@@ -53,23 +53,24 @@ export default async function handler(req, res) {
         console.log('EMAIL_PASS:', process.env.EMAIL_PASS ? 'Loaded' : 'Missing');
 
         // ✅ Setup Nodemailer
-        // const transporter = nodemailer.createTransport({
-        //     service: 'gmail',
-        //     auth: {
-        //         user: process.env.EMAIL_USER,
-        //         pass: process.env.EMAIL_PASS,
-        //     },
-        // });
-
         const transporter = nodemailer.createTransport({
+            service: 'yahoo',
             host: "smtp.mail.yahoo.com",
-            port: 465,
-            secure: true, // Use SSL
-          auth: {
-            user: process.env.EMAIL_USER,
-            pass: process.env.EMAIL_PASS, // This MUST be your Yahoo App Password
-          },
+            auth: {
+                user: process.env.EMAIL_USER,
+                pass: process.env.EMAIL_PASS,
+            },
         });
+
+        // const transporter = nodemailer.createTransport({
+        //     host: "smtp.mail.yahoo.com",
+        //     port: 465,
+        //     secure: true, // Use SSL
+        //   auth: {
+        //     user: process.env.EMAIL_USER,
+        //     pass: process.env.EMAIL_PASS, // This MUST be your Yahoo App Password
+        //   },
+        // });
 
         // ✅ Properly formatted HTML email
         const mailOptions = {
