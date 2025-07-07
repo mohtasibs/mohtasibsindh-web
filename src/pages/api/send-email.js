@@ -49,18 +49,24 @@ export default async function handler(req, res) {
         }
 
         const transporter = nodemailer.createTransport({
-          host: "smtp.mail.yahoo.com",
-          port: 465,
-          secure: true,
-          auth: {
-            user: process.env.EMAIL_USER,
-            pass: process.env.EMAIL_PASS,
-          },
+          // host: "smtp.mail.yahoo.com",
+          // port: 465,
+          // secure: true,
+          // auth: {
+          //   user: process.env.EMAIL_USER,
+          //   pass: process.env.EMAIL_PASS,
+          // },
+
+          service: 'gmail',
+            auth: {
+                user: process.env.EMAIL_USER, // Your Gmail address
+                pass: process.env.EMAIL_PASS, // Your App Password
+            },
         });
 
         const mailOptions = {
           from: `"Complaint Form Submission" <${process.env.EMAIL_USER}>`,
-          to: "mohtasibhd@yahoo.com",
+          to: "ombudsmansindh54@gmail.com",
           subject: "New Complaint Submitted",
           html: `
             <div style="font-family: Arial, sans-serif; line-height: 1.6; color: #333;">
