@@ -1,6 +1,8 @@
 import nodemailer from "nodemailer";
 import formidable from "formidable";
 import fs from "fs";
+import dotenv from 'dotenv';
+dotenv.config({ path: '.env.local' }); // Load .env.local manually
 
 export const config = {
   api: {
