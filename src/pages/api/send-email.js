@@ -1,6 +1,8 @@
 import nodemailer from "nodemailer";
 import formidable from "formidable";
 import fs from "fs";
+import dotenv from "dotenv";
+dotenv.config();
 
 export const config = {
   api: {
@@ -49,6 +51,7 @@ export default async function handler(req, res) {
         }
 
         console.log("📎 Attachments:", attachments);
+        console.log("ENV TEST:", process.env.EMAIL_USER, process.env.EMAIL_PASS);
 
         // ✅ Setup Nodemailer
         const transporter = nodemailer.createTransport({
