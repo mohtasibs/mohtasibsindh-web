@@ -77,6 +77,7 @@ export default async function handler(req, res) {
               <p><strong>District:</strong> ${user.district}</p>
               <p><strong>Phone:</strong> ${user.phone}</p>
               <p><strong>Email:</strong> ${user.email}</p>
+              <p><strong>Platform:</strong> Website </p>
               <hr/>
               <p><strong>Complaint Type:</strong> ${
                 complaint.type ? complaint.type : "Not Provided"

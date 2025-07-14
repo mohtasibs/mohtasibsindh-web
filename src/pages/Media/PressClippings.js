@@ -1,61 +1,65 @@
 import BaseLayout from "@/components/BaseLayout";
-import { BiNews } from "react-icons/bi";
+import { BiNews, BiDownload, BiLinkExternal } from "react-icons/bi";
 
+const pressItems = [
+  { label: "Press Coverage Of Kawish", href: "/press-1.jpg", isExternal: false },
+  { label: "Press Coverage Of Express", href: "/press-2.jpg", isExternal: false },
+  { label: "Press Coverage Of Jang", href: "/press-3.jpg", isExternal: false },
+  { label: "Press Coverage Of Dawn", href: "/press-4.jpg", isExternal: false },
+  { label: "Press Coverage Of Tribune", href: "/press-5.jpg", isExternal: false },
+  {
+    label: "Tribune News Article (2024 Ombudsman Report)",
+    href: "https://tribune.com.pk/story/2555232/top-govt-depts-face-heat-in-ombudsmans-report-2024",
+    isExternal: true,
+  },
+];
 
 const PressClippings = () => {
-    return <BaseLayout>
-        <div className="container">
-            <div className="our-value-system mt-5">
-                <div className="row">
-                    <div className="col-md-12 ms-md-5 pe-5">
-                        <h2 className="values-system-heading mb-2 d-flex ">Press Coverage <BiNews className=" ms-3" /></h2>
-                        <ul className="values-list">
-                            <li className="values-system-para mt-3">
-                                <a className="underline text-success"
-                                    href="/press-1.jpg"
-                                    download  // Add the download attribute
-                                >
-                                    Press Coverage Of Kawish
-                                </a>
-                            </li>
-                            <li className="values-system-para mt-3">
-                                <a className="underline text-success"
-                                    href="/press-2.jpg"
-                                    download  // Add the download attribute
-                                >
-                                    Press Coverage Of Express
-                                </a>
-                            </li>
-                            <li className="values-system-para mt-3">
-                                <a className="underline text-success"
-                                    href="/press-3.jpg"
-                                    download  // Add the download attribute
-                                >
-                                    Press Coverage Of Jang
-                                </a>
-                            </li>
-                            <li className="values-system-para mt-3">
-                                <a className="underline text-success"
-                                    href="/press-4.jpg"
-                                    download  // Add the download attribute
-                                >
-                                    Press Coverage Of Dawn
-                                </a>
-                            </li>
-                            <li className="values-system-para mt-3">
-                                <a className="underline text-success"
-                                    href="/press-5.jpg"
-                                    download  // Add the download attribute
-                                >
-                                    Press Coverage Of Tribune
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
+  return (
+    <BaseLayout>
+      <div className="container mt-5">
+        <div className="text-center mb-5">
+          <h2 className="fw-bold display-6 d-flex justify-content-center align-items-center gap-2">
+            <BiNews size={32} className="text-primary" />
+            Press Coverage
+          </h2>
+          <p className="text-muted">Browse our recent media coverage and press releases.</p>
         </div>
-    </BaseLayout>;
+
+        <div className="row justify-content-center">
+          {pressItems.map((item, index) => (
+            <div className="col-md-6 col-lg-4 mb-4" key={index}>
+              <div className="card h-100 shadow-sm border-0 rounded-4">
+                <div className="card-body d-flex flex-column justify-content-between">
+                  <h5 className="card-title text-dark">{item.label}</h5>
+                  <a
+                    href={item.href}
+                    className="btn btn-outline-success mt-3 d-flex align-items-center justify-content-center gap-2"
+                    {...(item.isExternal
+                      ? {
+                          target: "_blank",
+                          rel: "noopener noreferrer",
+                        }
+                      : { download: true })}
+                  >
+                    {item.isExternal ? (
+                      <>
+                        View Article <BiLinkExternal />
+                      </>
+                    ) : (
+                      <>
+                        Download <BiDownload />
+                      </>
+                    )}
+                  </a>
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </BaseLayout>
+  );
 };
 
 export default PressClippings;
