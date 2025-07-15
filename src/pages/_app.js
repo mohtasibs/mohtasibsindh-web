@@ -5,7 +5,7 @@ import { useEffect } from "react";
 import Link from "next/link";
 import Head from "next/head";
 import Script from "next/script";
-
+//
 export default function App({ Component, pageProps }) {
   useEffect(() => {
     require("bootstrap/dist/js/bootstrap.bundle.min.js");
@@ -15,7 +15,7 @@ export default function App({ Component, pageProps }) {
       <Head>
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        
+
         <link rel="icon" href="/favicon.ico" />
 
         <link
@@ -55,7 +55,7 @@ export default function App({ Component, pageProps }) {
           href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css"
         />
       </Head>
-   
+
       <Script
         async
         src="https://www.googletagmanager.com/gtag/js?id=G-5SJX9E9P78"
