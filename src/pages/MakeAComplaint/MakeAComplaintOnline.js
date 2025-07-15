@@ -7,6 +7,8 @@ import { HiOutlineStatusOnline } from "react-icons/hi";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
+//toast-latest-code
+
 const MakeAComplaintOnline = () => {
   const [user, setUser] = useState({
     cnic: "",
@@ -143,9 +145,8 @@ const MakeAComplaintOnline = () => {
 
         <div className="row justify-content-center">
           <div className="col-lg-10 col-md-12 shadow p-4 rounded bg-white">
-            <h2 className="complaint-title text-center mb-3 d-flex align-items-center justify-content-center" >
+            <h2 className="complaint-title text-center mb-3 d-flex align-items-center justify-content-center">
               ONLINE COMPLAINT REGISTRATION FORM
-              
             </h2>
             <p className="complaint-subtitle text-center text-muted mb-4">
               Please enter your complaint details
@@ -514,8 +515,7 @@ const MakeAComplaintOnline = () => {
                   className="form-control"
                   rows="7"
                   readOnly
-                  value={
-                  `I do hereby solemnly affirm:
+                  value={`I do hereby solemnly affirm:
                   (a) That the facts mentioned in this complaint are correct to the best of my knowledge and belief. 
                   (b) That no complaint on this subject has previously been lodged with Provincial Mohtasib (Ombudsman) by me, or on my behalf, in the Head Office or any the Regional Offices. 
                   (c) That no suit,appeal,petition or other judicial proceeding in connection with the subject matter of this complaint is pending in any court, tribunal or board. 
