@@ -27,17 +27,10 @@ const RegionalOffices = () => {
                                     Provincial Ombudsman Sindh , Karachi East
                                 </p>
                                 <p className="values-system-para mt-2">
-                                    S-03 , 2nd Floor , E.O.B.I. House,
+                                    S-03/ B,2nd Floor, E.O.B.I. House, (Ex-Awami-Markaz), Shahrah-e-Faisal, Karachi
                                 </p>
                                 <p className="values-system-para mt-2">
-                                    (Ex-Awami-Markaz), Near Baloch Colony
-                                </p>
-                                <p className="values-system-para mt-2">
-                                    Shahrah-e-Faisal , Karachi
-                                </p>
-                               
-                                <p className="values-system-para mt-2">
-                                    Contact : 021-99245217 , 99245216
+                                    Contact : 021-99245217, 021-99245216
                                 </p>
                                 <p className="values-system-para mt-2 d-flex">
                                     Email:rdmohtkhieast@gmail.com
@@ -53,7 +46,7 @@ const RegionalOffices = () => {
                                     Provincial Ombudsman Sindh , Karachi South
                                 </p>
                                 <p className="values-system-para mt-2">
-                                    1st Floor , State Life Building No. 3,
+                                    1st Floor, State Life Building No. 3, Dr. Ziauddin Ahmed Road, opposite C.M. House, Karachi (South).
                                 </p>
                                
                                 <p className="values-system-para mt-2">
@@ -84,14 +77,11 @@ const RegionalOffices = () => {
                                     Provincial Ombudsman Sindh , Karachi Central
                                 </p>
                                 <p className="values-system-para mt-2">
-                                    Office Of the District Officer
-                                </p>
-                                <p className="values-system-para mt-2">
-                                    Elementary (Male) Building , Near Govt APWA Women
+                                    Ground Floor, Directorate of Education Building (Karachi Region), Near Government APWA Girls College Karimabad, Karachi.
                                 </p>
                               
                                 <p className="values-system-para mt-2">
-                                    Contact : 021-99246400
+                                    Contact : 021-99334322
                                 </p>
                                 <p className="values-system-para mt-2">
                                     Fax No. 021- 99246413
@@ -110,19 +100,13 @@ const RegionalOffices = () => {
                                     Provincial Ombudsman Sindh , Karachi West
                                 </p>
                                 <p className="values-system-para mt-2">
-                                    plot No. B-76, 3rd floor, S.S Chamber Near Siemens Chorangi
+                                    Plot No. B-76, 3rd floor, S.S Chamber, Near Siemens Chorangi, S.I.T.E Area, Karachi.
                                 </p>
+                                
                                 <p className="values-system-para mt-2">
-                                    S.I.T.E area, Karachi
+                                    Contact :  021-99334179, 021-99334178
                                 </p>
-                                <p className="values-system-para mt-2">
-                                    Contact : 021-99334179, 021-99334178
-                                </p>
-                              
-                                <p className="values-system-para mt-2">
-                                    Email : fahad.mohtasib@gmail.com
-                                </p>
-
+                    
                             </div>
                         </div>
                     </div>
@@ -130,19 +114,17 @@ const RegionalOffices = () => {
                 <div className="row justify-content-around">
                     <div className="our-value-system mt-5 col-md-5">
 
-
                         <div className="row">
                             <div className=" ">
                                 <h2 className="values-system-heading d-flex">Regional Office <ImOffice className=" ms-3" /></h2>              <p className="values-system-para mt-2">
                                     Provincial Ombudsman Sindh , Korangi
                                 </p>
                                 <p className="values-system-para mt-2">
-                                    plot No. D-124, Sector 31-E, Lucknow Cooperative Society, Karachi
+                                    1st Floor, Plot No. ST-2/10, Sector-23, Adjacent to Environmental Protection Agency (EPA) Complex, Near Shan Chorangi, Korangi Industrial Area, District Korangi, Karachi.
                                 </p>
 
-
                                 <p className="values-system-para mt-2">
-                                    Contact : 021-35110503 , 021-35110600
+                                    Contact : 021-35115063
                                 </p>
 
                                 <p className="values-system-para mt-2">
@@ -162,13 +144,13 @@ const RegionalOffices = () => {
                             <div className=" ">
                                 <h2 className="values-system-heading d-flex">Regional Office <ImOffice className=" ms-3" /></h2>
                                 <p className="values-system-para mt-2">
-                                    Provincial Ombudsman Sindh,Badin Karachi road,  Badin
+                                    Provincial Ombudsman Sindh, Badin Karachi road, Badin
                                 </p>
                                 <p className="values-system-para mt-2">
-                                    Karachi road,  Badin
+                                    Karachi Road, Near Ahmed CNG Pump Station, Badin
                                 </p>
                                 <p className="values-system-para mt-2">
-                                    Contact : 0297-920101
+                                    Contact : 0297-870885
                                 </p>
                                 <p className="values-system-para mt-2">
                                     Fax No. 0297-920102
@@ -188,10 +170,10 @@ const RegionalOffices = () => {
                         <div className="row">
                             <div className=" ">
                                 <h2 className="values-system-heading d-flex">Regional Office <ImOffice className=" ms-3" /></h2>              <p className="values-system-para mt-2">
-                                    Provincial Ombudsman Sindh , S. Benazir Abad
+                                    Provincial Ombudsman Sindh , Shaheed  Benazir Abad
                                 </p>
                                 <p className="values-system-para mt-2">
-                                    Kazi Ahmed Road , Near Bahria Foundation School
+                                    Bungalow No. A-64, Mohalla Housing Society, Stadium, Road Shaheed Benazirabad (Nawabshah).
                                 </p>
                                 <p className="values-system-para mt-2">
                                     Contact : 0244-930440, 0244-930474
@@ -211,7 +193,7 @@ const RegionalOffices = () => {
                                 </p>
 
                                 <p className="values-system-para mt-2">
-                                    Opp. DC House, Dadu
+                                    Old Irrigation Rest House, Near Government Girls Degree College, Dadu
                                 </p>
                                 <p className="values-system-para mt-2">
                                     Contact : 025-9200348
@@ -237,7 +219,7 @@ const RegionalOffices = () => {
                                     Provincial Ombudsman Sindh, Thatta
                                 </p>
                                 <p className="values-system-para mt-2">
-                                    Banglow No. C/143-H Unit -2 Makli cooperative Housing Society Makli Thatta
+                                    Near Public Park at Makli, Thatta City, District Thatta.
                                 </p>
 
                                 <p className="values-system-para mt-2">
@@ -257,16 +239,14 @@ const RegionalOffices = () => {
                         <div className="row ">
                             <div className=" ">
                                 <h2 className="values-system-heading d-flex">Regional Office <ImOffice className=" ms-3" /></h2>              <p className="values-system-para mt-2">
-                                    Provincial Ombudsman Sindh , Khairpur Mir
+                                    Provincial Ombudsman Sindh, Khairpur Mir
                                 </p>
                                 <p className="values-system-para mt-2">
-                                    Near Bilawal Park, Begum Nushrat Bhutto Secretariat
+                                    Begum Nusrat Bhutto Secretariat, Near Bilawal Park, Khairpur Mir’s.
                                 </p>
+                                
                                 <p className="values-system-para mt-2">
-                                    One unit Building , Khairpur mir
-                                </p>
-                                <p className="values-system-para mt-2">
-                                    Contact : 0243-920357 , 0243-920358
+                                    Contact : 0243-920357, 0243-920358
                                 </p>
                                 <p className="values-system-para mt-2">
                                     Email : rdmohtkpur@gmail.com
@@ -289,7 +269,7 @@ const RegionalOffices = () => {
                                     Provincial Ombudsman Sindh , Hyderabad
                                 </p>
                                 <p className="values-system-para mt-2">
-                                    Bungalow No.3, Old Campus Compound, Court Road
+                                    Bungalow No.10 (A), Portion-II, GOR Colony, Near Commissioner’s House, Hyderabad.
                                 </p>
 
                                 <p className="values-system-para mt-2">
@@ -309,16 +289,14 @@ const RegionalOffices = () => {
                         <div className="row ">
                             <div className=" ">
                                 <h2 className="values-system-heading d-flex">Regional Office <ImOffice className=" ms-3" /></h2>              <p className="values-system-para mt-2">
-                                    Provincial Ombudsman Sindh , Sukkur
+                                    Provincial Ombudsman Sindh, Sukkur
                                 </p>
                                 <p className="values-system-para mt-2">
-                                    Bungalow No. A-38-39, Friends Cooperative Housing
+                                    Bungalow No. 38 & 39, Block A, Friends Cooperative Housing Society, Near Yousuf Tablegh Markaz, Shikarpur Road, Sukkur.
                                 </p>
+                                
                                 <p className="values-system-para mt-2">
-                                    Society , Yousif Masjid , Shikarpur Road Sukkkur
-                                </p>
-                                <p className="values-system-para mt-2">
-                                    Contact : 071-9310013
+                                    Contact : 071-9310013, 071-5807100
                                 </p>
                                 <p className="values-system-para mt-2">
                                     Fax No. 071-9310695
@@ -339,7 +317,7 @@ const RegionalOffices = () => {
                                     Provincial Ombudsman Sindh , Larkana
                                 </p>
                                 <p className="values-system-para mt-2">
-                                    Old Session Court Compound , Larkana
+                                    Session Court Compound, VIP Road, Larkana.
                                 </p>
 
                                 <p className="values-system-para mt-2">
@@ -359,7 +337,7 @@ const RegionalOffices = () => {
                                     Provincial Ombudsman Sindh , Mirpurkhas
                                 </p>
                                 <p className="values-system-para mt-2">
-                                    opp: Govt. Comprehensive High School, Mirpurkhas
+                                    Opposite Government Comprehensive High School, Mirpurkhas City, District Mirpurkhas.
                                 </p>
 
                                 <p className="values-system-para mt-2">
@@ -384,7 +362,7 @@ const RegionalOffices = () => {
                                     Provincial Ombudsman Sindh , Jacobabad
                                 </p>
                                 <p className="values-system-para mt-2">
-                                    Old A.T.C, Court Opp Technical college Shikarpur Road
+                                    Old Anti-Terrorism Court (ATC) Building, Opposite Technical College, Shikarpur Road, Jacobabad.
                                 </p>
 
                                 <p className="values-system-para mt-2">
@@ -408,7 +386,7 @@ const RegionalOffices = () => {
                                 </p>
 
                                 <p className="values-system-para mt-2">
-                                    Opp.public School, Barrage Colony, Station Road, Ghotki.
+                                    Near Islamia Public School, Barrage Colony, Station Road, Ghotki.
                                 </p>
                                 <p className="values-system-para mt-2">
                                     Contact:0723-681933
@@ -432,7 +410,7 @@ const RegionalOffices = () => {
                                     Provincial Ombudsman Sindh , Mithi
                                 </p>
                                 <p className="values-system-para mt-2">
-                                    Opposite, District Accounts Office, Tharparkar
+                                    Near District Accounts Office, Tharparkar @ Mithi.
                                 </p>
 
                                 <p className="values-system-para mt-2">
@@ -453,14 +431,12 @@ const RegionalOffices = () => {
                         <div className="row ">
                             <div className=" ">
                                 <h2 className="values-system-heading d-flex">Regional Office <ImOffice className=" ms-3" /></h2>              <p className="values-system-para mt-2">
-                                    Provincial Ombudsman Sindh , Nausharo Feroze
+                                    Provincial Ombudsman Sindh, Nausharo Feroze
                                 </p>
                                 <p className="values-system-para mt-2">
-                                    Old DHO Health office , Near DC Office,
+                                    Old District Health Office, Near Deputy Commissioner’s, House, Nausharo Feroze.
                                 </p>
-                                <p className="values-system-para mt-2">
-                                    Naushahro Feroze
-                                </p>
+                                
                                 <p className="values-system-para mt-2">
                                     Contact : 0242-920010
                                 </p>
@@ -488,7 +464,7 @@ const RegionalOffices = () => {
                                     Provincial Ombudsman Sindh , Sanghar
                                 </p>
                                 <p className="values-system-para mt-2">
-                                    House No.B-139, Ward-A, Royal City, Sanghar
+                                    Gulshan-e-Jameel, Main Nawabshah Road, Opposite Jamali Hotel, Sanghar.
                                 </p>
 
                                 <p className="values-system-para mt-2">
