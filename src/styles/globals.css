@@ -1445,3 +1445,238 @@ body {
   height: 350px;
   width: 450px;
 }
+
+
+/* NewsLetter.css */
+
+.newsletter-wrapper {
+  background-color: #f5f7fa;
+  padding: 60px 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.newsletter-container {
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.05);
+}
+
+.newsletter-header {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #e1e5ec;
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+}
+
+.newsletter-icon {
+  font-size: 38px;
+  color: #000000;
+  margin-right: 16px;
+}
+
+.newsletter-title {
+  font-size: 28px;
+  font-weight: 600;
+  color: #2e3a59;
+  margin: 0;
+}
+
+.newsletter-subtitle {
+  color: #6c757d;
+  font-size: 16px;
+  margin-top: 5px;
+}
+
+.newsletter-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  padding: 0;
+  list-style: none;
+}
+
+.newsletter-item {
+  margin: 0;
+}
+
+.newsletter-link {
+  display: block;
+  text-decoration: none;
+  background-color: #fdfdfd;
+  padding: 16px 20px;
+  border: 1px solid #d6d6d6;
+  border-radius: 8px;
+  color: #2e7d32;
+  font-weight: 500;
+  transition: all 0.25s ease;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.03);
+}
+
+.newsletter-link:hover {
+  background-color: #eaf5ec;
+  color: #1b5e20;
+  border-color: #2e7d32;
+  transform: translateY(-2px);
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+  .newsletter-list {
+    grid-template-columns: 1fr;
+  }
+
+  .newsletter-title {
+    font-size: 24px;
+  }
+
+  .newsletter-subtitle {
+    font-size: 14px;
+  }
+
+  .newsletter-icon {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .newsletter-container {
+    padding: 25px;
+  }
+
+  .newsletter-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .newsletter-link {
+    font-size: 15px;
+    padding: 14px 16px;
+  } 
+}
+
+/* Affiliation.css  */
+
+/* Main container */
+.links-container {
+    padding: 30px 20px;
+    max-width: 1200px;
+    margin: auto;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* Section block */
+.link-section {
+    margin-bottom: 50px;
+    padding: 30px 40px;
+    border-left: 5px solid #28a745;
+    background-color: #f8f9fa;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+/* Section heading */
+.section-heading {
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 25px;
+    color: #2c3e50;
+}
+
+/* Icon next to heading */
+.section-heading .icon {
+    font-size: 1.5rem;
+    margin-left: 15px;
+    color: #28a745;
+}
+
+/* List styling */
+.link-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+/* Individual list item */
+.link-list li {
+    margin-bottom: 18px;
+}
+
+/* Link styles */
+.link-list a {
+    text-decoration: none;
+    color: #28a745;
+    font-size: 1.1rem;
+    transition: all 0.3s ease;
+    border-bottom: 1px dashed transparent;
+}
+
+.link-list a:hover {
+    border-color: #28a745;
+    text-decoration: underline;
+}
+
+/* Membership note below some links */
+.membership {
+    font-style: italic;
+    font-size: 0.95rem;
+    color: #6c757d;
+    margin-top: -10px;
+    margin-bottom: 20px;
+}
+
+/* ---------------------- */
+/* MEDIA QUERIES BELOW   */
+/* ---------------------- */
+
+/* Tablets (768px and below) */
+@media screen and (max-width: 768px) {
+    .links-container {
+        padding: 20px 15px;
+    }
+
+    .link-section {
+        padding: 20px;
+        margin-bottom: 40px;
+    }
+
+    .section-heading {
+        font-size: 1.5rem;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .section-heading .icon {
+        margin-left: 0;
+        margin-top: 10px;
+        font-size: 1.3rem;
+    }
+
+    .link-list a {
+        font-size: 1rem;
+    }
+}
+
+/* Phones (480px and below) */
+@media screen and (max-width: 480px) {
+    .link-section {
+        padding: 15px;
+    }
+
+    .section-heading {
+        font-size: 1.3rem;
+    }
+
+    .link-list a {
+        font-size: 0.95rem;
+    }
+
+    .membership {
+        font-size: 0.85rem;
+    }
+}

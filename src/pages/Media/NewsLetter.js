@@ -1,148 +1,57 @@
 import BaseLayout from "@/components/BaseLayout";
 import { BiNews } from "react-icons/bi";
+
+const newsletters = [
+  { volume: "I", file: "newsletterV1.pdf" },
+  { volume: "II", file: "v2.pdf" },
+  { volume: "III", file: "v3.pdf" },
+  { volume: "IV", file: "v4.pdf" },
+  { volume: "V", file: "v5.pdf" },
+  { volume: "VI", file: "v6.pdf" },
+  { volume: "VII", file: "v7.pdf" },
+  { volume: "VIII", file: "v8.pdf" },
+  { volume: "IX", file: "v9.pdf" },
+  { volume: "X", file: "v10.pdf" },
+  { volume: "XI", file: "v11.pdf" },
+  { volume: "XII", file: "v12.pdf" },
+  { volume: "XIII", file: "v13.pdf" },
+  { volume: "XIV", file: "v14.pdf" },
+  { volume: "XV", file: "v15.pdf" },
+  { volume: "XVI", file: "v16.pdf" },
+];
+
 const NewsLetter = () => {
-    return <BaseLayout>
-        <div className="container">
-            <div className="our-value-system mt-5">
-                <div className="row">
-                    <div className="col-md-12 ms-md-5 pe-5">
-                        <h2 className="values-system-heading mb-2 d-flex">Newsletter <BiNews className=" ms-3" /></h2>
-                        <ul className="values-list">
-                            <li className="values-system-para mt-3">
-                                <a className="underline text-success"
-                                    href="/newsletters/newsletterV1.pdf"
-                                    download  // Add the download attribute
-                                >
-                                    Newsletter (Vol-I)
-                                </a>
-                            </li>
-                            <li className="values-system-para mt-3">
-                                <a className="underline text-success"
-                                    href="/newsletters/v2.pdf"
-                                    download  // Add the download attribute
-                                >
-                                    Newsletter (Vol-II)
-                                </a>
-                            </li>
-                            <li className="values-system-para mt-3">
-                                <a className="underline text-success"
-                                    href="/newsletters/v3.pdf"
-                                    download  // Add the download attribute
-                                >
-                                    Newsletter (Vol-III)
-                                </a>
-                            </li>
-                            <li className="values-system-para mt-3">
-                                <a className="underline text-success"
-                                    href="/newsletters/v4.pdf"
-                                    download  // Add the download attribute
-                                >
-                                    Newsletter (Vol-IV)
-                                </a>
-                            </li>
-                            <li className="values-system-para mt-3">
-                                <a className="underline text-success"
-                                    href="/newsletters/v5.pdf"
-                                    download  // Add the download attribute
-                                >
-                                    Newsletter (Vol-V)
-                                </a>
-                            </li>
-                            <li className="values-system-para mt-3">
-                                <a className="underline text-success"
-                                    href="/newsletters/v6.pdf"
-                                    download  // Add the download attribute
-                                >
-                                    Newsletter (Vol-VI)
-                                </a>
-                            </li>
-                            <li className="values-system-para mt-3">
-                                <a className="underline text-success"
-                                    href="/newsletters/v7.pdf"
-                                    download  // Add the download attribute
-                                >
-                                    Newsletter (Vol-VII)
-                                </a>
-                            </li>
-                            <li className="values-system-para mt-3">
-                                <a className="underline text-success"
-                                    href="/newsletters/v8.pdf"
-                                    download  // Add the download attribute
-                                >
-                                    Newsletter (Vol-VIII)
-                                </a>
-                            </li>
-                            <li className="values-system-para mt-3">
-                                <a className="underline text-success"
-                                    href="/newsletters/v9.pdf"
-                                    download  // Add the download attribute
-                                >
-                                    Newsletter (Vol-IX)
-                                </a>
-                            </li>
-                            <li className="values-system-para mt-3">
-                                <a className="underline text-success"
-                                    href="/newsletters/v10.pdf"
-                                    download  // Add the download attribute
-                                >
-                                    Newsletter (Vol-X)
-                                </a>
-                            </li>
-                            <li className="values-system-para mt-3">
-                                <a className="underline text-success"
-                                    href="/newsletters/v11.pdf"
-                                    download  // Add the download attribute
-                                >
-                                    Newsletter (Vol-XI)
-                                </a>
-                            </li>
-                            <li className="values-system-para mt-3">
-                                <a className="underline text-success"
-                                    href="/newsletters/v12.pdf"
-                                    download
-                                >
-                                    Newsletter (Vol-XII)
-                                </a>
-                            </li> 
-                            <li className="values-system-para mt-3">
-                                <a className="underline text-success"
-                                    href="/newsletters/v13.pdf"
-                                    download
-                                >
-                                    Newsletter (Vol-XIII)
-                                </a>
-                            </li> 
-                            
-                            <li className="values-system-para mt-3">
-                                <a className="underline text-success"
-                                    href="/newsletters/v14.pdf"
-                                    download
-                                >
-                                    Newsletter (Vol-XIV)
-                                </a>
-                            </li>   
-                            <li className="values-system-para mt-3">
-                                <a className="underline text-success"
-                                    href="/newsletters/v15.pdf"
-                                    download
-                                >
-                                    Newsletter (Vol-XV)
-                                </a>
-                            </li> 
-                            <li className="values-system-para mt-3">
-                                <a className="underline text-success"
-                                    href="/newsletters/v16.pdf"
-                                    download
-                                >
-                                    Newsletter (Vol-XVI)
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
+  return (
+    <BaseLayout>
+      <section className="newsletter-wrapper">
+        <div className="newsletter-container">
+          <div className="newsletter-header">
+            <BiNews className="newsletter-icon" />
+            <div>
+              <h1 className="newsletter-title">Newsletter</h1>
+              <p className="newsletter-subtitle">
+                Browse and download newsletters issued by the Provincial Ombudsman Sindh.
+              </p>
             </div>
+          </div>
+
+          <ul className="newsletter-list">
+            {newsletters.map((item, index) => (
+              <li key={index} className="newsletter-item">
+                <a
+                  href={`/newsletters/${item.file}`}
+                  download
+                  className="newsletter-link"
+                >
+                  📄 Newsletter (Vol-{item.volume})
+                </a>
+              </li>
+            ))}
+          </ul>
         </div>
-    </BaseLayout>;
+      </section>
+    </BaseLayout>
+  );
 };
 
 export default NewsLetter;
