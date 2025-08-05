@@ -1448,7 +1448,7 @@ body {
 
 
 /* NewsLetter.css */
-
+/* 
 .newsletter-wrapper {
   background-color: #f5f7fa;
   padding: 60px 20px;
@@ -1521,10 +1521,11 @@ body {
   color: #1b5e20;
   border-color: #2e7d32;
   transform: translateY(-2px);
-}
+} */
 
 /* Responsive Design */
-@media screen and (max-width: 768px) {
+
+/* @media screen and (max-width: 768px) {
   .newsletter-list {
     grid-template-columns: 1fr;
   }
@@ -1557,7 +1558,7 @@ body {
     font-size: 15px;
     padding: 14px 16px;
   } 
-}
+} */
 
 /* Affiliation.css  */
 
