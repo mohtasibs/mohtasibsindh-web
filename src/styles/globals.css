@@ -1448,7 +1448,7 @@ body {
 
 
 /* NewsLetter.css */
-/* 
+
 .newsletter-wrapper {
   background-color: #f5f7fa;
   padding: 60px 20px;
@@ -1521,11 +1521,11 @@ body {
   color: #1b5e20;
   border-color: #2e7d32;
   transform: translateY(-2px);
-} */
+}
 
 /* Responsive Design */
 
-/* @media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .newsletter-list {
     grid-template-columns: 1fr;
   }
@@ -1558,7 +1558,7 @@ body {
     font-size: 15px;
     padding: 14px 16px;
   } 
-} */
+}
 
 /* Affiliation.css  */
 
@@ -1681,3 +1681,324 @@ body {
         font-size: 0.85rem;
     }
 }
+
+/* Knowledge Product  */
+
+/* Base Container Styling */
+.knowledge-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 4rem 1rem;
+  font-family: "Segoe UI", "Roboto", sans-serif;
+  background: linear-gradient(to bottom right, #f8f9fa, #e9ecef);
+}
+
+/* Title Section */
+.title-section {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.title-section h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #212529;
+  margin-top: 1rem;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.subtitle {
+  color: #6c757d;
+  font-size: 1.1rem;
+  margin-top: 0.5rem;
+}
+
+.main-icon {
+  font-size: 3rem;
+  color: #198754;
+  animation: float 2s ease-in-out infinite;
+}
+
+/* Floating animation for the icon */
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+}
+
+/* Grid Layout */
+.reports-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.8rem;
+}
+
+/* Report Card */
+.report-card {
+  background: #e6e3e3cc;
+  border: 1px solid #0b0b0b;
+  border-radius: 16px;
+  padding: 1.8rem 1.5rem;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  backdrop-filter: blur(6px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.06);
+  position: relative;
+}
+
+.report-card:hover {
+  transform: translateY(-6px) scale(1.02);
+  box-shadow: 0 16px 28px rgba(0, 0, 0, 0.08);
+}
+
+/* Icon inside card */
+.report-icon {
+  font-size: 2.5rem;
+  color: #0d6efd;
+  margin-top: 4px;
+}
+
+/* Text content inside card */
+.report-content h5 {
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: #343a40;
+  margin-bottom: 0.6rem;
+}
+
+/* Download Button */
+.download-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: #198754;
+  text-decoration: none;
+  background-color: #e6f4ea;
+  padding: 0.4rem 0.75rem;
+  border-radius: 6px;
+  transition: all 0.25s ease;
+  border: 1px solid transparent;
+}
+
+.download-button:hover {
+  color: #fff;
+  background-color: #198754;
+  border-color: #157347;
+}
+
+/* Responsive Typography and Layout */
+@media (max-width: 768px) {
+  .title-section h2 {
+    font-size: 2rem;
+  }
+
+  .report-content h5 {
+    font-size: 1rem;
+  }
+
+  .download-button {
+    font-size: 0.9rem;
+    padding: 0.35rem 0.7rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .report-card {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding: 1.5rem 1.2rem;
+  }
+
+  .report-icon {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .download-button {
+    margin-top: 0.6rem;
+    justify-content: center;
+  }
+}
+
+/* Studies.js  */
+
+.knowledge-glass {
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 16px;
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+    animation: fadeInUp 0.8s ease-in-out;
+}
+
+.download-card {
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.download-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+}
+
+.icon-3d {
+    font-size: 2.2rem;
+    color: #00ffcc;
+    animation: float 2s infinite ease-in-out;
+}
+
+/* Subtle bounce animation */
+@keyframes float {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-5px);
+    }
+}
+
+/* Entrance animation */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Responsive tweaks */
+@media (max-width: 768px) {
+    .knowledge-glass {
+        padding: 2rem 1rem;
+    }
+
+    .icon-3d {
+        font-size: 1.8rem;
+    }
+
+    .download-card h5 {
+        font-size: 1rem;
+    }
+}
+
+/* Seminar.js  */
+
+/* Container with glass effect */
+.seminar-glass {
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 20px;
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 8px 40px rgba(0, 0, 0, 0.15);
+    animation: fadeInUp 0.7s ease;
+}
+
+/* Card styling */
+.seminar-card {
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 6px 30px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.seminar-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 35px rgba(0, 0, 0, 0.2);
+}
+
+/* Image thumbnail */
+.seminar-thumbnail {
+    border-radius: 12px;
+    height: 200px;
+    object-fit: cover;
+    width: 100%;
+    transition: transform 0.3s ease;
+}
+
+.seminar-thumbnail:hover {
+    transform: scale(1.03);
+}
+
+/* Icon animation */
+.news-icon {
+    font-size: 2.5rem;
+    color: #f39c12;
+    animation: float 2s infinite ease-in-out;
+}
+
+/* Modal */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1050;
+}
+
+.modal-content {
+    max-width: 90%;
+    max-height: 90%;
+    overflow: hidden;
+    border-radius: 12px;
+}
+
+.modal-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Animations */
+@keyframes float {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-6px);
+    }
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .seminar-thumbnail {
+        height: 160px;
+    }
+
+    .news-icon {
+        font-size: 2rem;
+    }
+}
+
+

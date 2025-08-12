@@ -53,8 +53,8 @@ const Procurement = () => {
 
       <style jsx>{`
         .procurement-container {
-          background: linear-gradient(to bottom right, #f5fffa, #e8f5e9);
-          border: 1px solid #cce5d4;
+          background: linear-gradient(to bottom right, #eeeeeeff, #e8f5e9);
+          border: 2px solid #d5ddacff;
           border-radius: 16px;
           box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
           max-width: 960px;
@@ -83,7 +83,7 @@ const Procurement = () => {
         }
 
         .document-item:hover {
-          background-color: #E6EEAA;
+          background-color: #f5fbc9ff;
           transform: translateX(5px);
         }
 
