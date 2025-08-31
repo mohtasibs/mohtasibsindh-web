@@ -7,6 +7,13 @@ const pressItems = [
   { label: "Press Coverage Of Jang", href: "/press-3.jpg", isExternal: false },
   { label: "Press Coverage Of Dawn", href: "/press-4.jpg", isExternal: false },
   { label: "Press Coverage Of Tribune", href: "/press-5.jpg", isExternal: false },
+  { label: "Press Coverage Of Dunia", href: "/press-6.jpg", isExternal: false },
+  { label: "Press Coverage Of Ibrat", href: "/press-7.jpg", isExternal: false },
+  { label: "Press Coverage Of Ausaf", href: "/press-8.jpg", isExternal: false },
+  { label: "Press Coverage Of Daily SOBH", href: "/press-9.jpg", isExternal: false },
+  { label: "Press Coverage Of Awami Awaz", href: "/press-10.jpg", isExternal: false },
+  { label: "Press Coverage Of Daily Times Karachi", href: "/press-11.jpg", isExternal: false },
+  { label: "Press Coverage Of Daily Pakistan Observer", href: "/press-12.jpg", isExternal: false },
   {
     label: "Tribune News Article (2024 Ombudsman Report)",
     href: "https://tribune.com.pk/story/2555232/top-govt-depts-face-heat-in-ombudsmans-report-2024",
