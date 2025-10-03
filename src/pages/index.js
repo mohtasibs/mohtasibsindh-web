@@ -130,6 +130,20 @@ const Home = () => {
 
   const cards = [
     {
+      image: "Seminar1.jpg",
+      title: "Capacity Building",
+      subtitle:
+        "The Ombudsman Sindh Office organized a seminar graced by Honorable Mr.Justice Faisal Kamal Alam, Judge of the High Court, and Honorable Mr. Muhammad Sohail Rajput, Provincial Ombudsman Sindh.",
+      new: "Whats New",
+    },
+    {
+      image: "NED.jpg",
+      title: "NED SEMINAR",
+      subtitle:
+        "Provincial Ombudsman Sindh, Mr. Muhammad Sohail Rajput, addressed students at NED University on 2nd Sept 2025, announcing the selection of 10 Brand Ambassadors to spread awareness about the Ombudsman’s role in providing fast and inexpensive justice. The initiative aims to utilize youth potential for greater outreach and public service.",
+      new: "Whats New",
+    },
+    {
       image: "W-22.jpg",
       title: "ANNUAL REPORT",
       subtitle:
