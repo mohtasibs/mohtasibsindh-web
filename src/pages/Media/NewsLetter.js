@@ -19,6 +19,7 @@ const newsletters = [
   { volume: "XV", file: "v15.pdf" },
   { volume: "XVI", file: "v16.pdf" },
   { volume: "XVII", file: "v17.pdf" },
+  { volume: "XVIII", file: "v18.pdf" },
 ];
 
 const NewsLetter = () => {
