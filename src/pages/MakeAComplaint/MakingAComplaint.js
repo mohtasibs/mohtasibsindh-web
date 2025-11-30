@@ -38,7 +38,7 @@ const MakingAComplaint = () => {
             </div>
 
             <div className="text-align-center align-items-center justify-content-center d-flex">
-                <Link href="/MakeAComplaint/MakeAComplaintOnline"><button className="btn btn-dark mb-5 ">Register A Complaint</button> </Link>
+                <a href="https://complaints.mohtasibsindh.gov.pk/" target="_blank" rel="noopener noreferrer"><button className="btn btn-dark mb-5 ">Register A Complaint</button> </a>
             </div>
 
         </div>

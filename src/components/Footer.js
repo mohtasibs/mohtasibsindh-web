@@ -20,7 +20,7 @@ const Footer = () => {
               <div className="col-lg-5">
                 <div className="button_box">
                   <Link
-                    href="/MakeAComplaint/MakeAComplaintOnline"
+                    href="https://complaints.mohtasibsindh.gov.pk/" target="_blank" rel="noopener noreferrer"
                     className="btn btn-dark"
                   >
                     Complain Us

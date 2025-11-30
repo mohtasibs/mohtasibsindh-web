@@ -57,7 +57,7 @@ const Navbar = () => {
                                     <li><Link className="dropdown-item" href="/MakeAComplaint/MakingAComplaint">How To Lodge A Complaint</Link></li>
                                     <li><Link className="dropdown-item" href="/MakeAComplaint/ComplaintFAQs">FAQs</Link></li>
                                     <li><Link className="dropdown-item" href="/MakeAComplaint/DownloadForm">Download Form</Link></li>
-                                    <li><Link className="dropdown-item" href="/MakeAComplaint/MakeAComplaintOnline">Online Complaint Registration</Link></li>
+                                    <li><Link className="dropdown-item" href="https://complaints.mohtasibsindh.gov.pk/" target="_blank" rel="noopener noreferrer">Online Complaint Registration</Link></li>
                                     <li><Link className="dropdown-item" href="/MakeAComplaint/ComplainAboutUs">Complain About Us</Link></li>
                                 </ul>
                             </li>

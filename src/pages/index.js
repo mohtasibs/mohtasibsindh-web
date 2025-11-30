@@ -561,7 +561,7 @@ const Home = () => {
               height={90}
             />
             <div className="card-text">
-              <Link href="/MakeAComplaint/MakeAComplaintOnline">
+              <Link href="https://complaints.mohtasibsindh.gov.pk/" target="_blank" rel="noopener noreferrer">
                 MAKE A COMPLAINT
               </Link>
             </div>
