@@ -130,6 +130,13 @@ const Home = () => {
 
   const cards = [
     {
+      image: "PakistanOmbudsmanConference.png",
+      title: "Forum of Pakistan Ombudsman",
+      subtitle:
+        "The Forum of Pakistan Ombudsman (FPO) proudly announces that H.E. Muhammad Sohail Rajput, Provincial Ombudsman Sindh, has been elected as the Asian Regional Director on the Board of the International Ombudsman Institute (IOI).",
+      new: "Whats New",
+    },
+    {
       image: "Seminar1.jpg",
       title: "Capacity Building",
       subtitle:

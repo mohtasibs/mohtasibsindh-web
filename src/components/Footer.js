@@ -44,12 +44,13 @@ const Footer = () => {
                       alt=""
                     />
                   </div>
-                  <p align="justify">
-                    We address complaints and offer relief to the public by
-                    conducting unbiased investigations into grievances
-                    concerning maladministration within any government agency in
-                    Sindh.
+                  <p align="justify-content: center" style={{ fontSize: "20px", fontWeight: "bold", fontStyle: "revert-layer" }}>
+                    WE ADDRESS COMPLAINTS AND OFFER RELIEF TO THE PUBLIC
+                    BY CONDUCTING UNBIASED INVESTIGATIONS INTO GRIEVANCES
+                    CONCERNING MALADMINISTRATION WITHIN ANY GOVERNMENT AGENCY IN
+                    SINDH.
                   </p>
+                 
                 </div>
               </div>
               <div className="col-lg-3 col-md-6 col-sm-12 offset-lg-1">
