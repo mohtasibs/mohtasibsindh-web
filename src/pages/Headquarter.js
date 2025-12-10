@@ -106,17 +106,17 @@ const HeadQuarter = () => {
               </tr>
               <tr>
                 <td className="col-xs-6">MS. REHANA G. ALI MEMON</td>
-                <td className="col-xs-3">ADVISOR-H</td>
+                <td className="col-xs-3">ADVISOR - H</td>
                 <td className="col-xs-3">99211053</td>
               </tr>
               <tr>
                 <td className="col-xs-6">MR. FASIHUDDIN KHAN</td>
-                <td className="col-xs-3">ADVISOR-Z</td>
+                <td className="col-xs-3">ADVISOR - Z</td>
                 <td className="col-xs-3">99211207</td>
               </tr>
               <tr>
                 <td className="col-xs-6">DR.MUHAMMAD NAWAZ SHAIKH</td>
-                <td className="col-xs-3">ADVISOR-I</td>
+                <td className="col-xs-3">ADVISOR - I</td>
                 <td className="col-xs-3">99211030</td>
               </tr>
               <tr>
@@ -126,7 +126,7 @@ const HeadQuarter = () => {
               </tr>
               <tr>
                 <td className="col-xs-6">MR. RAFIUZZAMAN SIDDIQUI</td>
-                <td className="col-xs-3">ADVISOR-B</td>
+                <td className="col-xs-3">ADVISOR - B</td>
                 <td className="col-xs-3">99211208</td>
               </tr>
               <tr>
@@ -136,16 +136,16 @@ const HeadQuarter = () => {
               </tr>
               <tr>
                 <td className="col-xs-6">IMDAD HUSSAIN SIDDIQUI </td>
-                <td className="col-xs-3">Director (Coordination)</td>
+                <td className="col-xs-3">Director (Coordination) & Director Climate & Disaster Justice Unit (CDJU), Adl. Charge</td>
                 <td className="col-xs-3">99217790</td>
               </tr>
               <tr>
                 <td className="col-xs-6">MR. NAEEM UDDIN</td>
-                <td className="col-xs-3">P.R SECRETARY TO SECRETARY </td>
+                <td className="col-xs-3">SR PR SECRETARY TO SECRETARY </td>
                 <td className="col-xs-3">99211023</td>
               </tr>
                <tr>
-                <td className="col-xs-6">MR. MOHAMMAD ABDULLAH SIDDIQUI</td>
+                <td className="col-xs-6">MR. MUHAMMAD AAMIR KHAN</td>
                 <td className="col-xs-3">SR. P.S TO OMBUDSMAN </td>
                 <td className="col-xs-3">99211026</td>
               </tr>
@@ -181,7 +181,7 @@ const HeadQuarter = () => {
               </tr>
               <tr>
                 <td className="col-xs-6">MR. ABDUL WAHID KHAN</td>
-                <td className="col-xs-3">ASSISTANT DIRECTOR (P.R)</td>
+                <td className="col-xs-3">ASSISTANT DIRECTOR (PR)</td>
                 <td className="col-xs-3">99211220</td>
               </tr>
               <tr>

@@ -773,7 +773,7 @@ const Home = () => {
               onClick={() => showData(1)}
             >
               <h1 className="counter-heading">
-                COMPLAINTS DATA JANUARY-OCTOBER 2024
+                COMPLAINTS DATA JANUARY - NOVEMBER 2025
               </h1>
             </div>
           </div>
@@ -858,7 +858,7 @@ const Home = () => {
                 <div className="d-flex flex-column align-items-center">
                   <GiNotebook className="counter-icon mt-3" />
                   <div className="big-text">
-                    <Counter number={7090} />
+                    <Counter number={22818} />
                   </div>
                   <div className="values-system-para">Complaints Received</div>
                 </div>
@@ -867,7 +867,7 @@ const Home = () => {
                 <div className="d-flex flex-column align-items-center">
                   <GiNotebook className="counter-icon mt-3" />
                   <div className="big-text">
-                    <Counter number={4152} />
+                    <Counter number={14971} />
                   </div>
                   <div className="values-system-para">Complaints Admitted</div>
                 </div>
@@ -876,7 +876,7 @@ const Home = () => {
                 <div className="d-flex flex-column align-items-center">
                   <GiNotebook className="counter-icon mt-3" />
                   <div className="big-text">
-                    <Counter number={3754} />
+                    <Counter number={11492} />
                   </div>
                   <div className="values-system-para">Complaints Completed</div>
                 </div>
