@@ -266,31 +266,57 @@ const Home = () => {
   );
 
   //Slider
+  // const settings = {
+  //   dots: true,
+  //   infinite: true,
+  //   speed: 500,
+  //   slidesToShow: 3,
+  //   autoplay: true,
+  //   autoplaySpeed: 5000,
+  //   responsive: [
+  //     {
+  //       breakpoint: 1024,
+  //       settings: {
+  //         slidesToShow: 2,
+  //       },
+  //     },
+  //     {
+  //       breakpoint: 768,
+  //       settings: {
+  //         slidesToShow: 1,
+  //       },
+  //     },
+  //     {
+  //       breakpoint: 480,
+  //       settings: {
+  //         slidesToShow: 1,
+  //         slidesToScroll: 1,
+  //       },
+  //     },
+  //   ],
+  // };
+
   const settings = {
     dots: true,
     infinite: true,
     speed: 500,
-    slidesToShow: 3,
-    autoplay: true,
-    autoplaySpeed: 5000,
+    slidesToShow: 3, // 3 columns
+    slidesToScroll: 3,
+    rows: 3, // 3 rows
+    slidesPerRow: 1, // 1 item per column per row
     responsive: [
       {
-        breakpoint: 1024,
+        breakpoint: 992,
         settings: {
           slidesToShow: 2,
+          rows: 3,
         },
       },
       {
-        breakpoint: 768,
+        breakpoint: 576,
         settings: {
           slidesToShow: 1,
-        },
-      },
-      {
-        breakpoint: 480,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
+          rows: 3,
         },
       },
     ],
@@ -568,7 +594,11 @@ const Home = () => {
               height={90}
             />
             <div className="card-text">
-              <Link href="https://complaints.mohtasibsindh.gov.pk/" target="_blank" rel="noopener noreferrer">
+              <Link
+                href="https://complaints.mohtasibsindh.gov.pk/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 MAKE A COMPLAINT
               </Link>
             </div>
@@ -604,90 +634,147 @@ const Home = () => {
 
       {/* ombudsman message */}
 
-      <section className="container mt-5 our-value-system p-3">
-        <div className="row m-2 justify-content-center align-items-center ">
-          <div className="col-lg-4 text-center mb-4">
+      <section
+        className="container mt-5"
+        style={{
+          background: "linear-gradient(125deg, #71a777ff, #b3e6c2ff)",
+          borderRadius: "14px",
+          boxShadow: "0 10px 30px rgba(0,0,0,0.08)",
+          padding: "40px",
+        }}
+      >
+        <div className="row align-items-center g-4">
+          {/* Image Column */}
+          <div className="col-lg-4 col-md-12 order-lg-1 order-1 text-center">
             <Image
-              className="img-fluid  mx-auto  mt-3 "
               src={ombuds}
               alt="ombudsmanimg"
-              width={300}
-              height={450}
+              width={250}
+              height={350}
+              className="img-fluid mx-auto"
+              style={{
+                borderRadius: "14px",
+                boxShadow: "0 12px 25px rgba(0,0,0,0.15)",
+                border: "4px solid #ffffff",
+              }}
             />
           </div>
-          <div className="col-md-8">
-            <strong>
-              {" "}
-              <h2 className="values-system-heading d-flex">
-                MESSAGE FROM OMBUDSMAN SINDH
-              </h2>{" "}
-            </strong>
-            <p className="ombudsman-message-text mt-2 " align="justify">
-              I am delighted to extend a warm welcome to you on the website of
-              the office of the Ombudsman Sindh. This platform has been created
-              with the aim of offering direct accessibility to everyone,
-              especially to citizens aggrieved by the act of maladministration
-              of any Department/Agency of Government of Sindh. Our commitment is
-              to address public complaints with effectiveness, efficiency and
-              transparency. Our aim is to improve public administration through
-              independent objective and impartial investigation and would
-              treasure your valuable input to keep improving our quality of
-              service.
+
+          {/* Text Column */}
+          <div className="col-lg-8 col-md-12 order-lg-2 order-2">
+            <h2
+              style={{
+                fontWeight: "900",
+                fontSize: "18px",
+                color: "#004533ff",
+                borderRight: "250px solid #064e3b",
+                borderLeft: "250px solid #064e3b",
+                paddingLeft: "14px",
+                marginBottom: "16px",
+                textAlign: "center",
+              }}
+            >
+              MESSAGE FROM OMBUDSMAN SINDH
+            </h2>
+
+            <p
+              style={{
+                color: "#000000ff",
+                fontSize: "18px",
+                lineHeight: "1.8",
+                textAlign: "justify",
+                marginBottom: "14px",
+                textAlignLast: "center",
+                // textShadow: "2px 2px 4px rgba(0, 0, 0, 0.3)"
+              }}
+            >
+              <b>
+                I am delighted to extend a warm welcome to you on the website of
+                the office of the Ombudsman Sindh. This platform has been
+                created with the aim of offering direct accessibility to
+                everyone, especially to citizens aggrieved by the act of
+                maladministration of any Department/Agency of Government of
+                Sindh. Our commitment is to address public complaints with
+                effectiveness, efficiency and transparency. Our aim is to
+                improve public administration through independent, objective and
+                impartial investigation and we treasure your valuable input to
+                keep improving our quality of service.
+              </b>
             </p>
-            <p className="ombudsman-message-text mt-2 ">
-              Mr. Muhammad Sohail Rajput{" "}
+
+            <p
+              style={{
+                marginTop: "20px",
+                fontWeight: "600",
+                color: "#000000ff",
+                fontSize: "17px",
+                textAlign: "center",
+              }}
+            >
+              Mr. Muhammad Sohail Rajput
             </p>
-            {/* <div className="ms-5">
-              <p className="ombudsman-message-text ms-5"> P.A.S</p>
-            </div> */}
+
+            <p
+              style={{
+                marginTop: "-4px",
+                fontSize: "14px",
+                color: "#000000ff",
+                textAlign: "center",
+              }}
+            >
+              OMBUDSMAN SINDH
+            </p>
           </div>
         </div>
       </section>
 
       {/* vision and mission */}
 
-      <section className="mx-auto p-5 container vision-missionbg  bg-dark text-white row mt-5 pt-5 pb-5 downward">
-        <div className="col-md-6 p-2">
-          <div className="card-body">
-            <div className="row">
-              <div className="col-3 d-flex align-items-center">
-                <Image className="img" src={vision} alt="Image 1" />
-              </div>
-              <div className="col-9">
-                <strong>
-                  {" "}
-                  <h2 className="card-title mb-2">OUR VISION</h2>
-                </strong>
-                <p className="">
-                  To promote high standards of governance, and efficiency
-                  through administrative justice services.
-                </p>
+      <section className="container mx-auto mt-5 p-5 vision-mission">
+        <div className="row g-4 align-items-center">
+          {/* VISION */}
+          <div className="col-md-6">
+            <div className="vision-card">
+              <div className="row align-items-center">
+                <div className="col-3 text-center">
+                  <Image className="vm-icon" src={vision} alt="Vision" />
+                </div>
+                <div className="col-9">
+                  <h2 className="vm-title">OUR VISION</h2>
+                  <p className="vm-text">
+                    <b>
+                      To promote high standards of governance, and efficiency
+                      through administrative justice services.
+                    </b>
+                  </p>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-        <div className="col-md-6 p-2 ">
-          <div className="card-body">
-            <div className="row">
-              <div className="col-3 d-flex align-items-center">
-                <Image
-                  className="img"
-                  src={mission}
-                  alt="Image 1"
-                  width={150}
-                  height={150}
-                />
-              </div>
-              <div className="col-9">
-                <strong>
-                  {" "}
-                  <h2 className="card-title mb-2">OUR MISSION</h2>
-                </strong>
-                <p className="">
-                  To effectively and comprehensively address public grievances
-                  in a fair, prompt, transparent, equitable, and efficient
-                  manner.
-                </p>
+
+          {/* MISSION */}
+          <div className="col-md-6">
+            <div className="vision-card">
+              <div className="row align-items-center">
+                <div className="col-3 text-center">
+                  <Image
+                    className="vm-icon"
+                    src={mission}
+                    alt="Mission"
+                    width={120}
+                    height={120}
+                  />
+                </div>
+                <div className="col-9">
+                  <h2 className="vm-title">OUR MISSION</h2>
+                  <p className="vm-text">
+                    <b>
+                      To effectively and comprehensively address public
+                      grievances in a fair, prompt, transparent, equitable, and
+                      efficient manner.
+                    </b>
+                  </p>
+                </div>
               </div>
             </div>
           </div>
@@ -695,45 +782,38 @@ const Home = () => {
       </section>
 
       {/* {Order Justice mandate} */}
-      <section className=" registration-wrap">
-        <div className="container p-5">
-          <div className="row align-items-center ">
-            <div className="col-md-4">
+      <section className="container mx-auto mt-5 p-5 registration-wrap mandate-section">
+        <div className="container p-4">
+          <div className="row align-items-center g-4">
+            {/* TEXT */}
+            <div className="col-md-6">
               <div className="registration-content">
-                <h2>WHAT IS OUR MANDATE?</h2>
-                <div className="borders"></div>
-                <p align="justify">
-                  The Ombudsman Sindh has the mandate to protect the rights of
-                  the people, ensuring adherence to the rule of law, diagnosing,
-                  redressing and rectifying any injustice done to a person
-                  through maladministration and administrative injustice.
+                <h2 className="mandate-title">WHAT IS OUR MANDATE?</h2>
+                <div className="mandate-border"></div>
+
+                <p className="mandate-text">
+                  THE OMBUDSMAN SINDH HAS THE MANDATE TO PROTECT THE RIGHTS OF
+                  THE PEOPLE, ENSURING ADHERENCE TO THE RULE OF LAW, DIAGNOSING,
+                  REDRESSING AND RECTIFYING ANY INJUSTICE DONE TO A PERSON
+                  THROUGH MALADMINISTRATION AND ADMINISTRATIVE INJUSTICE.
                 </p>
+
                 <Link className="learn-more" href="/About/OurCharter">
                   Learn more
                 </Link>
               </div>
             </div>
-            <div className="col-md-8 ">
+
+            {/* IMAGE */}
+            <div className="col-md-6 text-center">
               <div className="img-section">
-                <div className="left-image">
-                  <Image
-                    className="ms-4"
-                    src={supreme}
-                    alt="mandate-image"
-                    width={500}
-                    height={600}
-                  />
-                </div>
-                {/* <div className="right-image">
-                  
-                  <Image
-                    className=""
-                    src={rightimg}
-                    alt="right-img"
-                    width={350}
-                    height={350}
-                  />
-                </div> */}
+                <Image
+                  className="mandate-img"
+                  src={supreme}
+                  alt="mandate-image"
+                  width={500}
+                  height={600}
+                />
               </div>
             </div>
           </div>
@@ -779,7 +859,7 @@ const Home = () => {
           </div>
         </div>
 
-        <div className="col-md-12 container  our-value-system p-5">
+        <div className="col-md-12 container  our-value-system1 p-5">
           {/* <div id="data1" className="col-md-12 container p-3" style={{ display: activeData === 1 ? 'block' : 'none' }}>
             <div className="row justify-content-center">
 
@@ -930,7 +1010,89 @@ const Home = () => {
       </section>
 
       {/* Accordion */}
-      <section className="mt-5 mb-5 container">
+
+      <section className="container mt-5 mb-5 accordion-section">
+  <h2 className="accordion-title text-center mb-4">
+    How We Serve the Public
+  </h2>
+
+  <div className="accordion" id="accordionFlushExample">
+
+    {/* ITEM 1 */}
+    <div className="accordion-item acc-card">
+      <h2 className="accordion-header">
+        <button
+          className="accordion-button collapsed acc-btn"
+          data-bs-toggle="collapse"
+          data-bs-target="#one"
+        >
+          <MdWork className="acc-icon" />
+          <span>What We Do</span>
+        </button>
+      </h2>
+      <div id="one" className="accordion-collapse collapse">
+        <div className="accordion-body acc-body">
+          ✔ We investigate complaints about maladministration in Government of
+          Sindh departments, provide relief, and help improve public services
+          through independent and fair processes.
+        </div>
+      </div>
+    </div>
+
+    {/* ITEM 2 */}
+    <div className="accordion-item acc-card">
+      <h2 className="accordion-header">
+        <button
+          className="accordion-button collapsed acc-btn"
+          data-bs-toggle="collapse"
+          data-bs-target="#two"
+        >
+          <MdWorkOff className="acc-icon" />
+          <span>What We Don’t Do</span>
+        </button>
+      </h2>
+      <div id="two" className="accordion-collapse collapse">
+        <div className="accordion-body acc-body">
+          <ul>
+            <li>✔ Matters under court proceedings</li>
+            <li>✔ Service-related issues</li>
+            <li>✔ External affairs</li>
+            <li>✔ Defence matters</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    {/* ITEM 3 */}
+    <div className="accordion-item acc-card">
+      <h2 className="accordion-header">
+        <button
+          className="accordion-button collapsed acc-btn"
+          data-bs-toggle="collapse"
+          data-bs-target="#three"
+        >
+          <BsFillPatchQuestionFill className="acc-icon" />
+          <span>How We Help You</span>
+        </button>
+      </h2>
+      <div id="three" className="accordion-collapse collapse">
+        <div className="accordion-body acc-body">
+          <p>✔ Free administrative justice</p>
+          <p>✔ Fair and timely complaint resolution</p>
+          <p>✔ Relief recommendations</p>
+          <p>✔ Priority for marginalized groups</p>
+          <p>✔ Informal dispute resolution</p>
+          <p>✔ Suo-Moto powers</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+
+      {/* <section className="mt-5 mb-5 container">
         <div
           className="accordion accordion-flush container mt-5"
           id="accordionFlushExample"
@@ -1066,9 +1228,9 @@ const Home = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
-      <section className="container mb-5 d-flex justify-content-center align-items-center stories-wrapper">
+      {/* <section className="container mb-5 d-flex justify-content-center align-items-center stories-wrapper">
         <div className="row stories-card">
           <h2 className="h2 mt-5 text-center">Success Stories</h2>
           <div className="col-md-6 p-2 d-flex justify-content-center">
@@ -1146,7 +1308,7 @@ const Home = () => {
             Load more
           </Link>
         </div>
-      </section>
+      </section> */}
 
       {/* bottomcards */}
       <section className="wrapper-justice mb-5">
