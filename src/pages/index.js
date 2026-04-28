@@ -130,6 +130,20 @@ const Home = () => {
 
   const cards = [
     {
+      image: "Ziauddin.jpg",
+      title: "Brand Ambassador Program",
+      subtitle:
+        "Visit to Ziauddin University - Brand Ambassador Program",
+      new: "Whats New",
+    },
+    {
+      image: "Ios2.jpg",
+      title: "Now Live on iOS - Download Our Mobile App",
+      subtitle:
+        "Our Mobile app is officially available on the App Store. Download now and enjoy a faster, smarter, and more seamless experience on your iPhone.",
+      new: "Whats New",
+    },
+    {
       image: "PakistanOmbudsmanConference.png",
       title: "Forum of Pakistan Ombudsman",
       subtitle:
@@ -838,6 +852,61 @@ const Home = () => {
 
       {/* Counter */}
       <section className="container">
+        
+        <div className="row justify-content-center align-items-center text-center ">
+          
+          <div className="col-6 d-flex justify-content-center">
+            <div
+              className="vision-missionbg our-value-system downing bg-dark text-white"
+              onClick={() => showData(1)}
+            >
+              <h1 className="counter-heading">
+                Complaints Data (December 2025 - April 2026) Complaint Management System
+              </h1>
+            </div>
+          </div>
+        </div>
+
+        <div className="col-md-12 container  our-value-system1 p-5">
+          <div
+            id="data1"
+            className="col-md-12 container p-3"
+            style={{ display: activeData === 1 ? "block" : "none" }}
+          >
+            <div className="row justify-content-center">
+             
+              <div className="col-md-3 col-sm-6 col-12 mb-3 text-center">
+                <div className="d-flex flex-column align-items-center">
+                  <GiNotebook className="counter-icon mt-3" />
+                  <div className="big-text">
+                    <Counter number={9050} />
+                  </div>
+                  <div className="values-system-para">Complaints Received</div>
+                </div>
+              </div>
+              <div className="col-md-3 col-sm-6 col-12 mb-3 text-center">
+                <div className="d-flex flex-column align-items-center">
+                  <GiNotebook className="counter-icon mt-3" />
+                  <div className="big-text">
+                    <Counter number={5880} />
+                  </div>
+                  <div className="values-system-para">Complaints Admitted</div>
+                </div>
+              </div>
+              <div className="col-md-3 col-sm-6 col-12 mb-3 text-center">
+                <div className="d-flex flex-column align-items-center">
+                  <GiNotebook className="counter-icon mt-3" />
+                  <div className="big-text">
+                    <Counter number={1111} />
+                  </div>
+                  <div className="values-system-para">Complaints Completed</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
         <div className="row justify-content-center align-items-center text-center ">
           {/* <div className="col-6 d-flex justify-content-center">
 
@@ -847,13 +916,14 @@ const Home = () => {
 
           </div> */}
 
+
           <div className="col-6 d-flex justify-content-center">
             <div
               className="vision-missionbg our-value-system downing bg-dark text-white"
               onClick={() => showData(1)}
             >
               <h1 className="counter-heading">
-                COMPLAINTS DATA JANUARY - NOVEMBER 2025
+                COMPLAINTS DATA JANUARY 2025 - NOVEMBER 2025
               </h1>
             </div>
           </div>

@@ -121,7 +121,7 @@ const HeadQuarter = () => {
               </tr>
               <tr>
                 <td className="col-xs-6">MR. MUHAMMAD AKMAL NASEEM</td>
-                <td className="col-xs-3">CONSULTANT (IT/MEDIA)</td>
+                <td className="col-xs-3">ADVISOR (IT/MEDIA)</td>
                 <td className="col-xs-3">99212118</td>
               </tr>
               <tr>
@@ -131,8 +131,13 @@ const HeadQuarter = () => {
               </tr>
               <tr>
                 <td className="col-xs-6">MR. SHAHID AHMED HASHMI</td>
-                <td className="col-xs-3">CONSULTANT (LEGAL)</td>
+                <td className="col-xs-3">ADVISOR (LEGAL)</td>
                 <td className="col-xs-3">99211027</td>
+              </tr>
+              <tr>
+                <td className="col-xs-6">Ms. HAANI JAMAL KHAN</td>
+                <td className="col-xs-3">ADVISOR</td>
+                <td className="col-xs-3"></td>
               </tr>
               <tr>
                 <td className="col-xs-6">IMDAD HUSSAIN SIDDIQUI </td>
@@ -171,7 +176,7 @@ const HeadQuarter = () => {
               </tr>
               <tr>
                 <td className="col-xs-6">SYED IFTIKHAR HUSSAIN</td>
-                <td className="col-xs-3">DEPUTY REGISTRAR</td>
+                <td className="col-xs-3">PSO</td>
                 <td className="col-xs-3">34110625</td>
               </tr>
               <tr>
@@ -180,14 +185,14 @@ const HeadQuarter = () => {
                 <td className="col-xs-3">99211026 </td>
               </tr>
               <tr>
-                <td className="col-xs-6">MR. ABDUL WAHID KHAN</td>
-                <td className="col-xs-3">ASSISTANT DIRECTOR (PR)</td>
+                <td className="col-xs-6">MR. NASIR MAGSI</td>
+                <td className="col-xs-3">ASSISTANT DIRECTOR (ADMN)</td>
                 <td className="col-xs-3">99211220</td>
               </tr>
               <tr>
-                <td className="col-xs-6">SYED MUHAMMAD MUSTAFA NASIR</td>
-                <td className="col-xs-3">SUPERINTENDENT (ADMN)</td>
-                <td className="col-xs-3">99211220</td>
+                <td className="col-xs-6">MR. ABDUL WAHID KHAN</td>
+                <td className="col-xs-3">ASSISTANT DIRECTOR (P.R)</td>
+                <td className="col-xs-3">99211052</td>
               </tr>
               <tr>
                 <td className="col-xs-6">MR. AHMED ALI</td>
