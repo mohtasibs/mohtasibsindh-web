@@ -19,6 +19,9 @@ const pressItems = [
     href: "https://tribune.com.pk/story/2555232/top-govt-depts-face-heat-in-ombudsmans-report-2024",
     isExternal: true,
   },
+  { label: "Press Coverage Of Daily Times Karachi", href: "/press-13.jpg", isExternal: false },
+  { label: "Press Coverage Of Ausaf", href: "/press-14.jpg", isExternal: false },
+  { label: "Press Coverage Of Dunia", href: "/press-15.jpg", isExternal: false },
 ];
 
 const PressClippings = () => {

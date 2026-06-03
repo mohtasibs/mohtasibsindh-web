@@ -130,6 +130,13 @@ const Home = () => {
 
   const cards = [
     {
+      image: "w-25.jpg",
+      title: "ANNUAL REPORT",
+      subtitle:
+        "Provincial Ombudsman Sindh, Muhammad Sohail Rajput, presented the Annual Report 2025 to the Chief Minister of Sindh, Syed Murad Ali Shah, during a meeting held at the Chief Minister's House.",
+      new: "Whats New",
+    },
+    {
       image: "Ziauddin.jpg",
       title: "Brand Ambassador Program",
       subtitle:
@@ -1161,7 +1168,6 @@ const Home = () => {
 </section>
 
 
-
       {/* <section className="mt-5 mb-5 container">
         <div
           className="accordion accordion-flush container mt-5"
@@ -1381,7 +1387,7 @@ const Home = () => {
       </section> */}
 
       {/* bottomcards */}
-      <section className="wrapper-justice mb-5">
+      {/* <section className="wrapper-justice mb-5">
         <div className="container-fluid">
           <div className="target-items d-flex justify-content-center align-items-center">
             <Link href="/About/OurCommitment">
@@ -1454,7 +1460,109 @@ const Home = () => {
             </Link>
           </div>
         </div>
-      </section>
+      </section> */}
+
+      <section className="wrapper-justice py-5">
+  <div className="container-fluid">
+    <div className="row g-4 justify-content-center">
+      {/* Card 1 */}
+      <div className="col-lg-4 col-md-4 col-sm-6">
+        <Link href="/About/OurCommitment" className="text-decoration-none">
+          <div className="justice-card">
+            <div className="image-wrapper">
+              <Image
+                className="card-image"
+                src={bottom3}
+                alt="Our Commitment"
+                width={500}
+                height={500}
+              />
+            </div>
+
+            <div className="card-content">
+              <span className="top-line"></span>
+
+              <h3 className="title">Our Commitment</h3>
+
+              <p className="description">
+                We are committed to redress public grievances in an efficient,
+                effective, and transparent manner.
+              </p>
+
+              <div className="arrow-btn">
+                <BsArrowRight />
+              </div>
+            </div>
+          </div>
+        </Link>
+      </div>
+
+      {/* Card 2 */}
+      <div className="col-lg-4 col-md-6">
+        <Link href="/About/OurCharter" className="text-decoration-none">
+          <div className="justice-card">
+            <div className="image-wrapper">
+              <Image
+                className="card-image"
+                src={bottom2}
+                alt="Our Charter"
+                width={500}
+                height={500}
+              />
+            </div>
+
+            <div className="card-content">
+              <span className="top-line"></span>
+
+              <h3 className="title">Our Charter</h3>
+
+              <p className="description">
+                Delivering justice with accountability, transparency, and
+                excellence for the citizens of Sindh.
+              </p>
+
+              <div className="arrow-btn">
+                <BsArrowRight />
+              </div>
+            </div>
+          </div>
+        </Link>
+      </div>
+
+      {/* Card 3 */}
+      <div className="col-lg-4 col-md-6">
+        <Link href="/About/TheSecratariat" className="text-decoration-none">
+          <div className="justice-card">
+            <div className="image-wrapper">
+              <Image
+                className="card-image"
+                src={bottom1}
+                alt="The Secretariat"
+                width={500}
+                height={500}
+              />
+            </div>
+
+            <div className="card-content">
+              <span className="top-line"></span>
+
+              <h3 className="title">The Secretariat</h3>
+
+              <p className="description">
+                The Secretariat of the Provincial Ombudsman Sindh is based in
+                Karachi and works under the supervision of the Secretary.
+              </p>
+
+              <div className="arrow-btn">
+                <BsArrowRight />
+              </div>
+            </div>
+          </div>
+        </Link>
+      </div>
+    </div>
+  </div>
+</section>
 
       {/* upkey */}
       <section>

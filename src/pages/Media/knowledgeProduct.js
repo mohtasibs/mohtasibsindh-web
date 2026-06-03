@@ -11,6 +11,7 @@ const reports = [
   { year: 2022, file: "Annualreport6.pdf" },
   { year: 2023, file: "Annualreport7.pdf" },
   { year: 2024, file: "Annualreport8.pdf" },
+  { year: 2025, file: "Annualreport9.pdf" },
 ];
 
 const KnowledgeProduct = () => {
