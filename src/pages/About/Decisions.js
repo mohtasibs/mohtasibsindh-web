@@ -24664,6 +24664,400 @@ const decisionsData = {
       }
   
     ],
+
+    "01 June 2026": [
+      {
+        title: "Book1 (01.06.2026)",
+        file: "/pdfs/Book1 (01.06.2026).xlsx",
+        agency: "",
+        complainant: ""
+      },
+      {
+        title: "POS.05.2025.KM.KW",
+        file: "/pdfs/POS.05.2025.KM.KW.pdf",
+        agency: "",
+        complainant: "POS/05/2025/KM/KW"
+      },
+      {
+        title: "POS.18.2025.KM.KW",
+        file: "/pdfs/POS.18.2025.KM.KW.pdf",
+        agency: "",
+        complainant: "POS/18/2025/KM/KW"
+      },
+      {
+        title: "POS.41.ROJ-41 (JBD).2025",
+        file: "/pdfs/POS.41.ROJ-41 (JBD).2025.pdf",
+        agency: "",
+        complainant: "POS/41/2025/ROJ-41/(JBD)/2025"
+      },
+      {
+        title: "POS.69.2024.KM.KW",
+        file: "/pdfs/POS.69.2024.KM.KW.pdf",
+        agency: "",
+        complainant: "POS/69/2024/KM/KW"
+      },
+      {
+        title: "POS.78.2025",
+        file: "/pdfs/POS.78.2025.pdf",
+        agency: "",
+        complainant: "POS/78/2025"
+      },
+      {
+        title: "POS.94.2025",
+        file: "/pdfs/POS.94.2025.pdf",
+        agency: "",
+        complainant: "POS/94/2025"
+      },
+      {
+        title: "POS.200.2025.KM.KW",
+        file: "/pdfs/POS.200.2025.KM.KW.pdf",
+        agency: "",
+        complainant: "POS/200/2025/KM/KW"
+      },
+      {
+        title: "POS.207.2025.KM.KW",
+        file: "/pdfs/POS.207.2025.KM.KW.pdf",
+        agency: "",
+        complainant: "POS/207/2025/KM/KW"
+      },
+      {
+        title: "POS.225.2025.KM.KW",
+        file: "/pdfs/POS.225.2025.KM.KW.pdf",
+        agency: "",
+        complainant: "POS/225/2025/KM/KW"
+      },
+      {
+        title: "POS.238.2025.R.THAR.2025",
+        file: "/pdfs/POS.238.2025.R.THAR.2025.pdf",
+        agency: "",
+        complainant: "POS/238/2025/R.THAR/2025"
+      },
+      {
+        title: "POS.TTA.299.2025",
+        file: "/pdfs/POS.TTA.299.2025.pdf",
+        agency: "",
+        complainant: "POS/TTA/299/2025"
+      },
+      {
+        title: "POS.TTA.324.2025",
+        file: "/pdfs/POS.TTA.324.2025.pdf",
+        agency: "",
+        complainant: "POS/TTA/324/2025"
+      },
+      {
+        title: "POS.TTA.380.2025",
+        file: "/pdfs/POS.TTA.380.2025.pdf",
+        agency: "",
+        complainant: "POS/TTA/380/2025"
+      },
+      {
+        title: "POS.TTA.107.2025",
+        file: "/pdfs/POS.TTA.107.2025.pdf",
+        agency: "",
+        complainant: "POS/TTA/107/2025"
+      },
+      {
+        title: "POS.414.20-NFZ-3",
+        file: "/pdfs/POS.414.20-NFZ-3.pdf",
+        agency: "",
+        complainant: "POS/414/20-NFZ-3"
+      },
+      {
+        title: "POS.455.KE-25",
+        file: "/pdfs/POS.455.KE-25.pdf",
+        agency: "",
+        complainant: "POS/455/20-KE-25"
+      },
+      {
+        title: "POS.482.2025.RM-503",
+        file: "/pdfs/POS.482.2025.RM-503.pdf",
+        agency: "",
+        complainant: "POS/482/2025/RM-503"
+      },
+      {
+        title: "POS.530.2022.ADV-M",
+        file: "/pdfs/POS.530.2022.ADV-M.pdf",
+        agency: "",
+        complainant: "POS/530/2022/ADV-M"
+      },
+      {
+        title: "POS.581.25.R-THAR.2025",
+        file: "/pdfs/POS.581.25.R-THAR.2025.pdf",
+        agency: "",
+        complainant: "POS/581/25/R-THAR/2025"
+      },
+      {
+        title: "POS.636.2025.R-THAR.2025",
+        file: "/pdfs/POS.636.2025.R-THAR.2025.pdf",
+        agency: "",
+        complainant: "POS/636/2025/R-THAR/2025"
+      },
+      {
+        title: "POS.245.2025.R.THAR.2025",
+        file: "/pdfs/POS.245.2025.R.THAR.2025.pdf",
+        agency: "",
+        complainant: "POS/245/2025/R.THAR/2025"
+      },
+      {
+        title: "POS.249.2025",
+        file: "/pdfs/POS.249.2025.pdf",
+        agency: "",
+        complainant: "POS/249/2025"
+      },
+      {
+        title: "POS.264.25.R.THAR.2025",
+        file: "/pdfs/POS.264.25.R.THAR.2025.pdf",
+        agency: "",
+        complainant: "POS/264/25/R.THAR/2025"
+      },
+      {
+        title: "POS.299.2025",
+        file: "/pdfs/POS.299.2025.pdf",
+        agency: "",
+        complainant: "POS/299/2025"
+      },
+      {
+        title: "POS.700.GTK-05.2022",
+        file: "/pdfs/POS.700.GTK-05.2022.pdf",
+        agency: "",
+        complainant: "POS/700/GTK-05/2022"
+      },
+      {
+        title: "POS.734.2023",
+        file: "/pdfs/POS.734.2023.pdf",
+        agency: "",
+        complainant: "POS/734/2023"
+      },
+      {
+        title: "POS.1004.GTK-08.2022",
+        file: "/pdfs/POS.1004.GTK-08.2022.pdf",
+        agency: "",
+        complainant: "POS/1004/GTK-08/2022"
+      },
+      {
+        title: "POS.1050.KE-25",
+        file: "/pdfs/POS.1050.KE-25.pdf",
+        agency: "",
+        complainant: "POS/1050/2025/KE-25"
+      },
+      {
+        title: "POS.1271.2024.HYD.126",
+        file: "/pdfs/POS.1271.2024.HYD.126.pdf",
+        agency: "",
+        complainant: "POS/1271/2024/HYD/126"
+      },
+      {
+        title: "POS.1346.ROJ-26 (JBD).2022",
+        file: "/pdfs/POS.1346.ROJ-26 (JBD).2022.pdf",
+        agency: "",
+        complainant: "POS/1346/ROJ-26 (JBD)/2022"
+      },
+      {
+        title: "POS.2128.KE.79.2021",
+        file: "/pdfs/POS.2128.KE.79.2021.pdf",
+        agency: "",
+        complainant: "POS/2128/KE/79/2021"
+      },
+      {
+        title: "POS.2358.2023.HYD.184",
+        file: "/pdfs/POS.2358.2023.HYD.184.pdf",
+        agency: "",
+        complainant: "POS/2358/2023/HYD/184"
+      },
+      {
+        title: "POS.2587.2021.ADV-M",
+        file: "/pdfs/POS.2587.2021.ADV-M.pdf",
+        agency: "",
+        complainant: "POS/2587/2021/ADV-M"
+      },
+      {
+        title: "POS.2616.ROJ-58.(JBD).2022",
+        file: "/pdfs/POS.2616.ROJ-58.(JBD).2022.pdf",
+        agency: "",
+        complainant: "POS/2616/ROJ-58.(JBD)/2022"
+      },
+      {
+        title: "POS.ROG-512.GTK.2025",
+        file: "/pdfs/POS.ROG-512.GTK.2025.pdf",
+        agency: "",
+        complainant: "POS/ROG-512/GTK/2025"
+      },
+      {
+        title: "POS.ROG-523.(GTK).2025",
+        file: "/pdfs/POS.ROG-523.(GTK).2025.pdf",
+        agency: "",
+        complainant: "POS/ROG-523.(GTK)/2025"
+      },
+      {
+        title: "POS.ROG-528.GTK.2025",
+        file: "/pdfs/POS.ROG-528.GTK.2025.pdf",
+        agency: "",
+        complainant: "POS/ROG-528/GTK/2025"
+      },
+      {
+        title: "POS.ROG-529.GTK.2025",
+        file: "/pdfs/POS.ROG-529.GTK.2025.pdf",
+        agency: "",
+        complainant: "POS/ROG-529/GTK/2025"
+      },
+      {
+        title: "POS.ROG-673.GTK.2025",
+        file: "/pdfs/POS.ROG-673.GTK.2025.pdf",
+        agency: "",
+        complainant: "POS/ROG-673/GTK/2025"
+      },
+      {
+        title: "POS.ROM.211.2025.RM-263",
+        file: "/pdfs/POS.ROM.211.2025.RM-263.pdf",
+        agency: "",
+        complainant: "POS/ROM/211/2025/RM-263"
+      },
+      {
+        title: "POS.ROM.506.2025.RM-516",
+        file: "/pdfs/POS.ROM.506.2025.RM-516.pdf",
+        agency: "",
+        complainant: "POS/ROM/506/2025/RM-516"
+      },
+      {
+        title: "POS.ROM.6742.2023.RM-184",
+        file: "/pdfs/POS.ROM.6742.2023.RM-184.pdf",
+        agency: "",
+        complainant: "POS/ROM/6742/2023/RM-184"
+      },
+      {
+        title: "POS.TTA.31.2025",
+        file: "/pdfs/POS.TTA.31.2025.pdf",
+        agency: "",
+        complainant: "POS/TTA/31/2025"
+      },
+      {
+        title: "POS.TTA.297.2025",
+        file: "/pdfs/POS.TTA.297.2025.pdf",
+        agency: "",
+        complainant: "POS/TTA/297/2025"
+      },
+      {
+        title: "POS.7109.2025.KM.KW",
+        file: "/pdfs/POS.7109.2025.KM.KW.pdf",
+        agency: "",
+        complainant: "POS/7109/2025/KM/KW"
+      },
+      {
+        title: "POS.7351.2025.KM.KW",
+        file: "/pdfs/POS.7351.2025.KM.KW.pdf",
+        agency: "",
+        complainant: "POS/7351/2025/KM/KW"
+      },
+      {
+        title: "POS.7701.2025.KM.KW",
+        file: "/pdfs/POS.7701.2025.KM.KW.pdf",
+        agency: "",
+        complainant: "POS/7701/2025/KM/KW"
+      },
+      {
+        title: "POS.8027.2022.2023.HYD.08",
+        file: "/pdfs/POS.8027.2022.2023.HYD.08.pdf",
+        agency: "",
+        complainant: "POS/8027/2022/2023/HYD/08"
+      },
+      {
+        title: "POS.8126.TTA.309.2025",
+        file: "/pdfs/POS.8126.TTA.309.2025.pdf",
+        agency: "",
+        complainant: "POS/8126/TTA/309/2025"
+      },
+      {
+        title: "POS.8506.2025.KM.KW",
+        file: "/pdfs/POS.8506.2025.KM.KW.pdf",
+        agency: "",
+        complainant: "POS/8506/2025/KM/KW"
+      },
+      {
+        title: "POS.8516.2025",
+        file: "/pdfs/POS.8516.2025.pdf",
+        agency: "",
+        complainant: "POS/8516/2025"
+      },
+      {
+        title: "POS.8895.KE-551.2023",
+        file: "/pdfs/POS.8895.KE-551.2023.pdf",
+        agency: "",
+        complainant: "POS/8895/KE-551/2023"
+      },
+      {
+        title: "POS.9360.GTK-937.2025",
+        file: "/pdfs/POS.9360.GTK-937.2025.pdf",
+        agency: "",
+        complainant: "POS/9360/GTK-937/2025"
+      },
+      {
+        title: "POS.9515.2025",
+        file: "/pdfs/POS.9515.2025.pdf",
+        agency: "",
+        complainant: "POS/9515/2025"
+      },
+      {
+        title: "POS.4068.ROJ-96.(JBD).2022",
+        file: "/pdfs/POS.4068.ROJ-96.(JBD).2022.pdf",
+        agency: "",
+        complainant: "POS/4068/ROJ-96.(JBD)/2022"
+      },
+      {
+        title: "POS.4436.KR-115.2024",
+        file: "/pdfs/POS.4436.KR-115.2024.pdf",
+        agency: "",
+        complainant: "POS/4436/KR-115/2024"
+      },
+      {
+        title: "POS.4596.RL-273 (LKA).2025 & POS.5229.RL-310 (LKA).2025",
+        file: "/pdfs/POS.4596.RL-273 (LKA).2025 & POS.5229.RL-310 (LKA).2025.pdf",
+        agency: "",
+        complainant: "POS/4596/RL-273 (LKA)/2025"
+      },
+      {
+        title: "POS.4671.2023.HYD.290",
+        file: "/pdfs/POS.4671.2023.HYD.290.pdf",
+        agency: "",
+        complainant: "POS/4671/2023/HYD/290"
+      },
+      {
+        title: "POS.4795.2025",
+        file: "/pdfs/POS.4795.2025.pdf",
+        agency: "",
+        complainant: "POS/4795/2025"
+      },
+      {
+        title: "POS.5115.2025.KM.KW",
+        file: "/pdfs/POS.5115.2025.KM.KW.pdf",
+        agency: "",
+        complainant: "POS/5115/2025/KM/KW"
+      },
+      {
+        title: "POS.5118.2023.48.G",
+        file: "/pdfs/POS.5118.2023.48.G.pdf",
+        agency: "",
+        complainant: "POS/5118/2023/48/G"
+      },
+      {
+        title: "POS.5315.2025.KM.KW",
+        file: "/pdfs/POS.5315.2025.KM.KW.pdf",
+        agency: "",
+        complainant: "POS/5315/2025/KM/KW"
+      },
+      {
+        title: "POS.5391.ROJ-510 (JBD).2025",
+        file: "/pdfs/POS.5391.ROJ-510 (JBD).2025.pdf",
+        agency: "",
+        complainant: "POS/5391/ROJ-510 (JBD)/2025"
+      },
+      {
+        title: "POS.5537.KE.308.2022",
+        file: "/pdfs/POS.5537.KE.308.2022.pdf",
+        agency: "",
+        complainant: "POS/5537/KE/308/2022"
+      }
+  
+    ],
   };
 
 const Decisions = () => {

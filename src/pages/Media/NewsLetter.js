@@ -2,7 +2,7 @@ import BaseLayout from "@/components/BaseLayout";
 import { BiNews } from "react-icons/bi";
 
 const newsletters = [
-  { volume: "I", file: "newsletterV1.pdf" },
+  { volume: "I", file: "v1.pdf" },
   { volume: "II", file: "v2.pdf" },
   { volume: "III", file: "v3.pdf" },
   { volume: "IV", file: "v4.pdf" },
@@ -22,6 +22,7 @@ const newsletters = [
   { volume: "XVIII", file: "v18.pdf" },
   { volume: "XIX", file: "v19.pdf" },
   { volume: "XX", file: "v20.pdf" },
+  { volume: "XXI", file: "v21.pdf" },
 ];
 
 const NewsLetter = () => {
