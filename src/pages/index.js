@@ -139,8 +139,7 @@ const Home = () => {
     {
       image: "Ziauddin.jpg",
       title: "Brand Ambassador Program",
-      subtitle:
-        "Visit to Ziauddin University - Brand Ambassador Program",
+      subtitle: "Visit to Ziauddin University - Brand Ambassador Program",
       new: "Whats New",
     },
     {
@@ -242,13 +241,6 @@ const Home = () => {
         "1st Ambassador Program was held at Hamdard University on 29th of May 2024 at Hamdard University, Karachi.",
       new: "Whats New",
     },
-    // {
-    //   image: "w-3.mp4",
-    //   title: "1st Batch Session",
-    //   subtitle:
-    //     "1st Batch of Sindh Ombudsman Ambassador from Sindh Madressatul Islam University visited Ombudsman Office for follow up Session",
-    //   new: "Whats New",
-    // },
     {
       image: "w-2.jpg",
       title: "CALL ON MEETING",
@@ -859,16 +851,15 @@ const Home = () => {
 
       {/* Counter */}
       <section className="container">
-        
         <div className="row justify-content-center align-items-center text-center ">
-          
           <div className="col-6 d-flex justify-content-center">
             <div
               className="vision-missionbg our-value-system downing bg-dark text-white"
               onClick={() => showData(1)}
             >
               <h1 className="counter-heading">
-                Complaints Data (December 2025 - April 2026) Complaint Management System
+                Complaints Data (December 2025 - July 2026) Complaint
+                Management System
               </h1>
             </div>
           </div>
@@ -881,12 +872,11 @@ const Home = () => {
             style={{ display: activeData === 1 ? "block" : "none" }}
           >
             <div className="row justify-content-center">
-             
               <div className="col-md-3 col-sm-6 col-12 mb-3 text-center">
                 <div className="d-flex flex-column align-items-center">
                   <GiNotebook className="counter-icon mt-3" />
                   <div className="big-text">
-                    <Counter number={9050} />
+                    <Counter number={14800} />
                   </div>
                   <div className="values-system-para">Complaints Received</div>
                 </div>
@@ -895,7 +885,7 @@ const Home = () => {
                 <div className="d-flex flex-column align-items-center">
                   <GiNotebook className="counter-icon mt-3" />
                   <div className="big-text">
-                    <Counter number={5880} />
+                    <Counter number={9161} />
                   </div>
                   <div className="values-system-para">Complaints Admitted</div>
                 </div>
@@ -904,665 +894,203 @@ const Home = () => {
                 <div className="d-flex flex-column align-items-center">
                   <GiNotebook className="counter-icon mt-3" />
                   <div className="big-text">
-                    <Counter number={1111} />
+                    <Counter number={3218} />
                   </div>
                   <div className="values-system-para">Complaints Completed</div>
                 </div>
               </div>
             </div>
           </div>
-
-        </div>
-
-        <div className="row justify-content-center align-items-center text-center ">
-          {/* <div className="col-6 d-flex justify-content-center">
-
-            <div className="vision-missionbg our-value-system downing bg-dark text-white" onClick={() => showData(2)}>
-              <h1 className="counter-heading">COMPLAINTS PROCESS</h1>
-            </div>
-
-          </div> */}
-
-
-          <div className="col-6 d-flex justify-content-center">
-            <div
-              className="vision-missionbg our-value-system downing bg-dark text-white"
-              onClick={() => showData(1)}
-            >
-              <h1 className="counter-heading">
-                COMPLAINTS DATA JANUARY 2025 - NOVEMBER 2025
-              </h1>
-            </div>
-          </div>
-        </div>
-
-        <div className="col-md-12 container  our-value-system1 p-5">
-          {/* <div id="data1" className="col-md-12 container p-3" style={{ display: activeData === 1 ? 'block' : 'none' }}>
-            <div className="row justify-content-center">
-
-              <div className="col-md-4 col-sm-6 col-12 mb-3 text-center">
-                <div className="d-flex flex-column align-items-center">
-                  <BsFileEarmarkCheck className="counter-icon mt-3" />
-                  <div className="big-text">
-                    <Counter number={455} />
-                  </div>
-                  <div className="values-system-para">Disposed of after preliminary scrutiny
-                  </div>
-                </div>
-              </div>
-
-              <div className="col-md-4 col-sm-6 col-12 mb-3 text-center">
-                <div className="d-flex flex-column align-items-center">
-                  <FaGlobeAmericas className="counter-icon mt-3" />
-                  <div className="big-text">
-                    <Counter number={178} />
-                  </div>
-                  <div className="values-system-para">Referred to department for necessary action (u/s 33)
-                  </div>
-                </div>
-              </div>
-              <div className="col-md-4 col-sm-6 col-12 mb-3 text-center">
-                <div className="d-flex flex-column align-items-center">
-                  <GiNotebook className="counter-icon mt-3" />
-                  <div className="big-text">
-                    <Counter number={474} />
-                  </div>
-                  <div className="values-system-para">Decided after detailed investigation</div>
-                </div>
-              </div>
-
-            </div>
-          </div> */}
-
-          <div
-            id="data1"
-            className="col-md-12 container p-3"
-            style={{ display: activeData === 1 ? "block" : "none" }}
-          >
-            <div className="row justify-content-center">
-              {/* <div className="col-md-3 col-sm-6 col-12 mb-3 text-center">
-                <div className="d-flex flex-column align-items-center">
-                  <BsFillPhoneVibrateFill className="counter-icon mt-3" />
-                  <div className="big-text">
-                    <Counter number={1654} />
-                  </div>
-                  <div className="values-system-para">
-                    By Electronic Means / Online
-                  </div>
-                </div>
-              </div> */}
-
-              {/* <div className="col-md-3 col-sm-6 col-12 mb-3 text-center">
-                <div className="d-flex flex-column align-items-center">
-                  <BsFillSignpostFill className="counter-icon mt-3" />
-                  <div className="big-text">
-                    <Counter number={110} />
-                  </div>
-                  <div className="values-system-para"> By Post</div>
-                </div>
-              </div> */}
-              {/* <div className="col-md-3 col-sm-6 col-12 mb-3 text-center">
-                <div className="d-flex flex-column align-items-center">
-                  <BsFillPeopleFill className="counter-icon mt-3" />
-                  <div className="big-text">
-                    <Counter number={84} />
-                  </div>
-                  <div className="values-system-para">In Person</div>
-                </div>
-              </div> */}
-
-              <div className="col-md-3 col-sm-6 col-12 mb-3 text-center">
-                <div className="d-flex flex-column align-items-center">
-                  <GiNotebook className="counter-icon mt-3" />
-                  <div className="big-text">
-                    <Counter number={22818} />
-                  </div>
-                  <div className="values-system-para">Complaints Received</div>
-                </div>
-              </div>
-              <div className="col-md-3 col-sm-6 col-12 mb-3 text-center">
-                <div className="d-flex flex-column align-items-center">
-                  <GiNotebook className="counter-icon mt-3" />
-                  <div className="big-text">
-                    <Counter number={14971} />
-                  </div>
-                  <div className="values-system-para">Complaints Admitted</div>
-                </div>
-              </div>
-              <div className="col-md-3 col-sm-6 col-12 mb-3 text-center">
-                <div className="d-flex flex-column align-items-center">
-                  <GiNotebook className="counter-icon mt-3" />
-                  <div className="big-text">
-                    <Counter number={11492} />
-                  </div>
-                  <div className="values-system-para">Complaints Completed</div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          {/* <div id="data3" className="col-md-12 container p-3" style={{ display: activeData === 3 ? 'block' : 'none' }}>
-            <div className="row justify-content-center">
-              <h1 className="text-center big-text mb-4 mt-4">Performance Achieved</h1>
-              <div className="col-md-3 col-sm-6 col-12 mb-3 text-center">
-                <div className="d-flex flex-column align-items-center">
-                  <BsFillCalendarCheckFill className="counter-icon mt-3" />
-                  <div className="big-text">
-                    <Counter number={150} />
-                  </div>
-                  <div>100% Complaints Closed Within 15 days</div>
-                </div>
-              </div>
-
-              <div className="col-md-3 col-sm-6 col-12 mb-3 text-center">
-                <div className="d-flex flex-column align-items-center">
-                  <BsFillCalendarCheckFill className="counter-icon mt-3" />
-                  <div className="big-text">
-                    <Counter number={350} />
-                  </div>
-                  <div> Complaints Concluded Within 1 month</div>
-                </div>
-              </div>
-              <div className="col-md-3 col-sm-6 col-12 mb-3 text-center">
-                <div className="d-flex flex-column align-items-center">
-                  <BsFillCalendarCheckFill className="counter-icon mt-3" />
-                  <div className="big-text">
-                    <Counter number={1200} />
-                  </div>
-                  <div>Complaints Concluded Within 3 month</div>
-                </div>
-              </div>
-              <div className="col-md-3 col-sm-6 col-12 mb-3 text-center">
-                <div className="d-flex flex-column align-items-center">
-                  <BsFillCalendarCheckFill className="counter-icon mt-3" />
-                  <div className="big-text">
-                    <Counter number={2275} />
-                  </div>
-                  <div>Complaints Concluded Within 6 month</div>
-                </div>
-              </div>
-            </div>
-          </div> */}
         </div>
       </section>
 
       {/* Accordion */}
 
       <section className="container mt-5 mb-5 accordion-section">
-  <h2 className="accordion-title text-center mb-4">
-    How We Serve the Public
-  </h2>
+        <h2 className="accordion-title text-center mb-4">
+          How We Serve the Public
+        </h2>
 
-  <div className="accordion" id="accordionFlushExample">
-
-    {/* ITEM 1 */}
-    <div className="accordion-item acc-card">
-      <h2 className="accordion-header">
-        <button
-          className="accordion-button collapsed acc-btn"
-          data-bs-toggle="collapse"
-          data-bs-target="#one"
-        >
-          <MdWork className="acc-icon" />
-          <span>What We Do</span>
-        </button>
-      </h2>
-      <div id="one" className="accordion-collapse collapse">
-        <div className="accordion-body acc-body">
-          ✔ We investigate complaints about maladministration in Government of
-          Sindh departments, provide relief, and help improve public services
-          through independent and fair processes.
-        </div>
-      </div>
-    </div>
-
-    {/* ITEM 2 */}
-    <div className="accordion-item acc-card">
-      <h2 className="accordion-header">
-        <button
-          className="accordion-button collapsed acc-btn"
-          data-bs-toggle="collapse"
-          data-bs-target="#two"
-        >
-          <MdWorkOff className="acc-icon" />
-          <span>What We Don’t Do</span>
-        </button>
-      </h2>
-      <div id="two" className="accordion-collapse collapse">
-        <div className="accordion-body acc-body">
-          <ul>
-            <li>✔ Matters under court proceedings</li>
-            <li>✔ Service-related issues</li>
-            <li>✔ External affairs</li>
-            <li>✔ Defence matters</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-
-    {/* ITEM 3 */}
-    <div className="accordion-item acc-card">
-      <h2 className="accordion-header">
-        <button
-          className="accordion-button collapsed acc-btn"
-          data-bs-toggle="collapse"
-          data-bs-target="#three"
-        >
-          <BsFillPatchQuestionFill className="acc-icon" />
-          <span>How We Help You</span>
-        </button>
-      </h2>
-      <div id="three" className="accordion-collapse collapse">
-        <div className="accordion-body acc-body">
-          <p>✔ Free administrative justice</p>
-          <p>✔ Fair and timely complaint resolution</p>
-          <p>✔ Relief recommendations</p>
-          <p>✔ Priority for marginalized groups</p>
-          <p>✔ Informal dispute resolution</p>
-          <p>✔ Suo-Moto powers</p>
-        </div>
-      </div>
-    </div>
-
-  </div>
-</section>
-
-
-      {/* <section className="mt-5 mb-5 container">
-        <div
-          className="accordion accordion-flush container mt-5"
-          id="accordionFlushExample"
-        >
-          <div className="accordion-item item-1">
-            <h2 className="accordion-header" id="flush-headingOne">
+        <div className="accordion" id="accordionFlushExample">
+          {/* ITEM 1 */}
+          <div className="accordion-item acc-card">
+            <h2 className="accordion-header">
               <button
-                className="accordion-button collapsed"
-                type="button"
+                className="accordion-button collapsed acc-btn"
                 data-bs-toggle="collapse"
-                data-bs-target="#flush-collapseOne"
-                aria-expanded="false"
-                aria-controls="flush-collapseOne"
+                data-bs-target="#one"
               >
-                <MdWork className=" me-3 values-system-heading" /> What we Do
+                <MdWork className="acc-icon" />
+                <span>What We Do</span>
               </button>
             </h2>
-            <div
-              id="flush-collapseOne"
-              className="accordion-collapse collapse"
-              aria-labelledby="flush-headingOne"
-              data-bs-parent="#accordionFlushExample"
-            >
-              <div className="accordion-body bg-dark values-system-para text-white">
-                We resolve complaints and provide relief to the public by
-                carrying out independent investigations into complaints about
-                maladministration in any Government of Sindh agency. We work to
-                put things right and share lessons learned and help improve
-                public services as a result. Our independent complaints handling
-                service is free and open to everyone.
+            <div id="one" className="accordion-collapse collapse">
+              <div className="accordion-body acc-body">
+                ✔ We investigate complaints about maladministration in
+                Government of Sindh departments, provide relief, and help
+                improve public services through independent and fair processes.
               </div>
             </div>
           </div>
-          <div className="accordion-item item-2">
-            <h2 className="accordion-header" id="flush-headingTwo">
+
+          {/* ITEM 2 */}
+          <div className="accordion-item acc-card">
+            <h2 className="accordion-header">
               <button
-                className="accordion-button collapsed"
-                type="button"
+                className="accordion-button collapsed acc-btn"
                 data-bs-toggle="collapse"
-                data-bs-target="#flush-collapseTwo"
-                aria-expanded="false"
-                aria-controls="flush-collapseTwo"
+                data-bs-target="#two"
               >
-                <MdWorkOff className=" me-3" /> What We Dont Do
+                <MdWorkOff className="acc-icon" />
+                <span>What We Don’t Do</span>
               </button>
             </h2>
-            <div
-              id="flush-collapseTwo"
-              className="accordion-collapse collapse"
-              aria-labelledby="flush-headingTwo"
-              data-bs-parent="#accordionFlushExample"
-            >
-              <div className="accordion-body bg-dark text-white">
-                <p className="values-system-para mt-2 pe-3">
-                  We cannot help you if your complaint is about:
-                </p>
-                <li className="values-system-para mt-2 pe-3">
-                  Matters that are sub-judice (i.e. already under consideration
-                  of any court of law)
-                </li>
-                <li className="values-system-para mt-2 pe-3">
-                  Service matters
-                </li>
-                <li className="values-system-para mt-2 pe-3">
-                  External affairs
-                </li>
-                <li className="values-system-para mt-2 pe-3">
-                  Defence matters
-                </li>
-              </div>
-            </div>
-          </div>
-          <div className="accordion-item item-3">
-            <h2 className="accordion-header" id="flush-headingThree">
-              <button
-                className="accordion-button collapsed"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#flush-collapseThree"
-                aria-expanded="false"
-                aria-controls="flush-collapseThree"
-              >
-                <BsFillPatchQuestionFill className=" me-3" /> How Can We Help
-                You
-              </button>
-            </h2>
-            <div
-              id="flush-collapseThree"
-              className="accordion-collapse collapse"
-              aria-labelledby="flush-headingThree"
-              data-bs-parent="#accordionFlushExample"
-            >
-              <div className="accordion-body bg-dark text-white">
+            <div id="two" className="accordion-collapse collapse">
+              <div className="accordion-body acc-body">
                 <ul>
-                  <p className="values-system-para mt-2 pe-3">
-                    We are an independent statuary body that promotes good
-                    governance and protect human rights;
-                  </p>
-
-                  <p className="values-system-para mt-2 pe-3">
-                    We aim to redress public grievances as fairly and as quickly
-                    as we can, after examining all facts. If we think the Agency
-                    you are complaining about has treated you fairly, we will
-                    tell you.
-                  </p>
-
-                  <p className="values-system-para mt-2 pe-3">
-                    If we determine that the Agency has acted wrongly, we will
-                    recommend the Agency to put things right for you. This can
-                    include recommending that the Agency provide you relief
-                    sought and to treat you fairly and in accordance with law.
-                  </p>
-                  <p className="values-system-para mt-2 pe-3">
-                    To deliver free of cost and administrative justice by
-                    performing the role of bridge between the public and
-                    Government Departments/agencies.
-                  </p>
-                  <p className="values-system-para mt-2 pe-3">
-                    Ombudsman Sindh accords high priority to hardship cases
-                    relating to marginalized section of society specially
-                    widows, children, pensioners, differently abled persons and
-                    those below the poverty line;
-                  </p>
-                  <p className="values-system-para mt-2 pe-3">
-                    Informal resolution of disputes;
-                  </p>
-                  <p className="values-system-para mt-2 pe-3">
-                    Own Motion (Suo-Moto Power) is the unique feature of this
-                    institute.
-                  </p>
+                  <li>✔ Matters under court proceedings</li>
+                  <li>✔ Service-related issues</li>
+                  <li>✔ External affairs</li>
+                  <li>✔ Defence matters</li>
                 </ul>
               </div>
             </div>
           </div>
-        </div>
-      </section> */}
 
-      {/* <section className="container mb-5 d-flex justify-content-center align-items-center stories-wrapper">
-        <div className="row stories-card">
-          <h2 className="h2 mt-5 text-center">Success Stories</h2>
-          <div className="col-md-6 p-2 d-flex justify-content-center">
-            <article className="story-container">
-              <div className="story-thumbnail">
-                <video controls className="story-video">
-                  <source src="/suvideo1.mp4" type="video/mp4" />
-                  Your browser does not support the video tag.
-                </video>
+          {/* ITEM 3 */}
+          <div className="accordion-item acc-card">
+            <h2 className="accordion-header">
+              <button
+                className="accordion-button collapsed acc-btn"
+                data-bs-toggle="collapse"
+                data-bs-target="#three"
+              >
+                <BsFillPatchQuestionFill className="acc-icon" />
+                <span>How We Help You</span>
+              </button>
+            </h2>
+            <div id="three" className="accordion-collapse collapse">
+              <div className="accordion-body acc-body">
+                <p>✔ Free administrative justice</p>
+                <p>✔ Fair and timely complaint resolution</p>
+                <p>✔ Relief recommendations</p>
+                <p>✔ Priority for marginalized groups</p>
+                <p>✔ Informal dispute resolution</p>
+                <p>✔ Suo-Moto powers</p>
               </div>
-              <div className="story-info">
-                <h2 className="story-title">Success Story 1</h2>
-                <p
-                  className={`story-description ${
-                    expandedStories[1] ? "expanded" : "collapsed"
-                  }`}
-                >
-                  Mr. Khalique Zaman Soomro filed complaint No. POS/3844/2023
-                  with the Honorable Ombudsman Sindh regarding the posting of
-                  Male and Female Medical Officers at BHU Village Yousif Soomro
-                  and the restoration of the solar system. Following the
-                  intervention of this institution, the issue has been resolved.
-                  Male and Female Medical Officers have been assigned to BHU
-                  Village Yousif Soomro, and the solar system has been restored.
-                  The complainant is satisfied and has expressed profound
-                  gratitude to the Honorable Ombudsman Sindh and the Regional
-                  Director of Badin for addressing and resolving the problem.
-                </p>
-                <button
-                  className="btn btn-link p-0"
-                  onClick={() => toggleText(1)}
-                >
-                  {expandedStories[1] ? "Show less" : "Show more"}
-                </button>
-              </div>
-            </article>
-          </div>
-          <div className="col-md-6 p-2 d-flex justify-content-center">
-            <article className="story-container">
-              <div className="story-thumbnail">
-                <video controls className="story-video">
-                  <source src="/suvideo2.mp4" type="video/mp4" />
-                  Your browser does not support the video tag.
-                </video>
-              </div>
-              <div className="story-info">
-                <h2 className="story-title">Success Story 2</h2>
-                <p
-                  className={`story-description ${
-                    expandedStories[2] ? "expanded" : "collapsed"
-                  }`}
-                >
-                  Miss Dua Solangi, a resident of First Family Lane, Jacobabad,
-                  filed a complaint against the XEN Public Health Jacobabad and
-                  the Assistant Manager of State Life Insurance regarding the
-                  payment of the Group Insurance (GI) for her late father.
-                  Following the intervention of this institute, she received an
-                  amount of 350,000. Miss Solangi has expressed her deep
-                  gratitude to the Ombudsman Sindh for their assistance in
-                  resolving this matter.
-                </p>
-                <button
-                  className="btn btn-link p-0"
-                  onClick={() => toggleText(2)}
-                >
-                  {expandedStories[2] ? "Show less" : "Show more"}
-                </button>
-              </div>
-            </article>
-          </div>
-          <Link
-            className="learn-more mt-3 ms-3 values-system-para text-success"
-            href="/WhatsNew"
-          >
-            Load more
-          </Link>
-        </div>
-      </section> */}
-
-      {/* bottomcards */}
-      {/* <section className="wrapper-justice mb-5">
-        <div className="container-fluid">
-          <div className="target-items d-flex justify-content-center align-items-center">
-            <Link href="/About/OurCommitment">
-              <div className="card-items">
-                <Image
-                  className="card-image"
-                  src={bottom3}
-                  alt="who we are"
-                  width={200}
-                  height={200}
-                />
-                <div className="card-body-content">
-                  <div className="borders"></div>
-                  <h3 className="title">Our Commitment</h3>
-                  <p className="text">
-                    We are committed to redress of public grievances in an
-                    efficient, effective and transparent manner.
-                  </p>
-                  <div className="arrow-border">
-                    <BsArrowRight className="arrow-left" />
-                  </div>
-                </div>
-              </div>
-            </Link>
-            <Link href="/About/OurCharter">
-              <div className="card-items">
-                <Image
-                  className="card-image"
-                  src={bottom2}
-                  alt="our charter"
-                  width={500}
-                  height={500}
-                />
-                <div className="card-body-content">
-                  <div className="borders"></div>
-                  <h3 className="title">Our charter</h3>
-                  <p className="text">
-                    We are committed to redress of public grievances in an
-                    efficient, effective and transparent manner.
-                  </p>
-                  <div className="arrow-border">
-                    <BsArrowRight className="arrow-left" />
-                  </div>
-                </div>
-              </div>
-            </Link>
-
-            <Link href="/About/TheSecratariat">
-              <div className="card-items">
-                <Image
-                  className="card-image"
-                  src={bottom1}
-                  alt="right-img"
-                  width={200}
-                  height={200}
-                />
-                <div className="card-body-content">
-                  <div className="borders"></div>
-                  <h3 className="title">The Secretariat</h3>
-                  <p className="text">
-                    The Provincial Ombudsman (Mohtasib) Sindhs Secretariat is
-                    located in Karachi and is headed by ombudsman sindh through
-                    secretary
-                  </p>
-                  <div className="arrow-border">
-                    <BsArrowRight className="arrow-left" />
-                  </div>
-                </div>
-              </div>
-            </Link>
+            </div>
           </div>
         </div>
-      </section> */}
+      </section>
 
       <section className="wrapper-justice py-5">
-  <div className="container-fluid">
-    <div className="row g-4 justify-content-center">
-      {/* Card 1 */}
-      <div className="col-lg-4 col-md-4 col-sm-6">
-        <Link href="/About/OurCommitment" className="text-decoration-none">
-          <div className="justice-card">
-            <div className="image-wrapper">
-              <Image
-                className="card-image"
-                src={bottom3}
-                alt="Our Commitment"
-                width={500}
-                height={500}
-              />
+        <div className="container-fluid">
+          <div className="row g-4 justify-content-center">
+            {/* Card 1 */}
+            <div className="col-lg-4 col-md-4 col-sm-6">
+              <Link
+                href="/About/OurCommitment"
+                className="text-decoration-none"
+              >
+                <div className="justice-card">
+                  <div className="image-wrapper">
+                    <Image
+                      className="card-image"
+                      src={bottom3}
+                      alt="Our Commitment"
+                      width={500}
+                      height={500}
+                    />
+                  </div>
+
+                  <div className="card-content">
+                    <span className="top-line"></span>
+
+                    <h3 className="title">Our Commitment</h3>
+
+                    <p className="description">
+                      We are committed to redress public grievances in an
+                      efficient, effective, and transparent manner.
+                    </p>
+
+                    <div className="arrow-btn">
+                      <BsArrowRight />
+                    </div>
+                  </div>
+                </div>
+              </Link>
             </div>
 
-            <div className="card-content">
-              <span className="top-line"></span>
+            {/* Card 2 */}
+            <div className="col-lg-4 col-md-6">
+              <Link href="/About/OurCharter" className="text-decoration-none">
+                <div className="justice-card">
+                  <div className="image-wrapper">
+                    <Image
+                      className="card-image"
+                      src={bottom2}
+                      alt="Our Charter"
+                      width={500}
+                      height={500}
+                    />
+                  </div>
 
-              <h3 className="title">Our Commitment</h3>
+                  <div className="card-content">
+                    <span className="top-line"></span>
 
-              <p className="description">
-                We are committed to redress public grievances in an efficient,
-                effective, and transparent manner.
-              </p>
+                    <h3 className="title">Our Charter</h3>
 
-              <div className="arrow-btn">
-                <BsArrowRight />
-              </div>
+                    <p className="description">
+                      Delivering justice with accountability, transparency, and
+                      excellence for the citizens of Sindh.
+                    </p>
+
+                    <div className="arrow-btn">
+                      <BsArrowRight />
+                    </div>
+                  </div>
+                </div>
+              </Link>
+            </div>
+
+            {/* Card 3 */}
+            <div className="col-lg-4 col-md-6">
+              <Link
+                href="/About/TheSecratariat"
+                className="text-decoration-none"
+              >
+                <div className="justice-card">
+                  <div className="image-wrapper">
+                    <Image
+                      className="card-image"
+                      src={bottom1}
+                      alt="The Secretariat"
+                      width={500}
+                      height={500}
+                    />
+                  </div>
+
+                  <div className="card-content">
+                    <span className="top-line"></span>
+
+                    <h3 className="title">The Secretariat</h3>
+
+                    <p className="description">
+                      The Secretariat of the Provincial Ombudsman Sindh is based
+                      in Karachi and works under the supervision of the
+                      Secretary.
+                    </p>
+
+                    <div className="arrow-btn">
+                      <BsArrowRight />
+                    </div>
+                  </div>
+                </div>
+              </Link>
             </div>
           </div>
-        </Link>
-      </div>
-
-      {/* Card 2 */}
-      <div className="col-lg-4 col-md-6">
-        <Link href="/About/OurCharter" className="text-decoration-none">
-          <div className="justice-card">
-            <div className="image-wrapper">
-              <Image
-                className="card-image"
-                src={bottom2}
-                alt="Our Charter"
-                width={500}
-                height={500}
-              />
-            </div>
-
-            <div className="card-content">
-              <span className="top-line"></span>
-
-              <h3 className="title">Our Charter</h3>
-
-              <p className="description">
-                Delivering justice with accountability, transparency, and
-                excellence for the citizens of Sindh.
-              </p>
-
-              <div className="arrow-btn">
-                <BsArrowRight />
-              </div>
-            </div>
-          </div>
-        </Link>
-      </div>
-
-      {/* Card 3 */}
-      <div className="col-lg-4 col-md-6">
-        <Link href="/About/TheSecratariat" className="text-decoration-none">
-          <div className="justice-card">
-            <div className="image-wrapper">
-              <Image
-                className="card-image"
-                src={bottom1}
-                alt="The Secretariat"
-                width={500}
-                height={500}
-              />
-            </div>
-
-            <div className="card-content">
-              <span className="top-line"></span>
-
-              <h3 className="title">The Secretariat</h3>
-
-              <p className="description">
-                The Secretariat of the Provincial Ombudsman Sindh is based in
-                Karachi and works under the supervision of the Secretary.
-              </p>
-
-              <div className="arrow-btn">
-                <BsArrowRight />
-              </div>
-            </div>
-          </div>
-        </Link>
-      </div>
-    </div>
-  </div>
-</section>
+        </div>
+      </section>
 
       {/* upkey */}
       <section>

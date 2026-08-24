@@ -136,18 +136,13 @@ const HeadQuarter = () => {
               </tr>
               <tr>
                 <td className="col-xs-6">Ms. HAANI JAMAL KHAN</td>
-                <td className="col-xs-3">ADVISOR</td>
+                <td className="col-xs-3">ADVISOR - W</td>
                 <td className="col-xs-3"></td>
               </tr>
               <tr>
                 <td className="col-xs-6">IMDAD HUSSAIN SIDDIQUI </td>
                 <td className="col-xs-3">Director (Coordination) & Director Climate & Disaster Justice Unit (CDJU), Adl. Charge</td>
                 <td className="col-xs-3">99217790</td>
-              </tr>
-              <tr>
-                <td className="col-xs-6">MR. NAEEM UDDIN</td>
-                <td className="col-xs-3">SR PR SECRETARY TO SECRETARY </td>
-                <td className="col-xs-3">99211023</td>
               </tr>
                <tr>
                 <td className="col-xs-6">MR. MUHAMMAD AAMIR KHAN</td>
@@ -165,11 +160,6 @@ const HeadQuarter = () => {
                 <td className="col-xs-3">99211714</td>
               </tr>
               <tr>
-                <td className="col-xs-6">MR. MUHAMMAD ZAFAR</td>
-                <td className="col-xs-3">DEPUTY DIRECTOR(CCO) </td>
-                <td className="col-xs-3">99211052</td>
-              </tr>
-              <tr>
                 <td className="col-xs-6">MR. MASOOD ISHRAT</td>
                 <td className="col-xs-3">REGISTRAR</td>
                 <td className="col-xs-3">99211024</td>
@@ -178,11 +168,6 @@ const HeadQuarter = () => {
                 <td className="col-xs-6">SYED IFTIKHAR HUSSAIN</td>
                 <td className="col-xs-3">PSO</td>
                 <td className="col-xs-3">34110625</td>
-              </tr>
-              <tr>
-                <td className="col-xs-6">MS. TAYYABA AASIM </td>
-                <td className="col-xs-3">SUPERINTENDENT</td>
-                <td className="col-xs-3">99211026 </td>
               </tr>
               <tr>
                 <td className="col-xs-6">MR. NASIR MAGSI</td>
