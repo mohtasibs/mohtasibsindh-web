@@ -207,7 +207,7 @@ body {
 
 .navbar-one {
   padding: 0px 0px;
-  background-color: #1c1c1c !important;
+  background-color: #064e3b !important;
   z-index: 101;
 }
 .navbar-two {
@@ -248,7 +248,7 @@ body {
   background-size: cover;
   padding-top: 100px;
   padding-bottom: 30px;
-  background-color: #333;
+  background-color: #064e3b;
   color: #fff;
 }
 .deneb_footer .widget_wrapper .widget .widget_title p {
@@ -311,7 +311,7 @@ body {
 }
 .deneb_footer .widget_wrapper .widget_link ul li a {
   text-transform: capitalize;
-  color: #7a808d;
+  color: white;
   font-size: 1.2rem;
 }
 .deneb_footer .widget_wrapper .widget_link ul li a:hover,
@@ -338,7 +338,7 @@ body {
   .info
   p
   a {
-  color: #7a808d;
+  color: white;
 }
 .deneb_footer
   .widget_wrapper

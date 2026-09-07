@@ -20,7 +20,9 @@ const Footer = () => {
               <div className="col-lg-5">
                 <div className="button_box">
                   <Link
-                    href="https://complaints.mohtasibsindh.gov.pk/" target="_blank" rel="noopener noreferrer"
+                    href="https://complaints.mohtasibsindh.gov.pk/"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="btn btn-dark"
                   >
                     Complain Us
@@ -44,16 +46,24 @@ const Footer = () => {
                       alt=""
                     />
                   </div>
-                  <p align="justify-content: center" style={{ fontSize: "20px", fontWeight: "bold", fontStyle: "revert-layer" }}>
-                    WE ADDRESS COMPLAINTS AND OFFER RELIEF TO THE PUBLIC
-                    BY CONDUCTING UNBIASED INVESTIGATIONS INTO GRIEVANCES
-                    CONCERNING MALADMINISTRATION WITHIN ANY GOVERNMENT AGENCY IN
-                    SINDH.
+                  <p
+                    style={{
+                      fontSize: "20px",
+                      fontWeight: "bold",
+                      fontFamily: "Arial, sans-serif",
+                      color: "white",
+                      textAlign: "left",
+                      lineHeight: "1.6",
+                    }}
+                  >
+                    We address public complaints and provide timely relief
+                    through fair, impartial, and independent investigations into
+                    grievances arising from maladministration in government
+                    agencies across Sindh.
                   </p>
-                 
                 </div>
               </div>
-              <div className="col-lg-3 col-md-6 col-sm-12 offset-lg-1">
+              <div className="col-lg-3 col-md-6 col-sm-12 offset-lg-1" style={{fontFamily: "Arial, sans-serif"}}>
                 <div className="widget widget_link">
                   <div className="widget_title">
                     <h4>Links</h4>
@@ -109,7 +119,7 @@ const Footer = () => {
                   </div>
                 </div>
               </div>
-              <div className="col-lg-3 col-md-6 col-sm-12">
+              <div className="col-lg-3 col-md-6 col-sm-12" style={{fontFamily: "Arial, sans-serif"}}>
                 <div className="widget widget_contact">
                   <div className="widget_title ms-3">
                     <h4>Contact Us</h4>

@@ -144,10 +144,10 @@ const RegionalOffices = () => {
                             <div className=" ">
                                 <h2 className="values-system-heading d-flex">Regional Office <ImOffice className=" ms-3" /></h2>
                                 <p className="values-system-para mt-2">
-                                    Provincial Ombudsman Sindh, Badin Karachi road, Badin
+                                    Provincial Ombudsman Sindh, Badin,
                                 </p>
                                 <p className="values-system-para mt-2">
-                                    Karachi Road, Near Ahmed CNG Pump Station, Badin
+                                    Near Sabzi Mandi, Badin
                                 </p>
                                 <p className="values-system-para mt-2">
                                     Contact : 0297-870885

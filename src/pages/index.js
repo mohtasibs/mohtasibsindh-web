@@ -724,7 +724,7 @@ const Home = () => {
                 textAlign: "center",
               }}
             >
-              Mr. Muhammad Sohail Rajput
+              Mr. Muhammad Sohail Rajput (Sitara-e-Imtiaz)
             </p>
 
             <p
